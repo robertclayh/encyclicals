@@ -24,8 +24,8 @@
     "title": "Dignum arbitramur et congruum",
     "url": "https://www.papalencyclicals.net//alex04/alex4dignum.htm",
     "year": "1255",
-    "document_type": "document",
-    "language": "en",
+    "document_type": "encyclical",
+    "language": "la",
     "format": "html",
     "text_length": 1908
   },
@@ -39,7 +39,7 @@
     "title": "Petitionibus vestris benignum impertientes",
     "url": "https://www.papalencyclicals.net//alex04/alex4petit.htm",
     "year": "1255",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 946
@@ -54,8 +54,8 @@
     "title": "Inter ea quae placita",
     "url": "https://www.papalencyclicals.net//alex04/alex4inter.htm",
     "year": "1255",
-    "document_type": "document",
-    "language": "en",
+    "document_type": "encyclical",
+    "language": "la",
     "format": "html",
     "text_length": 2287
   },
@@ -98,11 +98,11 @@
     "pope_dates": "1334-1342",
     "title": "Benedictus Deus",
     "url": "https://www.papalencyclicals.net//ben12/b12bdeus.htm",
-    "year": "",
-    "document_type": "document",
+    "year": "1336",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
-    "text_length": 917
+    "text_length": 2806
   },
   {
     "doc_id": "pope_benedict_xiv__a_quo_primum",
@@ -158,11 +158,12 @@
     "pope_dates": "1740-1758",
     "title": "Annus qui hunc",
     "url": "https://www.papalencyclicals.net//ben14/annus-qui-hunc.htm",
-    "year": "",
+    "year": "1692",
     "document_type": "document",
     "language": "en",
-    "format": "html",
-    "text_length": 2335
+    "format": "error",
+    "text_length": 0,
+    "error": "fetch_failed"
   },
   {
     "doc_id": "pope_benedict_xiv__apostolica_constitutio",
@@ -473,7 +474,7 @@
     "pope_dates": "1740-1758",
     "title": "Magnae Nobis",
     "url": "https://www.papalencyclicals.net//ben14/b14magna.htm",
-    "year": "1748",
+    "year": "1724",
     "document_type": "apostolic letter",
     "language": "en",
     "format": "html",
@@ -909,7 +910,7 @@
     "title": "Quod Iam Diu",
     "url": "https://www.papalencyclicals.net//ben15/b15iamdi.htm",
     "year": "",
-    "document_type": "prayer",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 2795
@@ -1238,7 +1239,7 @@
     "pope_dates": "2005-2013",
     "title": "Summorum Pontificum",
     "url": "https://www.papalencyclicals.net//paul06/ben16summorum.htm",
-    "year": "2007",
+    "year": "1962",
     "document_type": "apostolic letter",
     "language": "en",
     "format": "html",
@@ -1253,7 +1254,7 @@
     "pope_dates": "2005-2013",
     "title": "Letter to Bishops which accompanied Summorum Pontificum",
     "url": "http://www.vatican.va/holy_father/benedict_xvi/letters/2007/documents/hf_ben-xvi_let_20070707_lettera-vescovi_en.html",
-    "year": "2007",
+    "year": "1962",
     "document_type": "apostolic letter",
     "language": "en",
     "format": "html",
@@ -1268,7 +1269,7 @@
     "pope_dates": "1294-1303",
     "title": "Unam Sanctam",
     "url": "https://www.papalencyclicals.net//bon08/b8unam.htm",
-    "year": "",
+    "year": "1302",
     "document_type": "document",
     "language": "en",
     "format": "html",
@@ -1372,13 +1373,13 @@
     "pope": "Pope Clement XIII",
     "pope_dates": "1758-1769",
     "title": "Accedamus cum fiducia",
-    "url": "http://digilander.iol.it/magistero/c13acced.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-accedamus-cum-fiducia-25-giugno-1768.html",
+    "year": "1768",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/c13acced.htm",
+    "text_length": 7456
   },
   {
     "doc_id": "pope_clement_xiii__appetente_sacro",
@@ -1435,10 +1436,10 @@
     "title": "In Dominico Agro",
     "url": "https://www.papalencyclicals.net//clem13/c13indom.htm",
     "year": "1761",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
-    "text_length": 236
+    "text_length": 10422
   },
   {
     "doc_id": "pope_clement_xiii__pastoralis_officii",
@@ -1448,13 +1449,13 @@
     "pope": "Pope Clement XIII",
     "pope_dates": "1758-1769",
     "title": "Pastoralis officii",
-    "url": "http://digilander.iol.it/magistero/c13pasto.htm",
-    "year": "",
+    "url": "https://www.papalencyclicals.net/leo13/l13dul.htm",
+    "year": "1752",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/c13pasto.htm",
+    "text_length": 9060
   },
   {
     "doc_id": "pope_clement_xiii__quam_graviter",
@@ -1464,13 +1465,13 @@
     "pope": "Pope Clement XIII",
     "pope_dates": "1758-1769",
     "title": "Quam graviter",
-    "url": "http://digilander.iol.it/magistero/c13quamg.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/clemens-xiii/it/documents/enciclica-quam-graviter-25-giugno-1766.html",
+    "year": "1766",
+    "document_type": "decree",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/c13quamg.htm",
+    "text_length": 3091
   },
   {
     "doc_id": "pope_clement_xiii__quanta_auxilii",
@@ -1480,13 +1481,13 @@
     "pope": "Pope Clement XIII",
     "pope_dates": "1758-1769",
     "title": "Quanta auxilii",
-    "url": "http://digilander.iol.it/magistero/c13quant.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanta-auxilii-8-maggio-1765.html",
+    "year": "1765",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/c13quant.htm",
+    "text_length": 6790
   },
   {
     "doc_id": "pope_clement_xiii__quanto_in_dolore",
@@ -1496,13 +1497,13 @@
     "pope": "Pope Clement XIII",
     "pope_dates": "1758-1769",
     "title": "Quanto in dolore",
-    "url": "http://digilander.iol.it/magistero/c13quaid.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-quanto-in-dolore-9-giugno-1762.html",
+    "year": "1762",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/c13quaid.htm",
+    "text_length": 7980
   },
   {
     "doc_id": "pope_clement_xiii__summa_quae",
@@ -1527,13 +1528,13 @@
     "pope": "Pope Clement XIII",
     "pope_dates": "1758-1769",
     "title": "Ubi primum accepimus",
-    "url": "http://digilander.iol.it/magistero/c13ubipr.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-ubi-primum-accepimus-14-gennaio-1764.html",
+    "year": "1764",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/c13ubipr.htm",
+    "text_length": 3125
   },
   {
     "doc_id": "pope_clement_xiii__venimus_in_altitudinem",
@@ -1543,13 +1544,13 @@
     "pope": "Pope Clement XIII",
     "pope_dates": "1758-1769",
     "title": "Venimus in altitudinem",
-    "url": "http://digilander.iol.it/magistero/c13venim.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/clemens-xiii/it/documents/breve-venimus-in-altitudinem-11-settembre-1758.html",
+    "year": "1758",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/c13venim.htm",
+    "text_length": 10887
   },
   {
     "doc_id": "pope_clement_xiv__cum_summi",
@@ -2145,11 +2146,11 @@
     "pope_dates": "1958-1963",
     "title": "Le voci che da tutti",
     "url": "https://www.papalencyclicals.net//paul06/j23levoci.htm",
-    "year": "",
-    "document_type": "document",
+    "year": "1919",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
-    "text_length": 459
+    "text_length": 17459
   },
   {
     "doc_id": "pope_st__john_xxiii__mater_et_magistra",
@@ -2281,10 +2282,10 @@
     "title": "Apostolic Constitutions",
     "url": "http://w2.vatican.va/content/john-xxiii/en/apost_constitutions.html#apost_constitutions",
     "year": "1958",
-    "document_type": "apostolic constitution",
+    "document_type": "encyclical",
     "language": "unknown",
     "format": "html",
-    "text_length": 10
+    "text_length": 624
   },
   {
     "doc_id": "pope_st__john_xxiii__apostolic_letters",
@@ -2296,10 +2297,10 @@
     "title": "Apostolic Letters",
     "url": "http://w2.vatican.va/content/john-xxiii/en/apost_letters.html#apost_letters",
     "year": "1958",
-    "document_type": "apostolic letter",
+    "document_type": "encyclical",
     "language": "unknown",
     "format": "html",
-    "text_length": 10
+    "text_length": 624
   },
   {
     "doc_id": "pope_st__john_xxiii__homilies",
@@ -2311,10 +2312,10 @@
     "title": "Homilies",
     "url": "http://w2.vatican.va/content/john-xxiii/en/homilies.html#homilies",
     "year": "1958",
-    "document_type": "homily",
+    "document_type": "encyclical",
     "language": "unknown",
     "format": "html",
-    "text_length": 10
+    "text_length": 624
   },
   {
     "doc_id": "pope_st__john_xxiii__letters",
@@ -2326,10 +2327,10 @@
     "title": "Letters",
     "url": "http://w2.vatican.va/content/john-xxiii/en/letters.html#letters",
     "year": "1958",
-    "document_type": "apostolic letter",
+    "document_type": "encyclical",
     "language": "unknown",
     "format": "html",
-    "text_length": 10
+    "text_length": 624
   },
   {
     "doc_id": "pope_st__john_xxiii__speeches",
@@ -2341,10 +2342,10 @@
     "title": "Speeches",
     "url": "http://w2.vatican.va/content/john-xxiii/en/speeches.html#speeches",
     "year": "1958",
-    "document_type": "speech",
+    "document_type": "encyclical",
     "language": "unknown",
     "format": "html",
-    "text_length": 10
+    "text_length": 624
   },
   {
     "doc_id": "pope_st__john_xxiii__veterum_sapientia",
@@ -2656,10 +2657,10 @@
     "title": "Crossing the Threshold of Hope",
     "url": "http://web.archive.org/web/20080126040418/http:/www.catholic.net/rcc/POPE/HopeBook/toc.html",
     "year": "2000",
-    "document_type": "index",
-    "language": "unknown",
+    "document_type": "prayer",
+    "language": "en",
     "format": "html",
-    "text_length": 5
+    "text_length": 2013
   },
   {
     "doc_id": "pope_st__john_paul_ii__dies_domini",
@@ -2852,9 +2853,10 @@
     "url": "http://w2.vatican.va/content/john-paul-ii/en/homilies.html#homilies",
     "year": "1980",
     "document_type": "homily",
-    "language": "unknown",
-    "format": "html",
-    "text_length": 12
+    "language": "",
+    "format": "error",
+    "text_length": 0,
+    "error": "fetch_failed"
   },
   {
     "doc_id": "pope_st__john_paul_ii__inaestamabile_donum",
@@ -3151,10 +3153,10 @@
     "title": "Speeches",
     "url": "http://w2.vatican.va/content/john-paul-ii/en/speeches.html#speeches",
     "year": "1980",
-    "document_type": "speech",
-    "language": "unknown",
+    "document_type": "encyclical",
+    "language": "en",
     "format": "html",
-    "text_length": 12
+    "text_length": 4287
   },
   {
     "doc_id": "pope_st__john_paul_ii__tertio_millennio_adveniente",
@@ -3227,9 +3229,10 @@
     "url": "https://www.ewtn.com/catholicism/library/theology-of-the-body-21271",
     "year": "",
     "document_type": "document",
-    "language": "unknown",
-    "format": "html",
-    "text_length": 20
+    "language": "",
+    "format": "error",
+    "text_length": 0,
+    "error": "fetch_failed"
   },
   {
     "doc_id": "pope_st__john_paul_ii__universi_dominici_gregis",
@@ -3330,8 +3333,8 @@
     "pope_dates": "1823-1829",
     "title": "Quanta laetitia",
     "url": "https://www.papalencyclicals.net//leo12/quanta-laetitia.htm",
-    "year": "",
-    "document_type": "document",
+    "year": "1823",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 400
@@ -3721,7 +3724,7 @@
     "title": "Etsi Cunctas",
     "url": "https://www.papalencyclicals.net//leo13/l13ire.htm",
     "year": "1888",
-    "document_type": "decree",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 2366
@@ -4200,7 +4203,7 @@
     "pope_dates": "1878-1903",
     "title": "Orientalium Dignitas",
     "url": "https://www.papalencyclicals.net//leo13/l13orient.htm",
-    "year": "",
+    "year": "1893",
     "document_type": "document",
     "language": "en",
     "format": "html",
@@ -4323,8 +4326,9 @@
     "year": "1902",
     "document_type": "document",
     "language": "en",
-    "format": "html",
-    "text_length": 2223
+    "format": "error",
+    "text_length": 0,
+    "error": "fetch_failed"
   },
   {
     "doc_id": "pope_leo_xiii__quam_aerumnosa",
@@ -4456,7 +4460,7 @@
     "title": "Quod Votis",
     "url": "https://www.papalencyclicals.net//leo13/l13quovo.htm",
     "year": "1902",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 1970
@@ -4471,7 +4475,7 @@
     "title": "Quum Diuturnum",
     "url": "https://www.papalencyclicals.net//leo13/l13quumd.htm",
     "year": "1898",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 2745
@@ -4906,10 +4910,10 @@
     "title": "Vatican II Documents",
     "url": "https://www.papalencyclicals.net//paul06/vatican2.htm",
     "year": "1965",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
-    "text_length": 246
+    "text_length": 1243
   },
   {
     "doc_id": "pope_paul_vi__address_during_the_last_general_meeting_of_vatican",
@@ -4935,7 +4939,7 @@
     "pope_dates": "1963-1978",
     "title": "Confronting The Devil’s Power",
     "url": "https://www.papalencyclicals.net//paul06/p6devil.htm",
-    "year": "",
+    "year": "1948",
     "document_type": "document",
     "language": "en",
     "format": "html",
@@ -4950,7 +4954,7 @@
     "pope_dates": "1963-1978",
     "title": "Credo Of The People Of God",
     "url": "https://www.papalencyclicals.net//paul06/p6credo.htm",
-    "year": "",
+    "year": "1964",
     "document_type": "document",
     "language": "en",
     "format": "html",
@@ -5129,13 +5133,13 @@
     "pope": "Pope Paul VI",
     "pope_dates": "1963-1978",
     "title": "Orientalium Ecclesiarum",
-    "url": "http://www.cin.org/v2east.html",
-    "year": "",
-    "document_type": "document",
-    "language": "",
-    "format": "error",
-    "text_length": 0,
-    "error": "fetch_failed"
+    "url": "https://www.vatican.va/archive/hist_councils/ii_vatican_council/documents/vat-ii_decree_19641121_orientalium-ecclesiarum_en.html",
+    "year": "1964",
+    "document_type": "decree",
+    "language": "en",
+    "format": "html",
+    "original_url": "http://www.cin.org/v2east.html",
+    "text_length": 25429
   },
   {
     "doc_id": "pope_paul_vi__paenitemini",
@@ -5146,7 +5150,7 @@
     "pope_dates": "1963-1978",
     "title": "Paenitemini",
     "url": "https://www.papalencyclicals.net//paul06/p6paen.htm",
-    "year": "",
+    "year": "1965",
     "document_type": "apostolic constitution",
     "language": "en",
     "format": "html",
@@ -5296,7 +5300,7 @@
     "pope_dates": "1963-1978",
     "title": "Voi Forse Sapete",
     "url": "https://www.papalencyclicals.net//paul06/p6voi.htm",
-    "year": "",
+    "year": "1943",
     "document_type": "audience",
     "language": "en",
     "format": "html",
@@ -5327,10 +5331,10 @@
     "title": "Exponi nobis nuper",
     "url": "https://www.papalencyclicals.net//pius05/p5exponi.htm",
     "year": "1571",
-    "document_type": "brief",
-    "language": "en",
+    "document_type": "encyclical",
+    "language": "la",
     "format": "html",
-    "text_length": 767
+    "text_length": 7679
   },
   {
     "doc_id": "pope_st__pius_v__quo_primum",
@@ -5385,13 +5389,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Ad nostras manus",
-    "url": "http://digilander.iol.it/magistero/p6adnost.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ad-nostras-manus-31-luglio-1793.html",
+    "year": "1793",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6adnost.htm",
+    "text_length": 5256
   },
   {
     "doc_id": "pope_pius_vi__adeo_nota",
@@ -5401,13 +5405,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Adeo nota",
-    "url": "http://digilander.iol.it/magistero/p6adeono.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-adeo-nota-23-aprile-1791.html",
+    "year": "1791",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6adeono.htm",
+    "text_length": 37338
   },
   {
     "doc_id": "pope_pius_vi__ancorché_antichissimo",
@@ -5417,13 +5421,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Ancorché antichissimo",
-    "url": "http://digilander.iol.it/magistero/p6ancorc.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/chirografo-ancorche-antichissimo-5-novembre-1791.html",
+    "year": "1791",
+    "document_type": "decree",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6ancorc.htm",
+    "text_length": 20181
   },
   {
     "doc_id": "pope_pius_vi__auctorem_fidei",
@@ -5433,13 +5437,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Auctorem fidei",
-    "url": "http://digilander.libero.it/magistero/p6auctor.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/bolla-auctorem-fidei-28-agosto-1794.html",
+    "year": "1755",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.libero.it/magistero/p6auctor.htm",
+    "text_length": 81988
   },
   {
     "doc_id": "pope_pius_vi__charitas",
@@ -5464,13 +5468,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Christi Ecclesiae",
-    "url": "http://digilander.iol.it/magistero/p6christ.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/bolla-christi-ecclesiae-30-dicembre-1797.html",
+    "year": "1797",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6christ.htm",
+    "text_length": 11607
   },
   {
     "doc_id": "pope_pius_vi__constantiam_vestram",
@@ -5480,13 +5484,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Constantiam vestram",
-    "url": "http://digilander.iol.it/magistero/p6consta.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-constantiam-vestram-10-novembre-1798.html",
+    "year": "1798",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6consta.htm",
+    "text_length": 21671
   },
   {
     "doc_id": "pope_pius_vi__cum_nos_superiori",
@@ -5496,13 +5500,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Cum nos superiori",
-    "url": "http://digilander.iol.it/magistero/p6cumnos.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/bolla-cum-nos-superiori-13-novembre-1798.html",
+    "year": "1732",
+    "document_type": "decree",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6cumnos.htm",
+    "text_length": 15898
   },
   {
     "doc_id": "pope_pius_vi__cum_populi",
@@ -5512,13 +5516,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Cum populi",
-    "url": "http://digilander.iol.it/magistero/p6cumpop.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-cum-populi-13-aprile-1791.html",
+    "year": "1791",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6cumpop.htm",
+    "text_length": 2159
   },
   {
     "doc_id": "pope_pius_vi__dum_nos",
@@ -5528,13 +5532,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Dum nos",
-    "url": "http://digilander.iol.it/magistero/p6dumnos.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-dum-nos-19-aprile-1792.html",
+    "year": "1791",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6dumnos.htm",
+    "text_length": 14827
   },
   {
     "doc_id": "pope_pius_vi__ignotae_nemini",
@@ -5544,13 +5548,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Ignotae nemini",
-    "url": "http://digilander.iol.it/magistero/p6ignota.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ignotae-nemini-21-novembre-1792.html",
+    "year": "1792",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6ignota.htm",
+    "text_length": 8229
   },
   {
     "doc_id": "pope_pius_vi__in_gravissimis",
@@ -5560,13 +5564,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "In gravissimis",
-    "url": "http://digilander.iol.it/magistero/p6ingrav.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-in-gravissimis-19-marzo-1792.html",
+    "year": "1792",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6ingrav.htm",
+    "text_length": 12840
   },
   {
     "doc_id": "pope_pius_vi__inscrutabile",
@@ -5591,13 +5595,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Novae hae litterae",
-    "url": "http://digilander.iol.it/magistero/p6novaeh.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-novae-hae-litterae-19-marzo-1792.html",
+    "year": "1792",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6novaeh.htm",
+    "text_length": 31296
   },
   {
     "doc_id": "pope_pius_vi__nuper_pro",
@@ -5607,13 +5611,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Nuper pro",
-    "url": "http://digilander.iol.it/magistero/p6nuperp.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-nuper-pro-6-marzo-1779.html",
+    "year": "1779",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6nuperp.htm",
+    "text_length": 3115
   },
   {
     "doc_id": "pope_pius_vi__perpensis_circumstantiis",
@@ -5623,13 +5627,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Perpensis circumstantiis",
-    "url": "http://digilander.iol.it/magistero/p6perpen.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/dichiarazione-perpensis-circumstantiis-10-dicembre-1792.html",
+    "year": "1792",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6perpen.htm",
+    "text_length": 2435
   },
   {
     "doc_id": "pope_pius_vi__quae_causa",
@@ -5639,13 +5643,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Quae causa",
-    "url": "http://digilander.iol.it/magistero/p6quaeca.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-quae-causa-24-novembre-1792.html",
+    "year": "1792",
+    "document_type": "prayer",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6quaeca.htm",
+    "text_length": 16780
   },
   {
     "doc_id": "pope_pius_vi__quare_lacrymae",
@@ -5655,13 +5659,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Quare lacrymae",
-    "url": "http://digilander.iol.it/magistero/p6quarel.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/allocuzione-quare-lacrymae-17-giugno-1793.html",
+    "year": "1775",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6quarel.htm",
+    "text_length": 24971
   },
   {
     "doc_id": "pope_pius_vi__quo_fluctu",
@@ -5671,13 +5675,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Quo fluctu",
-    "url": "http://digilander.iol.it/magistero/p6quoflu.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-fluctu-30-maggio-1792.html",
+    "year": "1792",
+    "document_type": "brief",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6quoflu.htm",
+    "text_length": 3911
   },
   {
     "doc_id": "pope_pius_vi__quo_luctu",
@@ -5687,13 +5691,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Quo luctu",
-    "url": "http://digilander.iol.it/magistero/p6quoluc.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-quo-fluctu-30-maggio-1792.html",
+    "year": "1792",
+    "document_type": "brief",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6quoluc.htm",
+    "text_length": 3911
   },
   {
     "doc_id": "pope_pius_vi__quod_aliquantum",
@@ -5703,13 +5707,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Quod aliquantum",
-    "url": "http://digilander.iol.it/magistero/p6quodal.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-quod-aliquantum-10-marzo-1791.html",
+    "year": "1791",
+    "document_type": "decree",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6quodal.htm",
+    "text_length": 110283
   },
   {
     "doc_id": "pope_pius_vi__quoties_animo",
@@ -5719,13 +5723,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Quoties animo",
-    "url": "http://digilander.iol.it/magistero/p6quotie.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-quoties-animo-13-agosto-1799.html",
+    "year": "1799",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6quotie.htm",
+    "text_length": 5613
   },
   {
     "doc_id": "pope_pius_vi__summa_dei",
@@ -5735,13 +5739,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Summa Dei",
-    "url": "http://digilander.iol.it/magistero/p6summad.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/bolla-summa-dei-25-dicembre-1775.html",
+    "year": "1741",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6summad.htm",
+    "text_length": 17726
   },
   {
     "doc_id": "pope_pius_vi__super_soliditate",
@@ -5751,13 +5755,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Super soliditate",
-    "url": "http://digilander.iol.it/magistero/p6supers.htm",
-    "year": "",
-    "document_type": "document",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-super-soliditate-petrae-28-novembre-1786.html",
+    "year": "1786",
+    "document_type": "decree",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6supers.htm",
+    "text_length": 29031
   },
   {
     "doc_id": "pope_pius_vi__ubi_communis",
@@ -5767,13 +5771,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Ubi communis",
-    "url": "http://digilander.iol.it/magistero/p6ubicom.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/breve-ubi-communis-4-aprile-1792.html",
+    "year": "1792",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6ubicom.htm",
+    "text_length": 6925
   },
   {
     "doc_id": "pope_pius_vi__ubi_lutetiam",
@@ -5783,13 +5787,13 @@
     "pope": "Pope Pius VI",
     "pope_dates": "1775-1799",
     "title": "Ubi lutetiam",
-    "url": "http://digilander.iol.it/magistero/p6ubilut.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vi/it/documents/enciclica-ubi-lutetiam-13-giugno-1792.html",
+    "year": "1792",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p6ubilut.htm",
+    "text_length": 17562
   },
   {
     "doc_id": "pope_pius_vii__diu_satis",
@@ -5814,13 +5818,13 @@
     "pope": "Pope Pius VII",
     "pope_dates": "1800-1823",
     "title": "Il trionfo",
-    "url": "http://digilander.iol.it/magistero/p7iltrio.htm",
-    "year": "",
+    "url": "https://www.vatican.va/content/pius-vii/it/documents/enciclica-il-trionfo-4-maggio-1814.html",
+    "year": "1814",
     "document_type": "document",
     "language": "en",
     "format": "html",
-    "error": "known_dead_domain",
-    "text_length": 0
+    "original_url": "http://digilander.iol.it/magistero/p7iltrio.htm",
+    "text_length": 4407
   },
   {
     "doc_id": "pope_pius_viii__traditi_humilitati",
@@ -6087,7 +6091,7 @@
     "title": "Meridionali Americae",
     "url": "https://www.papalencyclicals.net//pius09/p9meridi.htm",
     "year": "1865",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 1826
@@ -6297,7 +6301,7 @@
     "title": "Qui Nuper",
     "url": "https://www.papalencyclicals.net//pius09/p9quinup.htm",
     "year": "1859",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 2858
@@ -6701,8 +6705,8 @@
     "pope_dates": "1903-1914",
     "title": "Septimo Iam",
     "url": "https://www.papalencyclicals.net//pius10/septimo-iam.htm",
-    "year": "",
-    "document_type": "document",
+    "year": "1903",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 400
@@ -6777,7 +6781,7 @@
     "title": "Dogma of the Immaculate Conception",
     "url": "https://www.papalencyclicals.net//pius10/p10aniv.htm",
     "year": "1904",
-    "document_type": "audience",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 2934
@@ -6912,8 +6916,8 @@
     "title": "Apostolicorum in Missionibus",
     "url": "https://www.papalencyclicals.net//pius11/p11apost.htm",
     "year": "1927",
-    "document_type": "document",
-    "language": "en",
+    "document_type": "encyclical",
+    "language": "la",
     "format": "html",
     "text_length": 1372
   },
@@ -7226,8 +7230,8 @@
     "pope_dates": "1922-1939",
     "title": "Rerum condicio",
     "url": "https://www.papalencyclicals.net//pius11/rerum-condicio.htm",
-    "year": "",
-    "document_type": "document",
+    "year": "1922",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
     "text_length": 400
@@ -8547,10 +8551,10 @@
     "title": "The General Council of Trent, 1545-63",
     "url": "https://www.papalencyclicals.net//councils/trent.htm",
     "year": "1545",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
-    "text_length": 593
+    "text_length": 4483
   },
   {
     "doc_id": "church_councils__the_first_general_council_of_the_vatican__1869_70",
@@ -8577,9 +8581,9 @@
     "title": "Vatican II – 1962-1965",
     "url": "https://www.papalencyclicals.net//councils/vatican2.htm",
     "year": "1962",
-    "document_type": "document",
+    "document_type": "encyclical",
     "language": "en",
     "format": "html",
-    "text_length": 246
+    "text_length": 1243
   }
 ]

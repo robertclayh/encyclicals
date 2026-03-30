@@ -1,571 +1,552 @@
-doc_id,category,author,author_dates,title,year,url,document_type,language,format,text_length,pope,pope_dates
-pope_alexander_iv__clara_claris_praeclara,pope,Pope Alexander IV,1254-1261,Clara claris praeclara,1255,http://www.franciscan-archive.org/bullarium/clara.html,document,en,html,35694,Pope Alexander IV,1254-1261
-pope_alexander_iv__dignum_arbitramur_et_congruum,pope,Pope Alexander IV,1254-1261,Dignum arbitramur et congruum,1255,https://www.papalencyclicals.net//alex04/alex4dignum.htm,document,en,html,1908,Pope Alexander IV,1254-1261
-pope_alexander_iv__petitionibus_vestris_benignum_impertientes,pope,Pope Alexander IV,1254-1261,Petitionibus vestris benignum impertientes,1255,https://www.papalencyclicals.net//alex04/alex4petit.htm,document,en,html,946,Pope Alexander IV,1254-1261
-pope_alexander_iv__inter_ea_quae_placita,pope,Pope Alexander IV,1254-1261,Inter ea quae placita,1255,https://www.papalencyclicals.net//alex04/alex4inter.htm,document,en,html,2287,Pope Alexander IV,1254-1261
-pope_alexander_vi__inter_caetera,pope,Pope Alexander VI,1492-1503,Inter Caetera,1493,https://www.papalencyclicals.net//alex06/alex06inter.htm,document,en,html,10046,Pope Alexander VI,1492-1503
-pope_alexander_vii__super_cathedram_principis_apostolorum,pope,Pope Alexander VII,1655-1667,Super Cathedram Principis Apostolorum,1659,https://www.papalencyclicals.net//alex07/alex07super.htm,document,en,html,3726,Pope Alexander VII,1655-1667
-pope_benedict_xii__benedictus_deus,pope,Pope Benedict XII,1334-1342,Benedictus Deus,,https://www.papalencyclicals.net//ben12/b12bdeus.htm,document,en,html,917,Pope Benedict XII,1334-1342
-pope_benedict_xiv__a_quo_primum,pope,Pope Benedict XIV,1740-1758,A Quo Primum,1751,https://www.papalencyclicals.net//ben14/b14aquo.htm,document,en,html,12875,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__accepimus_praestantium,pope,Pope Benedict XIV,1740-1758,Accepimus praestantium,1746,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-accepimus-praestantium--i---16-luglio-1746--sui-cri.html,document,en,html,20580,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__allatae_sunt,pope,Pope Benedict XIV,1740-1758,Allatae Sunt,1755,https://www.papalencyclicals.net//ben14/b14allat.htm,decree,en,html,101474,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__annus_qui_hunc,pope,Pope Benedict XIV,1740-1758,Annus qui hunc,,https://www.papalencyclicals.net//ben14/annus-qui-hunc.htm,document,en,html,2335,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__apostolica_constitutio,pope,Pope Benedict XIV,1740-1758,Apostolica Constitutio,1749,https://www.papalencyclicals.net//ben14/b14apost.htm,apostolic constitution,en,html,64395,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__benedictus_deus,pope,Pope Benedict XIV,1740-1758,Benedictus Deus,1741,https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-benedictus-deus--i---25-dicembre-1750--estensione-a-tut.html,document,en,html,19528,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__celebrationem_magni,pope,Pope Benedict XIV,1740-1758,Celebrationem magni,1751,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-celebrationem-magni--i---1-gennaio-1751--dopo-aver-.html,travel,en,html,37623,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__certiores_effecti,pope,Pope Benedict XIV,1740-1758,Certiores effecti,1742,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-certiores-effecti--i---13-novembre-1742--i-sacerdot.html,document,en,html,7161,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__cum_illud_semper,pope,Pope Benedict XIV,1740-1758,Cum illud semper,1742,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-illud-semper--i---14-dicembre-1742--desiderando.html,decree,en,html,33986,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__cum_multorum_charitate,pope,Pope Benedict XIV,1740-1758,Cum multorum charitate,1745,https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-cum-multorum-charitate--i---18-febbraio-1745--il-giubil.html,document,en,html,2464,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__cum_religiosi,pope,Pope Benedict XIV,1740-1758,Cum Religiosi,1754,https://www.papalencyclicals.net//ben14/b14cumre.htm,encyclical,en,html,8798,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__cum_semper_oblatas,pope,Pope Benedict XIV,1740-1758,Cum semper oblatas,1744,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-cum-semper-oblatas--i---19-agosto-1744--il-pontefic.html,document,en,html,27648,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__elapso_proxime_anno,pope,Pope Benedict XIV,1740-1758,Elapso proxime anno,1751,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-elapso-proxime-anno--i---20-febbraio-1751--il-ponte.html,document,en,html,6814,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__etsi_minime,pope,Pope Benedict XIV,1740-1758,Etsi minime,1742,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-etsi-minime--i---7-febbraio-1742--affermata-la-prim.html,biography,en,html,20557,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__ex_omnibus,pope,Pope Benedict XIV,1740-1758,Ex Omnibus,1756,https://www.papalencyclicals.net//ben14/b14exomn.htm,apostolic letter,en,html,9427,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__ex_quo,pope,Pope Benedict XIV,1740-1758,Ex Quo,1756,https://www.papalencyclicals.net//ben14/b14exquo.htm,apostolic letter,en,html,137874,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__gravissimo_animi,pope,Pope Benedict XIV,1740-1758,Gravissimo animi,1749,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimo-animi--i---31-ottobre-1749--il-pontefice.html,document,en,html,6563,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__gravissimum_supremi,pope,Pope Benedict XIV,1740-1758,Gravissimum supremi,1745,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-gravissimum-supremi---i--8-settembre-1745--il-ponte.html,document,en,html,17107,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__in_suprema_catholicae,pope,Pope Benedict XIV,1740-1758,In suprema Catholicae,1744,https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-catholicae--i---20-novembre-1744--viene-conc.html,document,en,html,11289,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__in_suprema_universalis,pope,Pope Benedict XIV,1740-1758,In suprema Universalis,1741,https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-in-suprema-universalis---i--22-agosto-1741--nei-giorni-.html,brief,en,html,4990,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__inter_caetera,pope,Pope Benedict XIV,1740-1758,Inter caetera,1748,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-caetera--i---1-gennaio-1748--il-pontefice-esp.html,document,en,html,15228,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__inter_omnigenas,pope,Pope Benedict XIV,1740-1758,Inter omnigenas,1744,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-omnigenas---i--2-febbraio-1744--il-pontefice-.html,document,en,html,24935,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__inter_praeteritos,pope,Pope Benedict XIV,1740-1758,Inter praeteritos,1749,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-inter-praeteritos--i---3-dicembre-1749--allo-scopo-.html,document,en,html,137753,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__libentissime_quidem,pope,Pope Benedict XIV,1740-1758,Libentissime quidem,1745,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-libentissime-quidem--i---10-giugno-1745--richiamati.html,document,en,html,33154,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__magnae_nobis,pope,Pope Benedict XIV,1740-1758,Magnae Nobis,1748,https://www.papalencyclicals.net//ben14/b14magna.htm,apostolic letter,en,html,15110,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__magno_cum_animi,pope,Pope Benedict XIV,1740-1758,Magno cum animi,1703,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-magno-cum-animi--i---2-giugno-1751--sugli-abusi-da-.html,decree,en,html,46442,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__nimiam_licentiam,pope,Pope Benedict XIV,1740-1758,Nimiam Licentiam,1743,https://www.papalencyclicals.net//ben14/b14nimia.htm,encyclical,en,html,13830,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__non_ambigimus,pope,Pope Benedict XIV,1740-1758,Non ambigimus,1741,https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-non-ambigimus--i---30-maggio-1741--il-pontefice-ricorda.html,document,en,html,6939,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__officii_nostri,pope,Pope Benedict XIV,1740-1758,Officii nostri,1736,https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-officii-nostri--i---15-marzo-1749--poiche-sono-sorti-di.html,decree,en,html,29784,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__peregrinantes,pope,Pope Benedict XIV,1740-1758,Peregrinantes,1750,https://www.papalencyclicals.net//ben14/b14pereg.htm,document,en,html,15280,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__pro_eximia_tua,pope,Pope Benedict XIV,1740-1758,Pro eximia tua,1741,https://www.vatican.va/content/benedictus-xiv/it/documents/breve-enciclica--i-pro-eximia-tua---i--30-giugno-1741--il-presen.html,brief,en,html,2939,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__prodiit_jamdudum,pope,Pope Benedict XIV,1740-1758,Prodiit jamdudum,1751,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-prodiit-jamdudum--i---30-gennaio-1751--poiche-quest.html,document,en,html,14328,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__providas_romanorum,pope,Pope Benedict XIV,1740-1758,Providas Romanorum,1738,https://www.vatican.va/content/benedictus-xiv/it/documents/bolla--i-providas-romanorum--i---18-marzo-1751--il-pontefice-con.html,document,en,html,15661,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quam_ex_sublimi,pope,Pope Benedict XIV,1740-1758,Quam ex sublimi,1755,https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quam-ex-sublimi--i---8-agosto-1755--il-pontefice-estend.html,document,en,html,10393,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quam_grave,pope,Pope Benedict XIV,1740-1758,Quam grave,1757,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quam-grave--i---2-agosto-1757--il-pontefice-segnala.html,document,en,html,20126,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quamvis_paternae,pope,Pope Benedict XIV,1740-1758,Quamvis paternae,1741,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quamvis-paternae---i--26-agosto-1741--richiamate-le.html,document,en,html,9012,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quanta_cura,pope,Pope Benedict XIV,1740-1758,Quanta Cura,1741,https://www.papalencyclicals.net//ben14/b14quant.htm,document,en,html,5529,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quemadmodum_nihil,pope,Pope Benedict XIV,1740-1758,Quemadmodum nihil,1746,https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quemadmodum-nihil--i---16-dicembre-1746--il-pontefice-c.html,prayer,en,html,6923,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quemadmodum_preces,pope,Pope Benedict XIV,1740-1758,Quemadmodum preces,1743,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-quemadmodum-preces--i---23-marzo-1743--spetta-alla-.html,document,en,html,6447,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quod_provinciale,pope,Pope Benedict XIV,1740-1758,Quod Provinciale,1754,https://www.papalencyclicals.net//ben14/b14quod.htm,encyclical,en,html,6961,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__satis_vobis_compertum,pope,Pope Benedict XIV,1740-1758,Satis vobis compertum,1741,https://www.vatican.va/content/benedictus-xiv/it/documents/enciclica--i-satis-vobis-compertum--i--17-novembre-1741--il-pont.html,document,en,html,16493,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__ubi_primum,pope,Pope Benedict XIV,1740-1758,Ubi Primum,1740,https://www.papalencyclicals.net//ben14/b14ubipr.htm,apostolic exhortation,en,html,13210,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__vix_pervenit,pope,Pope Benedict XIV,1740-1758,Vix Pervenit,1745,https://www.papalencyclicals.net//ben14/b14vixpe.htm,document,en,html,11425,Pope Benedict XIV,1740-1758
-pope_benedict_xiv__quanta_cura,pope,Pope Benedict XIV,1740-1758,Quanta Cura,1741,https://www.vatican.va/content/benedictus-xiv/it/documents/breve--i-quanta-cura--i---30-giugno-1741--sdegnata-condanna-cont.html,document,en,html,5529,Pope Benedict XIV,1740-1758
-pope_benedict_xv__ad_beatissimi_apostolorum,pope,Pope Benedict XV,1914-1922,Ad Beatissimi Apostolorum,,https://www.papalencyclicals.net//ben15/b15adbea.htm,document,en,html,36103,Pope Benedict XV,1914-1922
-pope_benedict_xv__annus_iam_plenus,pope,Pope Benedict XV,1914-1922,Annus Iam Plenus,,https://www.papalencyclicals.net//ben15/b15anipl.htm,document,en,html,9049,Pope Benedict XV,1914-1922
-pope_benedict_xv__fausto_appetente_die,pope,Pope Benedict XV,1914-1922,Fausto Appetente Die,1921,https://www.papalencyclicals.net//ben15/b15fadie.htm,document,en,html,12127,Pope Benedict XV,1914-1922
-pope_benedict_xv__humani_generis_redemptionem,pope,Pope Benedict XV,1914-1922,Humani Generis Redemptionem,,https://www.papalencyclicals.net//ben15/b15human.htm,document,en,html,26803,Pope Benedict XV,1914-1922
-pope_benedict_xv__in_hac_tanta,pope,Pope Benedict XV,1914-1922,In Hac Tanta,1919,https://www.papalencyclicals.net//ben15/b15inhac.htm,document,en,html,19062,Pope Benedict XV,1914-1922
-pope_benedict_xv__in_praeclara_summorum,pope,Pope Benedict XV,1914-1922,In Praeclara Summorum,1921,https://www.papalencyclicals.net//ben15/b15summo.htm,apostolic letter,en,html,15391,Pope Benedict XV,1914-1922
-pope_benedict_xv__pacem__dei_munus_pulcherrimum,pope,Pope Benedict XV,1914-1922,"Pacem, Dei Munus Pulcherrimum",1920,https://www.papalencyclicals.net//ben15/b15pulch.htm,prayer,en,html,18126,Pope Benedict XV,1914-1922
-pope_benedict_xv__paterno_iam_diu,pope,Pope Benedict XV,1914-1922,Paterno Iam Diu,1919,https://www.papalencyclicals.net//ben15/b15paidi.htm,document,en,html,4789,Pope Benedict XV,1914-1922
-pope_benedict_xv__principi_apostolorum_petro,pope,Pope Benedict XV,1914-1922,Principi Apostolorum Petro,1920,https://www.papalencyclicals.net//ben15/b15prapp.htm,apostolic letter,en,html,25549,Pope Benedict XV,1914-1922
-pope_benedict_xv__quod_iam_diu,pope,Pope Benedict XV,1914-1922,Quod Iam Diu,,https://www.papalencyclicals.net//ben15/b15iamdi.htm,prayer,en,html,2795,Pope Benedict XV,1914-1922
-pope_benedict_xv__sacra_propediem,pope,Pope Benedict XV,1914-1922,Sacra Propediem,1882,https://www.papalencyclicals.net//ben15/b15sapro.htm,document,en,html,17898,Pope Benedict XV,1914-1922
-pope_benedict_xv__spiritus_paraclitus,pope,Pope Benedict XV,1914-1922,Spiritus Paraclitus,1920,https://www.papalencyclicals.net//ben15/b15spiri.htm,instruction,en,html,73488,Pope Benedict XV,1914-1922
-pope_benedict_xvi__caritas_in_veritate,pope,Pope Benedict XVI,2005-2013,Caritas in veritate,2006,http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20090629_caritas-in-veritate_en.html,encyclical,en,html,188754,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__deus_caritas_est,pope,Pope Benedict XVI,2005-2013,Deus Caritas Est,2004,http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20051225_deus-caritas-est_en.html,encyclical,en,html,92452,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__spe_salvi,pope,Pope Benedict XVI,2005-2013,Spe Salvi,2007,http://www.vatican.va/holy_father/benedict_xvi/encyclicals/documents/hf_ben-xvi_enc_20071130_spe-salvi_en.html,encyclical,en,html,109147,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__africae_munus,pope,Pope Benedict XVI,2005-2013,Africae Munus,1975,http://www.vatican.va/holy_father/benedict_xvi/apost_exhortations/documents/hf_ben-xvi_exh_20111119_africae-munus_en.html,apostolic exhortation,en,html,172356,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__anglicanorum_coetibus,pope,Pope Benedict XVI,2005-2013,Anglicanorum Coetibus,2009,http://www.vatican.va/holy_father/benedict_xvi/apost_constitutions/documents/hf_ben-xvi_apc_20091104_anglicanorum-coetibus_en.html,apostolic constitution,en,html,11176,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__complementary_norms_for_the_apostolic_constitution,pope,Pope Benedict XVI,2005-2013,Complementary Norms for the Apostolic Constitution Anglicanorum coetibus,2009,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20091104_norme-anglicanorum-coetibus_en.html,apostolic constitution,en,html,11186,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__doctrinal_note_on_some_aspects_of_evangelization,pope,Pope Benedict XVI,2005-2013,Doctrinal Note on Some Aspects of Evangelization,2005,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20071203_nota-evangelizzazione_en.html,document,en,html,40265,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__guide_to_understanding_basic_cdf_procedures_concer,pope,Pope Benedict XVI,2005-2013,Guide to Understanding Basic CDF Procedures concerning Sexual Abuse Allegations,2001,http://www.vatican.va/resources/resources_guide-CDF-procedures_en.html,motu proprio,en,html,4044,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__instruction_concerning_the_criteria_for_the_discer,pope,Pope Benedict XVI,2005-2013,Instruction Concerning the Criteria for the Discernment of Vocations with Regard to Persons with Homosexual Tendencies in View of Their Admission to the Seminary and to Holy Orders,2004,https://www.papalencyclicals.net/Ben16/instructions.htm,instruction,en,html,16544,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__instruction_dignitas_personae_on_certain_bioethica,pope,Pope Benedict XVI,2005-2013,Instruction Dignitas Personae on Certain Bioethical Questions,2006,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20081208_dignitas-personae_en.html,instruction,en,html,70247,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__instruction_on_the_application_of_the_apostolic_le,pope,Pope Benedict XVI,2005-2013,"Instruction on the application of the Apostolic Letter Summorum Pontificum of His Holiness Pope Benedict XVI given Motu Proprio (April 30, 2011)",2011,http://www.vatican.va/roman_curia/pontifical_commissions/ecclsdei/documents/rc_com_ecclsdei_doc_20110430_istr-universae-ecclesiae_en.html,apostolic letter,en,html,17375,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__redactional_note_on_the_instruction_universae_eccl,pope,Pope Benedict XVI,2005-2013,Redactional Note on the Instruction Universae Ecclesiae,2007,http://www.vatican.va/roman_curia/pontifical_commissions/ecclsdei/documents/rc_com_ecclsdei_doc_20110513_nota-universae-ecclesiae_en.html,instruction,en,html,2778,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__letter_to_the_bishops__priests__consecrated_person,pope,Pope Benedict XVI,2005-2013,"Letter to the Bishops, Priests, Consecrated Persons and the Lay Faithful in the People’s Republic of China",2000,http://www.vatican.va/holy_father/benedict_xvi/letters/2007/documents/hf_ben-xvi_let_20070527_china_en.html,apostolic letter,en,html,77548,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__meeting_with_the_representatives_of_science,pope,Pope Benedict XVI,2005-2013,Meeting with the Representatives of Science,2006,http://www.vatican.va/holy_father/benedict_xvi/speeches/2006/september/documents/hf_ben-xvi_spe_20060912_university-regensburg_en.html,speech,en,html,27436,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__motu_proprio,pope,Pope Benedict XVI,2005-2013,Motu Proprio,1996,http://www.vatican.va/holy_father/benedict_xvi/motu_proprio/documents/hf_ben-xvi_motu-proprio_20070611_de-electione_lt.html,motu proprio,en,html,2868,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__proclamation_of_st_john_of_avila_and_st_hildegarde,pope,Pope Benedict XVI,2005-2013,Proclamation of St John of Avila and St Hildegarde of Bingen as “Doctors of the Church”,2012,http://www.vatican.va/holy_father/benedict_xvi/homilies/2012/documents/hf_ben-xvi_hom_20121007_apertura-sinodo_en.html,homily,en,html,10275,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__responses_to_certain_questions_of_the_united_state,pope,Pope Benedict XVI,2005-2013,Responses to Certain Questions of the United States Conference of Catholic Bishops Concerning Artificial Nutrition and Hydration,2007,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20070801_risposte-usa_en.html,audience,en,html,1828,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__responses_to_some_questions_regarding_certain_aspe,pope,Pope Benedict XVI,2005-2013,Responses to some questions regarding certain aspects of the Doctrine of the Church,2007,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20070629_responsa-quaestiones_en.html,encyclical,en,html,12921,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__sacramentum_caritatis,pope,Pope Benedict XVI,2005-2013,Sacramentum Caritatis,2005,http://www.vatican.va/holy_father/benedict_xvi/apost_exhortations/documents/hf_ben-xvi_exh_20070222_sacramentum-caritatis_en.html,apostolic exhortation,en,html,196047,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__summorum_pontificum,pope,Pope Benedict XVI,2005-2013,Summorum Pontificum,2007,https://www.papalencyclicals.net//paul06/ben16summorum.htm,apostolic letter,en,html,11218,Pope Benedict XVI,2005-2013
-pope_benedict_xvi__letter_to_bishops_which_accompanied_summorum_ponti,pope,Pope Benedict XVI,2005-2013,Letter to Bishops which accompanied Summorum Pontificum,2007,http://www.vatican.va/holy_father/benedict_xvi/letters/2007/documents/hf_ben-xvi_let_20070707_lettera-vescovi_en.html,apostolic letter,en,html,11055,Pope Benedict XVI,2005-2013
-pope_boniface_viii__unam_sanctam,pope,Pope Boniface VIII,1294-1303,Unam Sanctam,,https://www.papalencyclicals.net//bon08/b8unam.htm,document,en,html,4546,Pope Boniface VIII,1294-1303
-pope_clement_v__exivi_de_paradiso,pope,Pope Clement V,1305-1314,Exivi De Paradiso,,https://www.papalencyclicals.net//clem05/exivi-e.htm,apostolic exhortation,en,html,8888,Pope Clement V,1305-1314
-pope_clement_viii__ex_supernae_dispositionis_arbitrio,pope,Pope Clement VIII,1592-1605,Ex supernae dispositionis arbitrio,1595,https://www.papalencyclicals.net//clem08/clem8exsuper.htm,decree,en,html,6219,Pope Clement VIII,1592-1605
-pope_clement_xi__unigenitus,pope,Pope Clement XI,1700-1721,Unigenitus,1719,https://www.papalencyclicals.net//clem11/c11unige.htm,apostolic exhortation,en,html,19127,Pope Clement XI,1700-1721
-pope_clement_xi__latin_w_partial_french_translation,pope,Pope Clement XI,1700-1721,Latin w/partial French translation,1714,http://web.archive.org/web/20060712152933/http:/membres.lycos.fr/lesbonstextes/cxiunigenitus.htm,document,en,html,64097,Pope Clement XI,1700-1721
-pope_clement_xii__in_eminenti,pope,Pope Clement XII,1730-1740,In Eminenti,1738,https://www.papalencyclicals.net//clem12/c12inemengl.htm,document,en,html,5355,Pope Clement XII,1730-1740
-pope_clement_xiii__a_quo_die,pope,Pope Clement XIII,1758-1769,A Quo Die,1758,https://www.papalencyclicals.net//clem13/c13aquod.htm,document,en,html,28543,Pope Clement XIII,1758-1769
-pope_clement_xiii__accedamus_cum_fiducia,pope,Pope Clement XIII,1758-1769,Accedamus cum fiducia,,http://digilander.iol.it/magistero/c13acced.htm,document,en,html,0,Pope Clement XIII,1758-1769
-pope_clement_xiii__appetente_sacro,pope,Pope Clement XIII,1758-1769,Appetente Sacro,1759,https://www.papalencyclicals.net//clem13/c13appet.htm,document,en,html,6074,Pope Clement XIII,1758-1769
-pope_clement_xiii__christianae_reipublicae,pope,Pope Clement XIII,1758-1769,Christianae Reipublicae,1766,https://www.papalencyclicals.net//clem13/c13chris.htm,document,en,html,8801,Pope Clement XIII,1758-1769
-pope_clement_xiii__cum_primum,pope,Pope Clement XIII,1758-1769,Cum Primum,1759,https://www.papalencyclicals.net//clem13/c13cumpr.htm,travel,en,html,22134,Pope Clement XIII,1758-1769
-pope_clement_xiii__in_dominico_agro,pope,Pope Clement XIII,1758-1769,In Dominico Agro,1761,https://www.papalencyclicals.net//clem13/c13indom.htm,document,en,html,236,Pope Clement XIII,1758-1769
-pope_clement_xiii__pastoralis_officii,pope,Pope Clement XIII,1758-1769,Pastoralis officii,,http://digilander.iol.it/magistero/c13pasto.htm,document,en,html,0,Pope Clement XIII,1758-1769
-pope_clement_xiii__quam_graviter,pope,Pope Clement XIII,1758-1769,Quam graviter,,http://digilander.iol.it/magistero/c13quamg.htm,document,en,html,0,Pope Clement XIII,1758-1769
-pope_clement_xiii__quanta_auxilii,pope,Pope Clement XIII,1758-1769,Quanta auxilii,,http://digilander.iol.it/magistero/c13quant.htm,document,en,html,0,Pope Clement XIII,1758-1769
-pope_clement_xiii__quanto_in_dolore,pope,Pope Clement XIII,1758-1769,Quanto in dolore,,http://digilander.iol.it/magistero/c13quaid.htm,document,en,html,0,Pope Clement XIII,1758-1769
-pope_clement_xiii__summa_quae,pope,Pope Clement XIII,1758-1769,Summa Quae,1768,https://www.papalencyclicals.net//clem13/c13summa.htm,document,en,html,5852,Pope Clement XIII,1758-1769
-pope_clement_xiii__ubi_primum_accepimus,pope,Pope Clement XIII,1758-1769,Ubi primum accepimus,,http://digilander.iol.it/magistero/c13ubipr.htm,document,en,html,0,Pope Clement XIII,1758-1769
-pope_clement_xiii__venimus_in_altitudinem,pope,Pope Clement XIII,1758-1769,Venimus in altitudinem,,http://digilander.iol.it/magistero/c13venim.htm,document,en,html,0,Pope Clement XIII,1758-1769
-pope_clement_xiv__cum_summi,pope,Pope Clement XIV,1769-1774,Cum Summi,1769,https://www.papalencyclicals.net//clem14/c14cumsu.htm,document,en,html,11588,Pope Clement XIV,1769-1774
-pope_clement_xiv__decet_quam_maxime,pope,Pope Clement XIV,1769-1774,Decet Quam Maxime,1769,https://www.papalencyclicals.net//clem14/c14decet.htm,document,en,html,60418,Pope Clement XIV,1769-1774
-pope_clement_xiv__inscrutabili_divinae_sapientiae,pope,Pope Clement XIV,1769-1774,Inscrutabili Divinae Sapientiae,1769,https://www.papalencyclicals.net//clem14/c14inscr.htm,document,en,html,6723,Pope Clement XIV,1769-1774
-pope_clement_xiv__salutis_nostrae,pope,Pope Clement XIV,1769-1774,Salutis Nostrae,1744,https://www.papalencyclicals.net//clem14/c14salut.htm,document,en,html,10071,Pope Clement XIV,1769-1774
-pope_eugene_iv__sicut_dudum,pope,Pope Eugene IV,1431-1447,Sicut Dudum,1435,https://www.papalencyclicals.net//eugene04/eugene04sicut.htm,document,en,html,4632,Pope Eugene IV,1431-1447
-pope_francis__dilexit_nos_,pope,Pope Francis,2013-2025,Dilexit nos:,2014,https://www.vatican.va/content/francesco/en/encyclicals/documents/20241024-enciclica-dilexit-nos.html,encyclical,en,html,176835,Pope Francis,2013-2025
-pope_francis__fratelli_tutti_,pope,Pope Francis,2013-2025,Fratelli tutti:,2015,http://www.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20201003_enciclica-fratelli-tutti.html,encyclical,en,html,259096,Pope Francis,2013-2025
-pope_francis__laudato_si_,pope,Pope Francis,2013-2025,Laudato si’,1995,http://w2.vatican.va/content/francesco/en/encyclicals/documents/papa-francesco_20150524_enciclica-laudato-si.html,encyclical,en,html,247667,Pope Francis,2013-2025
-pope_francis__lumen_fidei,pope,Pope Francis,2013-2025,Lumen Fidei,1967,http://www.vatican.va/holy_father/francesco/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei_en.html,encyclical,en,html,108432,Pope Francis,2013-2025
-pope_francis__belarusian,pope,Pope Francis,2013-2025,Belarusian,2013,http://w2.vatican.va/content/francesco/be/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html,encyclical,en,html,98154,Pope Francis,2013-2025
-pope_francis__chinese_simple,pope,Pope Francis,2013-2025,Chinese Simple,2013,http://w2.vatican.va/content/francesco/zh_cn/encyclicals/documents/papa-francesco_20130629_enciclica-lumen-fidei.html,encyclical,en,html,34393,Pope Francis,2013-2025
-pope_francis__amoris_laetitia___post_synodal_apostolic_exhortati,pope,Pope Francis,2013-2025,Amoris laetitia : Post-Synodal Apostolic Exhortation on love in the family (19 March 2016),2016,http://w2.vatican.va/content/francesco/en/apost_exhortations/documents/papa-francesco_esortazione-ap_20160319_amoris-laetitia.html,apostolic exhortation,en,html,275,Pope Francis,2013-2025
-pope_francis__evangelii_guadium,pope,Pope Francis,2013-2025,Evangelii Guadium,1990,http://www.vatican.va/holy_father/francesco/apost_exhortations/documents/papa-francesco_esortazione-ap_20131124_evangelii-gaudium_en.html,apostolic exhortation,en,html,304921,Pope Francis,2013-2025
-pope_francis__misericordia_et_misera,pope,Pope Francis,2013-2025,Misericordia et Misera,2015,http://w2.vatican.va/content/francesco/en/apost_letters/documents/papa-francesco-lettera-ap_20161120_misericordia-et-misera.html,apostolic letter,en,html,42172,Pope Francis,2013-2025
-pope_francis__placuit_deo,pope,Pope Francis,2013-2025,Placuit Deo,2015,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20180222_placuit-deo_en.html,document,en,html,24217,Pope Francis,2013-2025
-pope_gregory_ix__mira_circa_nos,pope,Pope Gregory IX,1227-1241,Mira Circa Nos,,https://www.papalencyclicals.net//greg09/g9mira.htm,document,en,html,9090,Pope Gregory IX,1227-1241
-pope_gregory_x__protection_of_the_jews,pope,Pope Gregory X,1271-1276,Protection Of The Jews,1247,https://www.papalencyclicals.net//greg10/g10jprot.htm,decree,en,html,5824,Pope Gregory X,1271-1276
-pope_gregory_xiii__inter_gravissimas,pope,Pope Gregory XIII,1572-1585,Inter Gravissimas,1581,http://www.bluewaterarts.com/calendar/NewInterGravissimas.htm,apostolic exhortation,en,html,2551,Pope Gregory XIII,1572-1585
-pope_gregory_xiii__english___alternate_wikisource_translation,pope,Pope Gregory XIII,1572-1585,English – alternate Wikisource translation,1581,https://en.wikisource.org/wiki/Translation:Inter_gravissimas,decree,en,html,11117,Pope Gregory XIII,1572-1585
-pope_gregory_xvi__commissum_divinitus,pope,Pope Gregory XVI,1831-1846,Commissum Divinitus,1835,https://www.papalencyclicals.net//greg16/g16commi.htm,document,en,html,20505,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__cum_primum,pope,Pope Gregory XVI,1831-1846,Cum Primum,1832,https://www.papalencyclicals.net//greg16/g16cumpr.htm,encyclical,en,html,6355,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__in_supremo_apostolatus,pope,Pope Gregory XVI,1831-1846,In Supremo Apostolatus,,https://www.papalencyclicals.net//greg16/g16sup.htm,document,en,html,6960,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__inter_praecipuas,pope,Pope Gregory XVI,1831-1846,Inter Praecipuas,1816,https://www.papalencyclicals.net//greg16/g16inter.htm,apostolic letter,en,html,20222,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__mirari_vos,pope,Pope Gregory XVI,1831-1846,Mirari Vos,1832,https://www.papalencyclicals.net//greg16/g16mirar.htm,document,en,html,23919,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__probe_nostis,pope,Pope Gregory XVI,1831-1846,Probe Nostis,1840,https://www.papalencyclicals.net//greg16/g16probe.htm,speech,en,html,11254,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__quas_vestro,pope,Pope Gregory XVI,1831-1846,Quas Vestro,1841,https://www.papalencyclicals.net//greg16/g16quasv.htm,encyclical,en,html,9694,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__quo_graviora,pope,Pope Gregory XVI,1831-1846,Quo Graviora,1833,https://www.papalencyclicals.net//greg16/g16quogr.htm,apostolic exhortation,en,html,19059,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__singulari_nos,pope,Pope Gregory XVI,1831-1846,Singulari Nos,1834,https://www.papalencyclicals.net//greg16/g16singu.htm,encyclical,en,html,9637,Pope Gregory XVI,1831-1846
-pope_gregory_xvi__summo_iugiter_studio,pope,Pope Gregory XVI,1831-1846,Summo Iugiter Studio,1832,https://www.papalencyclicals.net//greg16/g16summo.htm,document,en,html,10634,Pope Gregory XVI,1831-1846
-pope_honorious_iii__solet_annuere,pope,Pope Honorious III,1216-1227,Solet annuere,,https://www.papalencyclicals.net//hon03/regula-e.htm,document,en,html,13386,Pope Honorious III,1216-1227
-pope_innocent_iv__quae_honorem_conditoris_omnium,pope,Pope Innocent IV,1243-1254,Quae Honorem Conditoris Omnium,1247,https://www.papalencyclicals.net//innoc04/i4carmrl.htm,biography,en,html,10808,Pope Innocent IV,1243-1254
-pope_innocent_xi__coelestis_pastor,pope,Pope Innocent XI,1676-1689,Coelestis Pastor,1687,https://www.papalencyclicals.net//innoc11/i11coel.htm,document,en,html,13425,Pope Innocent XI,1676-1689
-pope_john_xxii__ad_ea_ex_quibus,pope,Pope John XXII,1316-1334,Ad ea ex quibus,,https://web.archive.org/web/20070203021301/http://www.chivalricorders.org/vatican/chrstbll.htm,document,en,html,186,Pope John XXII,1316-1334
-pope_john_xxii__quum_inter_nonnullos,pope,Pope John XXII,1316-1334,Quum inter nonnullos,1323,http://www.franciscan-archive.org/bullarium/qinn-e.html,decree,en,html,4353,Pope John XXII,1316-1334
-pope_john_xxii__quia_quorundam,pope,Pope John XXII,1316-1334,Quia Quorundam,,https://www.papalencyclicals.net//john22/qquor-e.htm,document,en,html,32738,Pope John XXII,1316-1334
-pope_john_xxii__summa_providit_altitudo_consilii,pope,Pope John XXII,1316-1334,Summa providit altitudo consilii,1333,https://www.papalencyclicals.net//john22/j22summa-l.htm,document,en,html,3609,Pope John XXII,1316-1334
-pope_st__john_xxiii__ad_petri_cathedram,pope,Pope St. John XXIII,1958-1963,Ad Petri Cathedram,1959,https://www.papalencyclicals.net//pope-st-john-xxiii-oct-28-1958-june-3-1963/j23petri.htm,instruction,en,html,62723,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__aeterna_dei_sapientia,pope,Pope St. John XXIII,1958-1963,Aeterna Dei Sapientia,1961,https://www.papalencyclicals.net//pope-st-john-xxiii-oct-28-1958-june-3-1963/j23aeter.htm,document,en,html,36125,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__grata_recordatio,pope,Pope St. John XXIII,1958-1963,Grata Recordatio,1959,https://www.papalencyclicals.net//paul06/j23grata.htm,encyclical,en,html,9555,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__le_voci_che_da_tutti,pope,Pope St. John XXIII,1958-1963,Le voci che da tutti,,https://www.papalencyclicals.net//paul06/j23levoci.htm,document,en,html,459,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__mater_et_magistra,pope,Pope St. John XXIII,1958-1963,Mater Et Magistra,1961,https://www.papalencyclicals.net//paul06/j23mater.htm,document,en,html,120199,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__on_promoting_devotion_to_the_most_precious_blood,pope,Pope St. John XXIII,1958-1963,On Promoting Devotion to the Most Precious Blood,1960,https://www.papalencyclicals.net//paul06/j23pb.htm,document,en,html,12371,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__pacem_in_terris,pope,Pope St. John XXIII,1958-1963,Pacem In Terris,1963,https://www.papalencyclicals.net//paul06/j23pacem.htm,document,en,html,86247,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__paenitentiam_agere,pope,Pope St. John XXIII,1958-1963,Paenitentiam Agere,1962,https://www.papalencyclicals.net//paul06/j23paeni.htm,apostolic constitution,en,html,21361,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__princeps_pastorum,pope,Pope St. John XXIII,1958-1963,Princeps Pastorum,1959,https://www.papalencyclicals.net//paul06/j23princ.htm,document,en,html,57042,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__religiosorum_institutio,pope,Pope St. John XXIII,1958-1963,Religiosorum institutio,1957,https://www.papalencyclicals.net//paul06/j23religios.htm,instruction,en,html,76683,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__sacerdotii_nostri_primordia,pope,Pope St. John XXIII,1958-1963,Sacerdotii Nostri Primordia,1959,https://www.papalencyclicals.net//paul06/j23sacer.htm,document,en,html,66516,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__veterum_sapientia,pope,Pope St. John XXIII,1958-1963,Veterum Sapientia,1959,https://www.papalencyclicals.net//john23/j23veterum.htm,apostolic constitution,en,html,13366,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__apostolic_constitutions,pope,Pope St. John XXIII,1958-1963,Apostolic Constitutions,1958,http://w2.vatican.va/content/john-xxiii/en/apost_constitutions.html#apost_constitutions,apostolic constitution,unknown,html,10,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__apostolic_letters,pope,Pope St. John XXIII,1958-1963,Apostolic Letters,1958,http://w2.vatican.va/content/john-xxiii/en/apost_letters.html#apost_letters,apostolic letter,unknown,html,10,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__homilies,pope,Pope St. John XXIII,1958-1963,Homilies,1958,http://w2.vatican.va/content/john-xxiii/en/homilies.html#homilies,homily,unknown,html,10,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__letters,pope,Pope St. John XXIII,1958-1963,Letters,1958,http://w2.vatican.va/content/john-xxiii/en/letters.html#letters,apostolic letter,unknown,html,10,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__speeches,pope,Pope St. John XXIII,1958-1963,Speeches,1958,http://w2.vatican.va/content/john-xxiii/en/speeches.html#speeches,speech,unknown,html,10,Pope St. John XXIII,1958-1963
-pope_st__john_xxiii__veterum_sapientia,pope,Pope St. John XXIII,1958-1963,Veterum Sapientia,1959,https://www.papalencyclicals.net//paul06/j23veterum.htm,apostolic constitution,en,html,13366,Pope St. John XXIII,1958-1963
-pope_st__john_paul_ii__centesimus_annus,pope,Pope St. John Paul II,1978-2005,Centesimus Annus,1989,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_01051991_centesimus-annus_en.html,encyclical,en,html,154172,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__dives_in_misericordia,pope,Pope St. John Paul II,1978-2005,Dives in Misericordia,1980,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_30111980_dives-in-misericordia_en.html,encyclical,en,html,97875,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__dominum_et_vivificantem,pope,Pope St. John Paul II,1978-2005,Dominum et Vivificantem,1943,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_18051986_dominum-et-vivificantem_en.html,encyclical,en,html,187027,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ecclesia_de_eucharistia,pope,Pope St. John Paul II,1978-2005,Ecclesia De Eucharistia,2001,http://w2.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_20030417_eccl-de-euch.html,encyclical,en,html,104763,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__evangelium_vitae,pope,Pope St. John Paul II,1978-2005,Evangelium Vitae,1991,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_25031995_evangelium-vitae_en.html,encyclical,en,html,263860,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__fides_et_ratio,pope,Pope St. John Paul II,1978-2005,Fides et Ratio,1998,http://w2.vatican.va/content/john-paul-ii/en/encyclicals/documents/hf_jp-ii_enc_14091998_fides-et-ratio.html,encyclical,en,html,194395,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__laborem_exercens,pope,Pope St. John Paul II,1978-2005,Laborem Exercens,1981,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_14091981_laborem-exercens_en.html,encyclical,en,html,127703,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__redemptor_hominis,pope,Pope St. John Paul II,1978-2005,Redemptor Hominis,1964,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_04031979_redemptor-hominis_en.html,encyclical,en,html,135080,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__redemptoris_mater,pope,Pope St. John Paul II,1978-2005,Redemptoris Mater,1987,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_25031987_redemptoris-mater_en.html,encyclical,en,html,154334,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__redemptoris_missio,pope,Pope St. John Paul II,1978-2005,Redemptoris Missio,1983,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_07121990_redemptoris-missio_en.html,encyclical,en,html,200564,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__slavorum_apostoli,pope,Pope St. John Paul II,1978-2005,Slavorum Apostoli,1980,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_19850602_slavorum-apostoli_en.html,encyclical,en,html,62014,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__sollicitudo_rei_socialis,pope,Pope St. John Paul II,1978-2005,Sollicitudo Rei Socialis,1987,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_30121987_sollicitudo-rei-socialis_en.html,encyclical,en,html,122206,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ut_unum_sint,pope,Pope St. John Paul II,1978-2005,Ut Unum Sint,1982,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_25051995_ut-unum-sint_en.html,encyclical,en,html,148247,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__veritatis_splendor,pope,Pope St. John Paul II,1978-2005,Veritatis Splendor,1976,http://www.vatican.va/holy_father/john_paul_ii/encyclicals/documents/hf_jp-ii_enc_06081993_veritatis-splendor_en.html,encyclical,en,html,261917,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__address_of_pope_john_paul_ii_to_the_tribunal_of_th,pope,Pope St. John Paul II,1978-2005,Address of Pope John Paul II to the Tribunal of the Roman Rota,1987,https://web.archive.org/web/20170621053905/http:/fjp2.com/us/john-paul-ii/online-library/speeches/6489-address-of-john-paul-ii-to-the-tribunal-of-the-roman-rota-february-1987-,speech,en,html,14756,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__a_concilio_constantinopolitano_i,pope,Pope St. John Paul II,1978-2005,A Concilio Constantinopolitano I,1981,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1981/documents/hf_jp-ii_apl_25031981_a-concilio-constantinopolitano-i.html,apostolic letter,en,html,26457,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__catechesi_tradendae,pope,Pope St. John Paul II,1978-2005,Catechesi Tradendae,1971,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_16101979_catechesi-tradendae_en.html,apostolic exhortation,en,html,128770,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__christifideles_laici,pope,Pope St. John Paul II,1978-2005,Christifideles Laici,1982,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_30121988_christifideles-laici_en.html,apostolic exhortation,en,html,258063,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__considerations_regarding_proposals_to_give_legal_r,pope,Pope St. John Paul II,1978-2005,Considerations Regarding Proposals To Give Legal Recognition To Unions Between Homosexual Persons,1995,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20030731_homosexual-unions_en.html,document,en,html,20016,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__crossing_the_threshold_of_hope,pope,Pope St. John Paul II,1978-2005,Crossing the Threshold of Hope,2000,http://web.archive.org/web/20080126040418/http:/www.catholic.net/rcc/POPE/HopeBook/toc.html,index,unknown,html,5,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__dies_domini,pope,Pope St. John Paul II,1978-2005,Dies Domini,1969,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1998/documents/hf_jp-ii_apl_05071998_dies-domini.html,apostolic letter,en,html,135749,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__dilecti_amici,pope,Pope St. John Paul II,1978-2005,Dilecti Amici,1985,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1985/documents/hf_jp-ii_apl_31031985_dilecti-amici.html,apostolic letter,en,html,95004,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__divini_amoris_scientia,pope,Pope St. John Paul II,1978-2005,Divini Amoris Scientia,1987,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1997/documents/hf_jp-ii_apl_19101997_divini-amoris.html,apostolic letter,en,html,35976,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__dominus_iesus,pope,Pope St. John Paul II,1978-2005,Dominus Iesus,2000,http://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_20000806_dominus-iesus_en.html,document,en,html,63393,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ecclesia_dei,pope,Pope St. John Paul II,1978-2005,Ecclesia Dei,1988,http://www.vatican.va/holy_father/john_paul_ii/motu_proprio/documents/hf_jp-ii_motu-proprio_02071988_ecclesia-dei_en.html,motu proprio,en,html,8336,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ecclesia_in_africa,pope,Pope St. John Paul II,1978-2005,Ecclesia in Africa,1969,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_14091995_ecclesia-in-africa_en.html,apostolic exhortation,en,html,174893,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ecclesia_in_america,pope,Pope St. John Paul II,1978-2005,Ecclesia in America,1992,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_22011999_ecclesia-in-america_en.html,apostolic exhortation,en,html,181171,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ecclesia_in_asia,pope,Pope St. John Paul II,1978-2005,Ecclesia in Asia,1994,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_06111999_ecclesia-in-asia_en.html,apostolic exhortation,en,html,192764,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ex_corde_ecclesiae,pope,Pope St. John Paul II,1978-2005,Ex Corde Ecclesiae,1989,http://www.vatican.va/holy_father/john_paul_ii/apost_constitutions/documents/hf_jp-ii_apc_15081990_ex-corde-ecclesiae_en.html,apostolic constitution,en,html,66931,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__familiaris_consortio,pope,Pope St. John Paul II,1978-2005,Familiaris Consortio,1981,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_19811122_familiaris-consortio_en.html,apostolic exhortation,en,html,214829,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__fidei_depositum,pope,Pope St. John Paul II,1978-2005,Fidei Depositum,1992,http://www.vatican.va/holy_father/john_paul_ii/apost_constitutions/documents/hf_jp-ii_apc_19921011_fidei-depositum_en.html,apostolic constitution,en,html,12454,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__general_directory_for_catechesis,pope,Pope St. John Paul II,1978-2005,General Directory for Catechesis,1965,http://www.vatican.va/roman_curia/congregations/cclergy/documents/rc_con_ccatheduc_doc_17041998_directory-for-catechesis_en.html,decree,en,html,425340,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__homilies,pope,Pope St. John Paul II,1978-2005,Homilies,1980,http://w2.vatican.va/content/john-paul-ii/en/homilies.html#homilies,homily,unknown,html,12,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__inaestamabile_donum,pope,Pope St. John Paul II,1978-2005,Inaestamabile Donum,1980,https://www.papalencyclicals.net//paul06/inaestimabile-donum.htm,instruction,en,html,9419,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__iuvenum_patris,pope,Pope St. John Paul II,1978-2005,Iuvenum Patris,1979,http://web.archive.org/web/20070523190523/http:/www.bosconet.aust.com/thepope.htm,document,en,html,44547,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__letter_to_families__gratissimam_sane_,pope,Pope St. John Paul II,1978-2005,Letter to Families (Gratissimam Sane),1994,http://w2.vatican.va/content/john-paul-ii/en/letters/1994/documents/hf_jp-ii_let_02021994_families.html,apostolic letter,en,html,157519,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__magnum_matrimonii_sacramentum,pope,Pope St. John Paul II,1978-2005,Magnum Matrimonii Sacramentum,1982,http://web.archive.org/web/20080127190607/http://www.jp2institute.org/pletter1.html,encyclical,en,html,5633,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__misericordia_dei,pope,Pope St. John Paul II,1978-2005,Misericordia Dei,1984,http://www.vatican.va/holy_father/john_paul_ii/motu_proprio/documents/hf_jp-ii_motu-proprio_20020502_misericordia-dei_en.html,motu proprio,en,html,19341,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__mulieris_dignitatem,pope,Pope St. John Paul II,1978-2005,Mulieris Dignitatem,1987,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1988/documents/hf_jp-ii_apl_15081988_mulieris-dignitatem.html,apostolic letter,en,html,142083,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__novo_millennio_ineunte,pope,Pope St. John Paul II,1978-2005,Novo Millennio Ineunte,1991,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/2001/documents/hf_jp-ii_apl_20010106_novo-millennio-ineunte.html,apostolic letter,en,html,107623,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__ordinatio_sacerdotalis,pope,Pope St. John Paul II,1978-2005,Ordinatio Sacerdotalis,1977,https://www.vatican.va/content/john-paul-ii/en/apost_letters/1994/documents/hf_jp-ii_apl_19940522_ordinatio-sacerdotalis.html,apostolic letter,en,html,8328,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__orientale_lumen,pope,Pope St. John Paul II,1978-2005,Orientale Lumen,1960,https://www.vatican.va/content/john-paul-ii/en/apost_letters/1995/documents/hf_jp-ii_apl_19950502_orientale-lumen.html,apostolic letter,en,html,68084,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__pastores_dabo_vobis,pope,Pope St. John Paul II,1978-2005,Pastores Dabo Vobis,1964,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_25031992_pastores-dabo-vobis_en.html,apostolic exhortation,en,html,323813,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__pastores_gregis,pope,Pope St. John Paul II,1978-2005,Pastores Gregis,1999,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_20031016_pastores-gregis_en.html,apostolic exhortation,en,html,264840,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__reconciliatio_et_paenitentia,pope,Pope St. John Paul II,1978-2005,Reconciliatio et Paenitentia,1984,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_02121984_reconciliatio-et-paenitentia_en.html,apostolic exhortation,en,html,178862,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__redemptoris_custos,pope,Pope St. John Paul II,1978-2005,Redemptoris Custos,1988,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_15081989_redemptoris-custos_en.html,apostolic exhortation,en,html,56945,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__redemptionis_donum,pope,Pope St. John Paul II,1978-2005,Redemptionis Donum,1983,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_25031984_redemptionis-donum_en.html,apostolic exhortation,en,html,63494,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__rosarium_virginis_mariae,pope,Pope St. John Paul II,1978-2005,Rosarium Virginis Mariae,1999,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/2002/documents/hf_jp-ii_apl_20021016_rosarium-virginis-mariae.html,apostolic letter,en,html,78185,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__sacrae_disciplinae_leges,pope,Pope St. John Paul II,1978-2005,Sacrae Disciplinae Leges,1983,http://www.vatican.va/holy_father/john_paul_ii/apost_constitutions/documents/hf_jp-ii_apc_25011983_sacrae-disciplinae-leges_en.html,apostolic constitution,en,html,15310,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__salvifici_doloris,pope,Pope St. John Paul II,1978-2005,Salvifici Doloris,1984,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1984/documents/hf_jp-ii_apl_11021984_salvifici-doloris.html,apostolic letter,en,html,97726,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__sapientia_christiana,pope,Pope St. John Paul II,1978-2005,Sapientia Christiana,1949,http://www.vatican.va/holy_father/john_paul_ii/apost_constitutions/documents/hf_jp-ii_apc_15041979_sapientia-christiana_en.html,apostolic constitution,en,html,78253,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__sescentesima_anniversaria,pope,Pope St. John Paul II,1978-2005,Sescentesima Anniversaria,1987,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1987/documents/hf_jp-ii_apl_05061987_sescentesima-anniversaria.html,apostolic letter,en,html,25511,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__speeches,pope,Pope St. John Paul II,1978-2005,Speeches,1980,http://w2.vatican.va/content/john-paul-ii/en/speeches.html#speeches,speech,unknown,html,12,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__tertio_millennio_adveniente,pope,Pope St. John Paul II,1978-2005,Tertio Millennio Adveniente,1994,https://www.vatican.va/content/john-paul-ii/en/apost_letters/1994/documents/hf_jp-ii_apl_19941110_tertio-millennio-adveniente.html,apostolic letter,en,html,92897,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__the_fourth_centenary_of_the_union_of_brest,pope,Pope St. John Paul II,1978-2005,The Fourth Centenary of the Union of Brest,1952,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1995/documents/hf_jp-ii_apl_19951112_iv-cent-union-brest.html,apostolic letter,en,html,25609,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__the_third_centenary_anniversary_of_the_union_of_th,pope,Pope St. John Paul II,1978-2005,The Third Centenary Anniversary of the Union of the Greek-Catholic Church of Romania with the Church of Rome,2000,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/2000/documents/hf_jp-ii_apl_20000720_unione-romania-roma.html,apostolic letter,en,html,24086,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__the_350_years_of_the_union_of_uzhorod,pope,Pope St. John Paul II,1978-2005,The 350 Years of the Union of Uzhorod,1995,http://w2.vatican.va/content/john-paul-ii/en/apost_letters/1996/documents/hf_jp-ii_apl_19960418_union-uzhorod.html,apostolic letter,en,html,16242,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__theology_of_the_body,pope,Pope St. John Paul II,1978-2005,Theology of the Body,,https://www.ewtn.com/catholicism/library/theology-of-the-body-21271,document,unknown,html,20,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__universi_dominici_gregis,pope,Pope St. John Paul II,1978-2005,Universi Dominici Gregis,1977,http://www.vatican.va/holy_father/john_paul_ii/apost_constitutions/documents/hf_jp-ii_apc_22021996_universi-dominici-gregis_en.html,apostolic constitution,en,html,79545,Pope St. John Paul II,1978-2005
-pope_st__john_paul_ii__vita_consecrata,pope,Pope St. John Paul II,1978-2005,Vita Consecrata,1996,http://www.vatican.va/holy_father/john_paul_ii/apost_exhortations/documents/hf_jp-ii_exh_25031996_vita-consecrata_en.html,apostolic exhortation,en,html,251589,Pope St. John Paul II,1978-2005
-pope_leo_x__exsurge_domine,pope,Pope Leo X,1513-1521,Exsurge Domine,,https://www.papalencyclicals.net//leo10/l10exdom.htm,prayer,en,html,22416,Pope Leo X,1513-1521
-pope_leo_x__decet_romanum_pontificem,pope,Pope Leo X,1513-1521,Decet Romanum Pontificem,1521,https://www.papalencyclicals.net//leo10/l10decet.htm,decree,en,html,11471,Pope Leo X,1513-1521
-pope_leo_x__decet_romanum_pontificem,pope,Pope Leo X,1513-1521,Decet Romanum Pontificem,1521,http://web.archive.org/web/20110522065101/http://asv.vatican.va/en/doc/1521.htm,decree,en,html,11471,Pope Leo X,1513-1521
-pope_leo_xii__charitate_christi,pope,Pope Leo XII,1823-1829,Charitate Christi,1825,https://www.papalencyclicals.net//leo12/l12chari.htm,decree,en,html,28149,Pope Leo XII,1823-1829
-pope_leo_xii__quanta_laetitia,pope,Pope Leo XII,1823-1829,Quanta laetitia,,https://www.papalencyclicals.net//leo12/quanta-laetitia.htm,document,en,html,400,Pope Leo XII,1823-1829
-pope_leo_xii__quo_graviora,pope,Pope Leo XII,1823-1829,Quo Graviora,1821,https://www.papalencyclicals.net//leo12/l12quogr.htm,apostolic exhortation,en,html,51600,Pope Leo XII,1823-1829
-pope_leo_xii__quod_hoc_ineunte,pope,Pope Leo XII,1823-1829,Quod Hoc Ineunte,1825,https://www.papalencyclicals.net//leo12/l12quodh.htm,prayer,en,html,14819,Pope Leo XII,1823-1829
-pope_leo_xii__ubi_primum,pope,Pope Leo XII,1823-1829,Ubi Primum,1824,https://www.papalencyclicals.net//leo12/l12ubipr.htm,document,en,html,17211,Pope Leo XII,1823-1829
-pope_leo_xiii__ad_extremas,pope,Pope Leo XIII,1878-1903,Ad Extremas,1893,https://www.papalencyclicals.net//leo13/l13nat.htm,document,en,html,10354,Pope Leo XIII,1878-1903
-pope_leo_xiii__adiutricem,pope,Pope Leo XIII,1878-1903,Adiutricem,,https://www.papalencyclicals.net//leo13/l13adiut.htm,document,en,html,22795,Pope Leo XIII,1878-1903
-pope_leo_xiii__aeterni_patris,pope,Pope Leo XIII,1878-1903,Aeterni Patris,1879,https://www.papalencyclicals.net//leo13/l13cph.htm,decree,en,html,46678,Pope Leo XIII,1878-1903
-pope_leo_xiii__affari_vos,pope,Pope Leo XIII,1878-1903,Affari Vos,1897,https://www.papalencyclicals.net//leo13/l13affar.htm,document,en,html,14979,Pope Leo XIII,1878-1903
-pope_leo_xiii__annum_sacrum,pope,Pope Leo XIII,1878-1903,Annum Sacrum,1899,https://www.papalencyclicals.net//leo13/l13annum.htm,apostolic letter,en,html,14064,Pope Leo XIII,1878-1903
-pope_leo_xiii__apostolicae_curae,pope,Pope Leo XIII,1878-1903,Apostolicae Curae,,https://www.papalencyclicals.net//leo13/l13curae.htm,speech,en,html,30071,Pope Leo XIII,1878-1903
-pope_leo_xiii__arcanum,pope,Pope Leo XIII,1878-1903,Arcanum,1880,https://www.papalencyclicals.net//leo13/l13cmr.htm,document,en,html,48674,Pope Leo XIII,1878-1903
-pope_leo_xiii__au_milieu_des_sollicitudes,pope,Pope Leo XIII,1878-1903,Au Milieu Des Sollicitudes,1892,https://www.papalencyclicals.net//leo13/l13cst.htm,encyclical,en,html,30253,Pope Leo XIII,1878-1903
-pope_leo_xiii__augustissimae_virginis_mariae,pope,Pope Leo XIII,1878-1903,Augustissimae Virginis Mariae,1897,https://www.papalencyclicals.net//leo13/l13augus.htm,document,en,html,15353,Pope Leo XIII,1878-1903
-pope_leo_xiii__auspicato_concessum,pope,Pope Leo XIII,1878-1903,Auspicato Concessum,1882,https://www.papalencyclicals.net//leo13/l13frc.htm,document,en,html,23369,Pope Leo XIII,1878-1903
-pope_leo_xiii__caritatis_studium,pope,Pope Leo XIII,1878-1903,Caritatis Studium,1898,https://www.papalencyclicals.net//leo13/l13carit.htm,document,en,html,20807,Pope Leo XIII,1878-1903
-pope_leo_xiii__catholicae_ecclesiae,pope,Pope Leo XIII,1878-1903,Catholicae Ecclesiae,1890,https://www.papalencyclicals.net//leo13/l13slv.htm,document,en,html,8648,Pope Leo XIII,1878-1903
-pope_leo_xiii__christi_nomen,pope,Pope Leo XIII,1878-1903,Christi Nomen,1894,https://www.papalencyclicals.net//leo13/l13eas.htm,encyclical,en,html,5901,Pope Leo XIII,1878-1903
-pope_leo_xiii__constanti_hungarorum,pope,Pope Leo XIII,1878-1903,Constanti Hungarorum,1893,https://www.papalencyclicals.net//leo13/l13hun.htm,document,en,html,15613,Pope Leo XIII,1878-1903
-pope_leo_xiii__cum_multa,pope,Pope Leo XIII,1878-1903,Cum Multa,1882,https://www.papalencyclicals.net//leo13/l13spn.htm,apostolic letter,en,html,16864,Pope Leo XIII,1878-1903
-pope_leo_xiii__custodi_di_quella_fede,pope,Pope Leo XIII,1878-1903,Custodi Di Quella Fede,1892,https://www.papalencyclicals.net//leo13/l13ms3.htm,document,en,html,18086,Pope Leo XIII,1878-1903
-pope_leo_xiii__dall_alto_dell_apostolico_seggio,pope,Pope Leo XIII,1878-1903,Dall’alto Dell’apostolico Seggio,1890,https://www.papalencyclicals.net//leo13/l13ms1.htm,document,en,html,33638,Pope Leo XIII,1878-1903
-pope_leo_xiii__depuis_le_jour,pope,Pope Leo XIII,1878-1903,Depuis Le Jour,1899,https://www.papalencyclicals.net//leo13/l13depui.htm,encyclical,en,html,42412,Pope Leo XIII,1878-1903
-pope_leo_xiii__diuturni_temporis,pope,Pope Leo XIII,1878-1903,Diuturni Temporis,1898,https://www.papalencyclicals.net//leo13/l13diutu.htm,prayer,en,html,6439,Pope Leo XIII,1878-1903
-pope_leo_xiii__diuturnum,pope,Pope Leo XIII,1878-1903,Diuturnum,1881,https://www.papalencyclicals.net//leo13/l13civ.htm,document,en,html,29621,Pope Leo XIII,1878-1903
-pope_leo_xiii__divinum_illud_munus,pope,Pope Leo XIII,1878-1903,Divinum Illud Munus,1897,https://www.papalencyclicals.net//leo13/l13divin.htm,document,en,html,36351,Pope Leo XIII,1878-1903
-pope_leo_xiii__dum_multa,pope,Pope Leo XIII,1878-1903,Dum Multa,1902,https://www.papalencyclicals.net//leo13/l13multa.htm,apostolic letter,en,html,4633,Pope Leo XIII,1878-1903
-pope_leo_xiii__etsi_cunctas,pope,Pope Leo XIII,1878-1903,Etsi Cunctas,1888,https://www.papalencyclicals.net//leo13/l13ire.htm,decree,en,html,2366,Pope Leo XIII,1878-1903
-pope_leo_xiii__etsi_nos,pope,Pope Leo XIII,1878-1903,Etsi Nos,1882,https://www.papalencyclicals.net//leo13/l13itl.htm,document,en,html,25104,Pope Leo XIII,1878-1903
-pope_leo_xiii__exeunte_iam_anno,pope,Pope Leo XIII,1878-1903,Exeunte Iam Anno,1888,https://www.papalencyclicals.net//leo13/l13rgt.htm,document,en,html,28052,Pope Leo XIII,1878-1903
-pope_leo_xiii__fidentem_piumque_animum,pope,Pope Leo XIII,1878-1903,Fidentem Piumque Animum,1896,https://www.papalencyclicals.net//leo13/l13fiden.htm,apostolic exhortation,en,html,15083,Pope Leo XIII,1878-1903
-pope_leo_xiii__fin_dal_principio,pope,Pope Leo XIII,1878-1903,Fin Dal Principio,1902,https://www.papalencyclicals.net//leo13/l13fidal.htm,document,en,html,19525,Pope Leo XIII,1878-1903
-pope_leo_xiii__grande_munus,pope,Pope Leo XIII,1878-1903,Grande Munus,1880,https://www.papalencyclicals.net//leo13/l13cym.htm,document,en,html,18053,Pope Leo XIII,1878-1903
-pope_leo_xiii__graves_de_communi_re,pope,Pope Leo XIII,1878-1903,Graves De Communi Re,1901,https://www.papalencyclicals.net//leo13/l13grcom.htm,encyclical,en,html,30402,Pope Leo XIII,1878-1903
-pope_leo_xiii__gravissimas,pope,Pope Leo XIII,1878-1903,Gravissimas,1901,https://www.papalencyclicals.net//leo13/l13grvis.htm,decree,en,html,3275,Pope Leo XIII,1878-1903
-pope_leo_xiii__humanum_genus,pope,Pope Leo XIII,1878-1903,Humanum Genus,1884,https://www.papalencyclicals.net//leo13/l13human.htm,document,en,html,46991,Pope Leo XIII,1878-1903
-pope_leo_xiii__iampridem,pope,Pope Leo XIII,1878-1903,Iampridem,1886,https://www.papalencyclicals.net//leo13/l13ger.htm,document,en,html,17021,Pope Leo XIII,1878-1903
-pope_leo_xiii__immortale_dei,pope,Pope Leo XIII,1878-1903,Immortale Dei,1885,https://www.papalencyclicals.net//leo13/l13sta.htm,document,en,html,53921,Pope Leo XIII,1878-1903
-pope_leo_xiii__in_amplissimo,pope,Pope Leo XIII,1878-1903,In Amplissimo,1902,https://www.papalencyclicals.net//leo13/l13inamp.htm,document,en,html,5712,Pope Leo XIII,1878-1903
-pope_leo_xiii__in_ipso,pope,Pope Leo XIII,1878-1903,In Ipso,1891,https://www.papalencyclicals.net//leo13/l13aus.htm,document,en,html,9907,Pope Leo XIII,1878-1903
-pope_leo_xiii__in_plurimis,pope,Pope Leo XIII,1878-1903,In Plurimis,1888,https://www.papalencyclicals.net//leo13/l13abl.htm,apostolic letter,en,html,39084,Pope Leo XIII,1878-1903
-pope_leo_xiii__inimica_vis,pope,Pope Leo XIII,1878-1903,Inimica Vis,1892,https://www.papalencyclicals.net//leo13/l13ms4.htm,document,en,html,8426,Pope Leo XIII,1878-1903
-pope_leo_xiii__inscrutabili_dei_consilio,pope,Pope Leo XIII,1878-1903,Inscrutabili Dei Consilio,1878,https://www.papalencyclicals.net//leo13/l13evl.htm,document,en,html,23895,Pope Leo XIII,1878-1903
-pope_leo_xiii__insignes,pope,Pope Leo XIII,1878-1903,Insignes,,https://www.papalencyclicals.net//leo13/l13insig.htm,decree,en,html,18635,Pope Leo XIII,1878-1903
-pope_leo_xiii__iucunda_semper_expectatione,pope,Pope Leo XIII,1878-1903,Iucunda Semper Expectatione,1894,https://www.papalencyclicals.net//leo13/l13ro5.htm,apostolic exhortation,en,html,18850,Pope Leo XIII,1878-1903
-pope_leo_xiii__laetitiae_sanctae,pope,Pope Leo XIII,1878-1903,Laetitiae Sanctae,1893,https://www.papalencyclicals.net//leo13/l13ro3.htm,document,en,html,19833,Pope Leo XIII,1878-1903
-pope_leo_xiii__libertas_praestantissimum__a,pope,Pope Leo XIII,1878-1903,Libertas Praestantissimum</a,1888,https://www.papalencyclicals.net//leo13/l13liber.htm,document,en,html,56887,Pope Leo XIII,1878-1903
-pope_leo_xiii__licet_multa,pope,Pope Leo XIII,1878-1903,Licet Multa,1881,https://www.papalencyclicals.net//leo13/l13bel.htm,document,en,html,7927,Pope Leo XIII,1878-1903
-pope_leo_xiii__litteras_a_vobis,pope,Pope Leo XIII,1878-1903,Litteras A Vobis,1894,https://www.papalencyclicals.net//leo13/l13brz.htm,document,en,html,9414,Pope Leo XIII,1878-1903
-pope_leo_xiii__longinqua,pope,Pope Leo XIII,1878-1903,Longinqua,1895,http://www.vatican.va/holy_father/leo_xiii/encyclicals/documents/hf_l-xiii_enc_06011895_longinqua_en.html,encyclical,en,html,32065,Pope Leo XIII,1878-1903
-pope_leo_xiii__magnae_dei_matris,pope,Pope Leo XIII,1878-1903,Magnae Dei Matris,1892,https://www.papalencyclicals.net//leo13/l13ro2.htm,document,en,html,25816,Pope Leo XIII,1878-1903
-pope_leo_xiii__magni_nobis,pope,Pope Leo XIII,1878-1903,Magni Nobis,1889,https://www.papalencyclicals.net//leo13/l13cat.htm,instruction,en,html,5005,Pope Leo XIII,1878-1903
-pope_leo_xiii__militantis_ecclesiae,pope,Pope Leo XIII,1878-1903,Militantis Ecclesiae,1897,https://www.papalencyclicals.net//leo13/l13milit.htm,document,en,html,17398,Pope Leo XIII,1878-1903
-pope_leo_xiii__mirae_caritatis,pope,Pope Leo XIII,1878-1903,Mirae Caritatis,1902,https://www.papalencyclicals.net//leo13/l13mirae.htm,apostolic letter,en,html,39049,Pope Leo XIII,1878-1903
-pope_leo_xiii__misericors_dei_filius,pope,Pope Leo XIII,1878-1903,Misericors Dei Filius,1888,http://www.franciscan-archive.org/bullarium/mdf-e.html,document,en,html,39821,Pope Leo XIII,1878-1903
-pope_leo_xiii__nobilissima_gallorum_gens,pope,Pope Leo XIII,1878-1903,Nobilissima Gallorum Gens,1884,https://www.papalencyclicals.net//leo13/l13cfn.htm,document,en,html,19923,Pope Leo XIII,1878-1903
-pope_leo_xiii__octobri_mense,pope,Pope Leo XIII,1878-1903,Octobri Mense,1891,https://www.papalencyclicals.net//leo13/l13ro1.htm,apostolic exhortation,en,html,25316,Pope Leo XIII,1878-1903
-pope_leo_xiii__officio_sanctissimo,pope,Pope Leo XIII,1878-1903,Officio Sanctissimo,1851,https://www.papalencyclicals.net//leo13/l13bav.htm,document,en,html,40337,Pope Leo XIII,1878-1903
-pope_leo_xiii__omnibus_compertum,pope,Pope Leo XIII,1878-1903,Omnibus Compertum,1900,https://www.papalencyclicals.net//leo13/l13compe.htm,brief,en,html,6191,Pope Leo XIII,1878-1903
-pope_leo_xiii__orientalium_dignitas,pope,Pope Leo XIII,1878-1903,Orientalium Dignitas,,https://www.papalencyclicals.net//leo13/l13orient.htm,document,en,html,15455,Pope Leo XIII,1878-1903
-pope_leo_xiii__pastoralis_officii,pope,Pope Leo XIII,1878-1903,Pastoralis Officii,1891,https://www.papalencyclicals.net//leo13/l13dul.htm,document,en,html,9060,Pope Leo XIII,1878-1903
-pope_leo_xiii__pastoralis,pope,Pope Leo XIII,1878-1903,Pastoralis,1891,https://www.papalencyclicals.net//leo13/l13relun.htm,document,en,html,14241,Pope Leo XIII,1878-1903
-pope_leo_xiii__paternae,pope,Pope Leo XIII,1878-1903,Paternae,1899,https://www.papalencyclicals.net//leo13/l13pater.htm,apostolic letter,en,html,9385,Pope Leo XIII,1878-1903
-pope_leo_xiii__pergrata,pope,Pope Leo XIII,1878-1903,Pergrata,1886,https://www.papalencyclicals.net//leo13/l13por.htm,document,en,html,16128,Pope Leo XIII,1878-1903
-pope_leo_xiii__permoti_nos,pope,Pope Leo XIII,1878-1903,Permoti Nos,1895,https://www.papalencyclicals.net//leo13/l13permo.htm,instruction,en,html,9142,Pope Leo XIII,1878-1903
-pope_leo_xiii__praeclara_gratulationis_publicae,pope,Pope Leo XIII,1878-1903,Praeclara Gratulationis Publicae,,https://www.papalencyclicals.net//leo13/l13praec.htm,apostolic letter,en,html,34090,Pope Leo XIII,1878-1903
-pope_leo_xiii__providentissimus_deus,pope,Pope Leo XIII,1878-1903,Providentissimus Deus,1893,https://www.papalencyclicals.net//leo13/l13provi.htm,document,en,html,60748,Pope Leo XIII,1878-1903
-pope_leo_xiii__quae_ad_nos,pope,Pope Leo XIII,1878-1903,Quae Ad Nos,1902,https://www.papalencyclicals.net//leo13/l13qunos.htm,document,en,html,2223,Pope Leo XIII,1878-1903
-pope_leo_xiii__quam_aerumnosa,pope,Pope Leo XIII,1878-1903,Quam Aerumnosa,1888,https://www.papalencyclicals.net//leo13/l13imi.htm,apostolic letter,en,html,7664,Pope Leo XIII,1878-1903
-pope_leo_xiii__quam_religiosa,pope,Pope Leo XIII,1878-1903,Quam Religiosa,,https://www.papalencyclicals.net//leo13/l13quamr.htm,prayer,en,html,6051,Pope Leo XIII,1878-1903
-pope_leo_xiii__quamquam_pluries,pope,Pope Leo XIII,1878-1903,Quamquam Pluries,1889,https://www.papalencyclicals.net//leo13/13jos.htm,prayer,en,html,12369,Pope Leo XIII,1878-1903
-pope_leo_xiii__quarto_abeunte_saeculo,pope,Pope Leo XIII,1878-1903,Quarto Abeunte Saeculo,1892,https://www.papalencyclicals.net//leo13/l13col.htm,document,en,html,12979,Pope Leo XIII,1878-1903
-pope_leo_xiii__quod_anniversarius,pope,Pope Leo XIII,1878-1903,Quod Anniversarius,1888,https://www.papalencyclicals.net//leo13/l13ann.htm,document,en,html,5482,Pope Leo XIII,1878-1903
-pope_leo_xiii__quod_apostolici_muneris,pope,Pope Leo XIII,1878-1903,Quod Apostolici Muneris,1878,https://www.papalencyclicals.net//leo13/l13apost.htm,encyclical,en,html,21643,Pope Leo XIII,1878-1903
-pope_leo_xiii__quod_auctoritate,pope,Pope Leo XIII,1878-1903,Quod Auctoritate,1879,https://www.papalencyclicals.net//leo13/l13jub.htm,encyclical,en,html,14756,Pope Leo XIII,1878-1903
-pope_leo_xiii__quod_multum,pope,Pope Leo XIII,1878-1903,Quod Multum,1886,https://www.papalencyclicals.net//leo13/l13lib.htm,apostolic letter,en,html,22761,Pope Leo XIII,1878-1903
-pope_leo_xiii__quod_votis,pope,Pope Leo XIII,1878-1903,Quod Votis,1902,https://www.papalencyclicals.net//leo13/l13quovo.htm,document,en,html,1970,Pope Leo XIII,1878-1903
-pope_leo_xiii__quum_diuturnum,pope,Pope Leo XIII,1878-1903,Quum Diuturnum,1898,https://www.papalencyclicals.net//leo13/l13quumd.htm,document,en,html,2745,Pope Leo XIII,1878-1903
-pope_leo_xiii__reputantiubus,pope,Pope Leo XIII,1878-1903,Reputantiubus,1901,https://www.papalencyclicals.net//leo13/l13reput.htm,document,en,html,6564,Pope Leo XIII,1878-1903
-pope_leo_xiii__rerum_novarum,pope,Pope Leo XIII,1878-1903,Rerum Novarum,1891,https://www.papalencyclicals.net//leo13/l13rerum.htm,apostolic letter,en,html,80436,Pope Leo XIII,1878-1903
-pope_leo_xiii__saepe_nos,pope,Pope Leo XIII,1878-1903,Saepe Nos,1888,https://www.papalencyclicals.net//leo13/l13bct.htm,apostolic letter,en,html,7721,Pope Leo XIII,1878-1903
-pope_leo_xiii__sancta_dei_civitas,pope,Pope Leo XIII,1878-1903,Sancta Dei Civitas,1880,https://www.papalencyclicals.net//leo13/l13mis.htm,prayer,en,html,16380,Pope Leo XIII,1878-1903
-pope_leo_xiii__sapientiae_christianae,pope,Pope Leo XIII,1878-1903,Sapientiae Christianae,1890,https://www.papalencyclicals.net//leo13/l13sapie.htm,document,en,html,54404,Pope Leo XIII,1878-1903
-pope_leo_xiii__satis_cognitum,pope,Pope Leo XIII,1878-1903,Satis Cognitum,1896,https://www.papalencyclicals.net//leo13/l13satis.htm,document,en,html,80775,Pope Leo XIII,1878-1903
-pope_leo_xiii__spectata_fides,pope,Pope Leo XIII,1878-1903,Spectata Fides,1885,https://www.papalencyclicals.net//leo13/l13edu.htm,document,en,html,5307,Pope Leo XIII,1878-1903
-pope_leo_xiii__spesse_volte,pope,Pope Leo XIII,1878-1903,Spesse Volte,1898,https://www.papalencyclicals.net//leo13/l13spess.htm,decree,en,html,20465,Pope Leo XIII,1878-1903
-pope_leo_xiii__superiore_anno,pope,Pope Leo XIII,1878-1903,Superiore Anno,1884,https://www.papalencyclicals.net//leo13/l13ro4.htm,encyclical,en,html,7555,Pope Leo XIII,1878-1903
-pope_leo_xiii__supremi_apostolatus_officio,pope,Pope Leo XIII,1878-1903,Supremi Apostolatus Officio,1883,https://www.papalencyclicals.net//leo13/l13supre.htm,document,en,html,14727,Pope Leo XIII,1878-1903
-pope_leo_xiii__tametsi_futura_prospicientibus,pope,Pope Leo XIII,1878-1903,Tametsi Futura Prospicientibus,1900,https://www.papalencyclicals.net//leo13/l13tamet.htm,document,en,html,30162,Pope Leo XIII,1878-1903
-pope_leo_xiii__testem_benevolentiae_nostrae,pope,Pope Leo XIII,1878-1903,Testem Benevolentiae Nostrae,1899,https://www.papalencyclicals.net//leo13/l13teste.htm,apostolic letter,en,html,24337,Pope Leo XIII,1878-1903
-pope_leo_xiii__urbanitatis_veteris,pope,Pope Leo XIII,1878-1903,Urbanitatis Veteris,1901,https://www.papalencyclicals.net//leo13/l13urban.htm,document,en,html,8384,Pope Leo XIII,1878-1903
-pope_leo_xiii__vi_e_ben_noto,pope,Pope Leo XIII,1878-1903,Vi E Ben Noto,1887,https://www.papalencyclicals.net//leo13/l13ros.htm,apostolic exhortation,en,html,6938,Pope Leo XIII,1878-1903
-pope_leo_xiii__amantissimae_voluntatis,pope,Pope Leo XIII,1878-1903,Amantissimae Voluntatis,1857,https://www.papalencyclicals.net//leo13/l13amantissima.htm,apostolic letter,en,html,26419,Pope Leo XIII,1878-1903
-pope_nicholas_iii__exiit_qui_seminat,pope,Pope Nicholas III,1277-1280,Exiit qui seminat,1279,https://www.papalencyclicals.net//nichol03/exiit-e.htm,document,en,html,60649,Pope Nicholas III,1277-1280
-pope_nicholas_iv__supra_montem,pope,Pope Nicholas IV,1288-1292,Supra Montem,1289,http://www.franciscan-archive.org/bullarium/smonteme.html,document,en,html,39456,Pope Nicholas IV,1288-1292
-pope_nicholas_v__romanus_pontifex,pope,Pope Nicholas V,1447-1455,Romanus Pontifex,1455,http://www.nativeweb.org/pages/legal/indig-romanus-pontifex.html,document,en,html,22205,Pope Nicholas V,1447-1455
-pope_paul_iii__sublimis_deus,pope,Pope Paul III,1534-1549,Sublimis Deus,1537,https://www.papalencyclicals.net//paul03/p3subli.htm,document,en,html,3240,Pope Paul III,1534-1549
-pope_paul_iii__in_apostolatus_culmine,pope,Pope Paul III,1534-1549,In apostolatus culmine,1538,https://www.papalencyclicals.net//paul03/p3inapost.htm,document,en,html,10559,Pope Paul III,1534-1549
-pope_paul_vi__christi_matri,pope,Pope Paul VI,1963-1978,Christi Matri,1966,https://www.papalencyclicals.net//paul06/p6christ.htm,prayer,en,html,9112,Pope Paul VI,1963-1978
-pope_paul_vi__ecclesiam_suam,pope,Pope Paul VI,1963-1978,Ecclesiam Suam,1964,https://www.papalencyclicals.net//paul06/p6eccles.htm,encyclical,en,html,102518,Pope Paul VI,1963-1978
-pope_paul_vi__humanae_vitae,pope,Pope Paul VI,1963-1978,Humanae Vitae,1963,https://www.papalencyclicals.net//paul06/p6humana.htm,document,en,html,36884,Pope Paul VI,1963-1978
-pope_paul_vi__mense_maio,pope,Pope Paul VI,1963-1978,Mense Maio,,https://www.papalencyclicals.net//paul06/p6month.htm,prayer,en,html,9705,Pope Paul VI,1963-1978
-pope_paul_vi__mysterium_fidei,pope,Pope Paul VI,1963-1978,Mysterium Fidei,1965,https://www.papalencyclicals.net//paul06/p6myster.htm,document,en,html,47197,Pope Paul VI,1963-1978
-pope_paul_vi__populorum_progressio,pope,Pope Paul VI,1963-1978,Populorum Progressio,1960,https://www.papalencyclicals.net//paul06/p6develo.htm,encyclical,en,html,67465,Pope Paul VI,1963-1978
-pope_paul_vi__sacerdotalis_caelibatus,pope,Pope Paul VI,1963-1978,Sacerdotalis Caelibatus,1967,https://www.papalencyclicals.net//paul06/p6sacerd.htm,document,en,html,70119,Pope Paul VI,1963-1978
-pope_paul_vi__signum_magnum,pope,Pope Paul VI,1963-1978,Signum Magnum,1967,https://www.papalencyclicals.net//paul06/p6great.htm,document,en,html,21892,Pope Paul VI,1963-1978
-pope_paul_vi__vatican_ii_documents,pope,Pope Paul VI,1963-1978,Vatican II Documents,1965,https://www.papalencyclicals.net//paul06/vatican2.htm,document,en,html,246,Pope Paul VI,1963-1978
-pope_paul_vi__address_during_the_last_general_meeting_of_vatican,pope,Pope Paul VI,1963-1978,Address During The Last General Meeting Of Vatican II,1962,https://www.papalencyclicals.net//paul06/p6tolast.htm,prayer,en,html,19675,Pope Paul VI,1963-1978
-pope_paul_vi__confronting_the_devil_s_power,pope,Pope Paul VI,1963-1978,Confronting The Devil’s Power,,https://www.papalencyclicals.net//paul06/p6devil.htm,document,en,html,11625,Pope Paul VI,1963-1978
-pope_paul_vi__credo_of_the_people_of_god,pope,Pope Paul VI,1963-1978,Credo Of The People Of God,,https://www.papalencyclicals.net//paul06/p6credo.htm,document,en,html,19733,Pope Paul VI,1963-1978
-pope_paul_vi__ecclesiae_sanctae,pope,Pope Paul VI,1963-1978,Ecclesiae Sanctae,1966,https://www.papalencyclicals.net//paul06/p6ecclss.htm,motu proprio,en,html,77431,Pope Paul VI,1963-1978
-pope_paul_vi__election_of_the_roman_pontiff,pope,Pope Paul VI,1963-1978,Election Of The Roman Pontiff,1975,https://www.papalencyclicals.net//paul06/p6elect.htm,apostolic constitution,en,html,68190,Pope Paul VI,1963-1978
-pope_paul_vi__evangelii_nuntiandi,pope,Pope Paul VI,1963-1978,Evangelii Nuntiandi,1975,https://www.papalencyclicals.net//paul06/p6evan.htm,document,en,html,116309,Pope Paul VI,1963-1978
-pope_paul_vi__gaudete_in_domino,pope,Pope Paul VI,1963-1978,Gaudete In Domino,1975,https://www.papalencyclicals.net//paul06/p6gaude.htm,document,en,html,57630,Pope Paul VI,1963-1978
-pope_paul_vi__general_catechetical_directory,pope,Pope Paul VI,1963-1978,General Catechetical Directory,1971,https://www.papalencyclicals.net//paul06/gencatdi.htm,message,en,html,188413,Pope Paul VI,1963-1978
-pope_paul_vi__indulgentiarum_doctrina,pope,Pope Paul VI,1963-1978,Indulgentiarum Doctrina,1967,https://www.papalencyclicals.net//paul06/p6indulg.htm,document,en,html,29454,Pope Paul VI,1963-1978
-pope_paul_vi__inter_insigniores,pope,Pope Paul VI,1963-1978,Inter Insigniores,1965,https://www.papalencyclicals.net//paul06/p6interi.htm,encyclical,en,html,38283,Pope Paul VI,1963-1978
-pope_paul_vi__last_will_and_testament_of_pope_paul_vi,pope,Pope Paul VI,1963-1978,Last Will and Testament of Pope Paul VI,1973,https://www.papalencyclicals.net//paul06/p6will.htm,document,en,html,9212,Pope Paul VI,1963-1978
-pope_paul_vi__marialis_cultus,pope,Pope Paul VI,1963-1978,Marialis Cultus,1963,https://www.papalencyclicals.net//paul06/p6marial.htm,apostolic exhortation,en,html,94592,Pope Paul VI,1963-1978
-pope_paul_vi__missale_romanum,pope,Pope Paul VI,1963-1978,Missale Romanum,1969,https://www.papalencyclicals.net//paul06/p6missal.htm,decree,en,html,9773,Pope Paul VI,1963-1978
-pope_paul_vi__on_religious_life,pope,Pope Paul VI,1963-1978,On Religious Life,,https://www.papalencyclicals.net//paul06/p6relig.htm,audience,en,html,17312,Pope Paul VI,1963-1978
-pope_paul_vi__orientalium_ecclesiarum,pope,Pope Paul VI,1963-1978,Orientalium Ecclesiarum,,http://www.cin.org/v2east.html,document,,error,0,Pope Paul VI,1963-1978
-pope_paul_vi__paenitemini,pope,Pope Paul VI,1963-1978,Paenitemini,,https://www.papalencyclicals.net//paul06/p6paen.htm,apostolic constitution,en,html,19930,Pope Paul VI,1963-1978
-pope_paul_vi__pastoral_norms_for_general_sacramental_absolution,pope,Pope Paul VI,1963-1978,Pastoral Norms For General Sacramental Absolution,1972,https://www.papalencyclicals.net//paul06/p6pastor.htm,document,en,html,10340,Pope Paul VI,1963-1978
-pope_paul_vi__pastorale_munus,pope,Pope Paul VI,1963-1978,Pastorale Munus,1963,https://www.papalencyclicals.net//paul06/pasmunus.htm,document,en,html,12730,Pope Paul VI,1963-1978
-pope_paul_vi__reflections_at_nazareth,pope,Pope Paul VI,1963-1978,Reflections at Nazareth,1964,https://www.papalencyclicals.net//paul06/p6reflect.htm,document,en,html,9123,Pope Paul VI,1963-1978
-pope_paul_vi__renewal_of_the_religious_life,pope,Pope Paul VI,1963-1978,Renewal Of The Religious Life,1971,https://www.papalencyclicals.net//paul06/p6renew.htm,apostolic exhortation,en,html,51294,Pope Paul VI,1963-1978
-pope_paul_vi__sacram_liturgiam,pope,Pope Paul VI,1963-1978,Sacram Liturgiam,1964,https://www.papalencyclicals.net//paul06/p6saclit.htm,document,en,html,8671,Pope Paul VI,1963-1978
-pope_paul_vi__sacrum_diaconatus,pope,Pope Paul VI,1963-1978,Sacrum Diaconatus,1967,https://www.papalencyclicals.net//paul06/p6diacon.htm,decree,en,html,15778,Pope Paul VI,1963-1978
-pope_paul_vi__second_vatican_council_ii_closing_speech,pope,Pope Paul VI,1963-1978,Second Vatican Council II Closing Speech,1962,https://www.papalencyclicals.net//paul06/p6closin.htm,speech,en,html,32280,Pope Paul VI,1963-1978
-pope_paul_vi__octagesima_adveniens,pope,Pope Paul VI,1963-1978,Octagesima Adveniens,1971,https://www.papalencyclicals.net//paul06/p6oct.htm,encyclical,en,html,66293,Pope Paul VI,1963-1978
-pope_paul_vi__the_sacrament_of_anointing_of_the_sick,pope,Pope Paul VI,1963-1978,The Sacrament Of Anointing Of The Sick,1973,https://www.papalencyclicals.net//paul06/p6anoin.htm,apostolic constitution,en,html,7561,Pope Paul VI,1963-1978
-pope_paul_vi__voi_forse_sapete,pope,Pope Paul VI,1963-1978,Voi Forse Sapete,,https://www.papalencyclicals.net//paul06/p6voi.htm,audience,en,html,6815,Pope Paul VI,1963-1978
-pope_paul_vi__on_religious_life,pope,Pope Paul VI,1963-1978,On Religious Life,,https://www.papalencyclicals.net//Paul06/p6relig.htm,audience,en,html,17312,Pope Paul VI,1963-1978
-pope_st__pius_v__exponi_nobis_nuper,pope,Pope St. Pius V,1566-1572,Exponi nobis nuper,1571,https://www.papalencyclicals.net//pius05/p5exponi.htm,brief,en,html,767,Pope St. Pius V,1566-1572
-pope_st__pius_v__quo_primum,pope,Pope St. Pius V,1566-1572,Quo Primum,1570,https://www.papalencyclicals.net//pius05/p5quopri.htm,apostolic constitution,en,html,8223,Pope St. Pius V,1566-1572
-pope_st__pius_v__consueverunt_romani,pope,Pope St. Pius V,1566-1572,Consueverunt Romani,1569,https://www.papalencyclicals.net//pius05/p5consue.htm,document,en,html,3420,Pope St. Pius V,1566-1572
-pope_st__pius_v__regnans_in_excelsis,pope,Pope St. Pius V,1566-1572,Regnans in Excelsis,,https://www.papalencyclicals.net//pius05/p5regnans.htm,document,en,html,6032,Pope St. Pius V,1566-1572
-pope_pius_vi__ad_nostras_manus,pope,Pope Pius VI,1775-1799,Ad nostras manus,,http://digilander.iol.it/magistero/p6adnost.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__adeo_nota,pope,Pope Pius VI,1775-1799,Adeo nota,,http://digilander.iol.it/magistero/p6adeono.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__ancorché_antichissimo,pope,Pope Pius VI,1775-1799,Ancorché antichissimo,,http://digilander.iol.it/magistero/p6ancorc.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__auctorem_fidei,pope,Pope Pius VI,1775-1799,Auctorem fidei,,http://digilander.libero.it/magistero/p6auctor.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__charitas,pope,Pope Pius VI,1775-1799,Charitas,1791,https://www.papalencyclicals.net//pius06/p6charit.htm,prayer,en,html,33163,Pope Pius VI,1775-1799
-pope_pius_vi__christi_ecclesiae,pope,Pope Pius VI,1775-1799,Christi Ecclesiae,,http://digilander.iol.it/magistero/p6christ.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__constantiam_vestram,pope,Pope Pius VI,1775-1799,Constantiam vestram,,http://digilander.iol.it/magistero/p6consta.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__cum_nos_superiori,pope,Pope Pius VI,1775-1799,Cum nos superiori,,http://digilander.iol.it/magistero/p6cumnos.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__cum_populi,pope,Pope Pius VI,1775-1799,Cum populi,,http://digilander.iol.it/magistero/p6cumpop.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__dum_nos,pope,Pope Pius VI,1775-1799,Dum nos,,http://digilander.iol.it/magistero/p6dumnos.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__ignotae_nemini,pope,Pope Pius VI,1775-1799,Ignotae nemini,,http://digilander.iol.it/magistero/p6ignota.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__in_gravissimis,pope,Pope Pius VI,1775-1799,In gravissimis,,http://digilander.iol.it/magistero/p6ingrav.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__inscrutabile,pope,Pope Pius VI,1775-1799,Inscrutabile,1775,https://www.papalencyclicals.net//pius06/p6inscru.htm,document,en,html,18268,Pope Pius VI,1775-1799
-pope_pius_vi__novae_hae_litterae,pope,Pope Pius VI,1775-1799,Novae hae litterae,,http://digilander.iol.it/magistero/p6novaeh.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__nuper_pro,pope,Pope Pius VI,1775-1799,Nuper pro,,http://digilander.iol.it/magistero/p6nuperp.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__perpensis_circumstantiis,pope,Pope Pius VI,1775-1799,Perpensis circumstantiis,,http://digilander.iol.it/magistero/p6perpen.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__quae_causa,pope,Pope Pius VI,1775-1799,Quae causa,,http://digilander.iol.it/magistero/p6quaeca.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__quare_lacrymae,pope,Pope Pius VI,1775-1799,Quare lacrymae,,http://digilander.iol.it/magistero/p6quarel.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__quo_fluctu,pope,Pope Pius VI,1775-1799,Quo fluctu,,http://digilander.iol.it/magistero/p6quoflu.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__quo_luctu,pope,Pope Pius VI,1775-1799,Quo luctu,,http://digilander.iol.it/magistero/p6quoluc.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__quod_aliquantum,pope,Pope Pius VI,1775-1799,Quod aliquantum,,http://digilander.iol.it/magistero/p6quodal.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__quoties_animo,pope,Pope Pius VI,1775-1799,Quoties animo,,http://digilander.iol.it/magistero/p6quotie.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__summa_dei,pope,Pope Pius VI,1775-1799,Summa Dei,,http://digilander.iol.it/magistero/p6summad.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__super_soliditate,pope,Pope Pius VI,1775-1799,Super soliditate,,http://digilander.iol.it/magistero/p6supers.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__ubi_communis,pope,Pope Pius VI,1775-1799,Ubi communis,,http://digilander.iol.it/magistero/p6ubicom.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vi__ubi_lutetiam,pope,Pope Pius VI,1775-1799,Ubi lutetiam,,http://digilander.iol.it/magistero/p6ubilut.htm,document,en,html,0,Pope Pius VI,1775-1799
-pope_pius_vii__diu_satis,pope,Pope Pius VII,1800-1823,Diu Satis,1800,https://www.papalencyclicals.net//pius07/p7diusat.htm,document,en,html,16974,Pope Pius VII,1800-1823
-pope_pius_vii__il_trionfo,pope,Pope Pius VII,1800-1823,Il trionfo,,http://digilander.iol.it/magistero/p7iltrio.htm,document,en,html,0,Pope Pius VII,1800-1823
-pope_pius_viii__traditi_humilitati,pope,Pope Pius VIII,1829-1830,Traditi Humilitati,1829,https://www.papalencyclicals.net//Pius08/p8tradit.htm,document,en,html,12795,Pope Pius VIII,1829-1830
-pope_bl__pius_ix__amantissimi_redemptoris,pope,Pope Bl. Pius IX,1846-1878,Amantissimi Redemptoris,1858,https://www.papalencyclicals.net//pius09/p9amant1.htm,decree,en,html,13512,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__amantissimus,pope,Pope Bl. Pius IX,1846-1878,Amantissimus,1862,https://www.papalencyclicals.net//pius09/p9amant2.htm,decree,en,html,17990,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__apostolicae_nostrae_caritatis,pope,Pope Bl. Pius IX,1846-1878,Apostolicae Nostrae Caritatis,1854,https://www.papalencyclicals.net//pius09/p9aposto.htm,document,en,html,8957,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__beneficia_dei,pope,Pope Bl. Pius IX,1846-1878,Beneficia Dei,1871,https://www.papalencyclicals.net//pius09/p9benefi.htm,decree,en,html,8155,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__cum_nuper,pope,Pope Bl. Pius IX,1846-1878,Cum Nuper,1858,https://www.papalencyclicals.net//pius09/p9cumnup.htm,encyclical,en,html,10439,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__cum_sancta_mater_ecclesia,pope,Pope Bl. Pius IX,1846-1878,Cum Sancta Mater Ecclesia,1859,https://www.papalencyclicals.net//pius09/p9cumsan.htm,message,en,html,3598,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__dives_in_misericordia_deus,pope,Pope Bl. Pius IX,1846-1878,Dives In Misericordia Deus,,https://www.papalencyclicals.net/wp-content/uploads/2026/01/PiusIX-Dives.pdf,document,en,html,470,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__etsi_multa,pope,Pope Bl. Pius IX,1846-1878,Etsi Multa,1873,https://www.papalencyclicals.net//pius09/p9etsimu.htm,encyclical,en,html,31812,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__exultavit_cor_nostrum,pope,Pope Bl. Pius IX,1846-1878,Exultavit Cor Nostrum,1851,https://www.papalencyclicals.net//pius09/p9exulta.htm,prayer,en,html,7376,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__graves_ac_diuturnae,pope,Pope Bl. Pius IX,1846-1878,Graves Ac Diuturnae,1875,https://www.papalencyclicals.net//pius09/p9graves.htm,document,en,html,8867,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__gravibus_ecclesiae,pope,Pope Bl. Pius IX,1846-1878,Gravibus Ecclesiae,1874,https://www.papalencyclicals.net//pius09/p9gravib.htm,prayer,en,html,15858,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__incredibili,pope,Pope Bl. Pius IX,1846-1878,Incredibili,1863,https://www.papalencyclicals.net//pius09/p9incred.htm,decree,en,html,10000,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__ineffabilis_deus,pope,Pope Bl. Pius IX,1846-1878,Ineffabilis Deus,1854,https://www.papalencyclicals.net//pius09/p9ineff.htm,decree,en,html,38099,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__inter_multiplices,pope,Pope Bl. Pius IX,1846-1878,Inter Multiplices,1853,https://www.papalencyclicals.net//pius09/p9interm.htm,apostolic letter,en,html,12949,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__levate,pope,Pope Bl. Pius IX,1846-1878,Levate,,https://www.papalencyclicals.net//pius11/p9levate.htm,document,en,html,10355,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__maximae_quidem,pope,Pope Bl. Pius IX,1846-1878,Maximae Quidem,1864,https://www.papalencyclicals.net//pius09/p9maxima.htm,apostolic letter,en,html,6900,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__meridionali_americae,pope,Pope Bl. Pius IX,1846-1878,Meridionali Americae,1865,https://www.papalencyclicals.net//pius09/p9meridi.htm,document,en,html,1826,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__neminem_vestrum,pope,Pope Bl. Pius IX,1846-1878,Neminem Vestrum,1854,https://www.papalencyclicals.net//pius09/p9nemini.htm,document,en,html,26779,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__nemo_certe_ignorat,pope,Pope Bl. Pius IX,1846-1878,Nemo Certe Ignorat,1852,https://www.papalencyclicals.net//pius09/p9nemoce.htm,document,en,html,10951,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__nostis_et_nobiscum,pope,Pope Bl. Pius IX,1846-1878,Nostis Et Nobiscum,1849,https://www.papalencyclicals.net//pius09/p9nostis.htm,document,en,html,33893,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__nullis_certe_verbis,pope,Pope Bl. Pius IX,1846-1878,Nullis Certe Verbis,1860,https://www.papalencyclicals.net//pius09/p9nullis.htm,encyclical,en,html,9323,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__omnem_sollicitudinem,pope,Pope Bl. Pius IX,1846-1878,Omnem Sollicitudinem,1848,https://www.papalencyclicals.net//pius09/p9omnems.htm,encyclical,en,html,9290,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__optime_noscitis,pope,Pope Bl. Pius IX,1846-1878,Optime Noscitis,1854,https://www.papalencyclicals.net//pius09/p9optim1.htm,encyclical,en,html,8510,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__optime_noscitis,pope,Pope Bl. Pius IX,1846-1878,Optime Noscitis,1854,https://www.papalencyclicals.net//pius09/p9optim2.htm,encyclical,en,html,8510,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__praedecessores_nostros,pope,Pope Bl. Pius IX,1846-1878,Praedecessores Nostros,1847,https://www.papalencyclicals.net//pius09/p9praede.htm,prayer,en,html,5980,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__probe_noscitis_venerabiles,pope,Pope Bl. Pius IX,1846-1878,Probe Noscitis Venerabiles,1852,https://www.papalencyclicals.net//pius09/p9proben.htm,document,en,html,7046,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__quae_in_patriarchatu,pope,Pope Bl. Pius IX,1846-1878,Quae In Patriarchatu,1872,https://www.papalencyclicals.net//pius09/p9quaein.htm,document,en,html,14488,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__quanta_cura,pope,Pope Bl. Pius IX,1846-1878,Quanta Cura,1864,https://www.papalencyclicals.net//pius09/p9quanta.htm,apostolic letter,en,html,21576,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__quanto_conficiamur_moerore,pope,Pope Bl. Pius IX,1846-1878,Quanto Conficiamur Moerore,1863,https://www.papalencyclicals.net//pius09/p9quanto.htm,document,en,html,16894,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__quartus_supra,pope,Pope Bl. Pius IX,1846-1878,Quartus Supra,1873,https://www.papalencyclicals.net//pius09/p9quartu.htm,apostolic letter,en,html,54447,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__qui_nuper,pope,Pope Bl. Pius IX,1846-1878,Qui Nuper,1859,https://www.papalencyclicals.net//pius09/p9quinup.htm,document,en,html,2858,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__qui_pluribus,pope,Pope Bl. Pius IX,1846-1878,Qui Pluribus,1846,https://www.papalencyclicals.net//pius09/p9quiplu.htm,apostolic letter,en,html,31672,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__quod_nunquam,pope,Pope Bl. Pius IX,1846-1878,Quod Nunquam,1875,https://www.papalencyclicals.net//pius09/p9quodnu.htm,document,en,html,8725,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__respicientes,pope,Pope Bl. Pius IX,1846-1878,Respicientes,1870,https://www.papalencyclicals.net//pius09/p9respic.htm,encyclical,en,html,18768,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__saepe_venerabiles_fratres,pope,Pope Bl. Pius IX,1846-1878,Saepe Venerabiles Fratres,1871,https://www.papalencyclicals.net//pius09/p9saepev.htm,prayer,en,html,6527,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__singulari_quidem,pope,Pope Bl. Pius IX,1846-1878,Singulari Quidem,1856,https://www.papalencyclicals.net//pius09/p9singul.htm,document,en,html,29597,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__the_syllabus_of_errors,pope,Pope Bl. Pius IX,1846-1878,The Syllabus Of Errors,1862,https://www.papalencyclicals.net//pius09/p9syll.htm,encyclical,en,html,25073,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__ubi_nos,pope,Pope Bl. Pius IX,1846-1878,Ubi Nos,1869,https://www.papalencyclicals.net//pius09/p9ubinos.htm,prayer,en,html,14252,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__ubi_primum,pope,Pope Bl. Pius IX,1846-1878,Ubi Primum,1847,https://www.papalencyclicals.net//pius09/p9ubipr1.htm,document,en,html,10850,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__ubi_primum,pope,Pope Bl. Pius IX,1846-1878,Ubi Primum,1847,https://www.papalencyclicals.net//pius09/p9ubipr2.htm,document,en,html,10850,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__vix_dum_a_nobis,pope,Pope Bl. Pius IX,1846-1878,Vix Dum A Nobis,1874,https://www.papalencyclicals.net//pius09/p9vixdum.htm,document,en,html,12244,Pope Bl. Pius IX,1846-1878
-pope_bl__pius_ix__saepe_venerabiles_fratre,pope,Pope Bl. Pius IX,1846-1878,Saepe Venerabiles Fratre,1871,https://www.papalencyclicals.net//Pius09/p9saepev.htm,prayer,en,html,6527,Pope Bl. Pius IX,1846-1878
-pope_st__pius_x__acerbo_nimis,pope,Pope St. Pius X,1903-1914,Acerbo Nimis,1905,https://www.papalencyclicals.net//pius10/p10chdoc.htm,encyclical,en,html,25891,Pope St. Pius X,1903-1914
-pope_st__pius_x__ad_diem_illum_laetissimum,pope,Pope St. Pius X,1903-1914,Ad Diem Illum Laetissimum,1904,https://www.papalencyclicals.net//pius10/p10imcon.htm,encyclical,en,html,34195,Pope St. Pius X,1903-1914
-pope_st__pius_x__communium_rerum,pope,Pope St. Pius X,1903-1914,Communium Rerum,1909,https://www.papalencyclicals.net//pius10/p10ans.htm,encyclical,en,html,65044,Pope St. Pius X,1903-1914
-pope_st__pius_x__divino_afflatu,pope,Pope St. Pius X,1903-1914,Divino Afflatu,,https://www.papalencyclicals.net//pius10/p10divino.htm,decree,en,html,9509,Pope St. Pius X,1903-1914
-pope_st__pius_x__e_supremi,pope,Pope St. Pius X,1903-1914,E Supremi,1903,https://www.papalencyclicals.net//pius10/p10supre.htm,encyclical,en,html,25257,Pope St. Pius X,1903-1914
-pope_st__pius_x__editae_saepe,pope,Pope St. Pius X,1903-1914,Editae Saepe,1910,https://www.papalencyclicals.net//pius10/p10cha.htm,document,en,html,46859,Pope St. Pius X,1903-1914
-pope_st__pius_x__gravissimo_officii_munere,pope,Pope St. Pius X,1903-1914,Gravissimo Officii Munere,1906,https://www.papalencyclicals.net//pius10/p10fr.htm,document,en,html,8904,Pope St. Pius X,1903-1914
-pope_st__pius_x__iamdudum,pope,Pope St. Pius X,1903-1914,Iamdudum,1911,https://www.papalencyclicals.net//pius10/p10por.htm,instruction,en,html,15377,Pope St. Pius X,1903-1914
-pope_st__pius_x__il_fermo_proposito,pope,Pope St. Pius X,1903-1914,Il Fermo Proposito,1905,https://www.papalencyclicals.net//pius10/p10fermo.htm,encyclical,en,html,31568,Pope St. Pius X,1903-1914
-pope_st__pius_x__iucunda_sane,pope,Pope St. Pius X,1903-1914,Iucunda Sane,1904,https://www.papalencyclicals.net//pius10/p10greg.htm,encyclical,en,html,41972,Pope St. Pius X,1903-1914
-pope_st__pius_x__lacrimabili_statu,pope,Pope St. Pius X,1903-1914,Lacrimabili Statu,1912,https://www.papalencyclicals.net//pius10/p10ind.htm,apostolic letter,en,html,9723,Pope St. Pius X,1903-1914
-pope_st__pius_x__notre_charge_apostolique,pope,Pope St. Pius X,1903-1914,Notre Charge Apostolique,1910,https://www.papalencyclicals.net//pius10/p10notre.htm,document,en,html,52158,Pope St. Pius X,1903-1914
-pope_st__pius_x__pascendi_dominici_gregis,pope,Pope St. Pius X,1903-1914,Pascendi Dominici Gregis,1907,https://www.papalencyclicals.net//pius10/p10pasce.htm,document,en,html,128631,Pope St. Pius X,1903-1914
-pope_st__pius_x__pieni_l_animo,pope,Pope St. Pius X,1903-1914,Pieni L’animo,1905,https://www.papalencyclicals.net//pius10/p10clr.htm,apostolic letter,en,html,16319,Pope St. Pius X,1903-1914
-pope_st__pius_x__praestantia_scripturae,pope,Pope St. Pius X,1903-1914,Praestantia Scripturae,1907,https://www.papalencyclicals.net//pius10/p10prasc.htm,encyclical,en,html,6538,Pope St. Pius X,1903-1914
-pope_st__pius_x__septimo_iam,pope,Pope St. Pius X,1903-1914,Septimo Iam,,https://www.papalencyclicals.net//pius10/septimo-iam.htm,document,en,html,400,Pope St. Pius X,1903-1914
-pope_st__pius_x__singulari_quadam,pope,Pope St. Pius X,1903-1914,Singulari Quadam,1912,https://www.papalencyclicals.net//pius10/p10lab.htm,document,en,html,11941,Pope St. Pius X,1903-1914
-pope_st__pius_x__tribus_circiter,pope,Pope St. Pius X,1903-1914,Tribus Circiter,1904,https://www.papalencyclicals.net//pius10/p10mys.htm,document,en,html,10942,Pope St. Pius X,1903-1914
-pope_st__pius_x__une_fois_encore,pope,Pope St. Pius X,1903-1914,Une Fois Encore,1907,https://www.papalencyclicals.net//pius10/p10cst.htm,document,en,html,16420,Pope St. Pius X,1903-1914
-pope_st__pius_x__vehementer_nos,pope,Pope St. Pius X,1903-1914,Vehementer Nos,1906,https://www.papalencyclicals.net//pius10/p10law.htm,document,en,html,30357,Pope St. Pius X,1903-1914
-pope_st__pius_x__dogma_of_the_immaculate_conception,pope,Pope St. Pius X,1903-1914,Dogma of the Immaculate Conception,1904,https://www.papalencyclicals.net//pius10/p10aniv.htm,audience,en,html,2934,Pope St. Pius X,1903-1914
-pope_st__pius_x__haerent_animo,pope,Pope St. Pius X,1903-1914,Haerent Animo,1908,https://www.papalencyclicals.net//pius10/p10haer.htm,apostolic exhortation,en,html,50011,Pope St. Pius X,1903-1914
-pope_st__pius_x__lamentabili_sane,pope,Pope St. Pius X,1903-1914,Lamentabili Sane,,https://www.papalencyclicals.net//pius10/p10lamen.htm,decree,en,html,13903,Pope St. Pius X,1903-1914
-pope_st__pius_x__quam_singulari,pope,Pope St. Pius X,1903-1914,Quam Singulari,1905,https://www.papalencyclicals.net//pius10/p10quam.htm,decree,en,html,15642,Pope St. Pius X,1903-1914
-pope_st__pius_x__the_oath_against_modernism,pope,Pope St. Pius X,1903-1914,The Oath Against Modernism,,https://www.papalencyclicals.net//pius10/p10moath.htm,document,en,html,5593,Pope St. Pius X,1903-1914
-pope_st__pius_x__tra_le_sollecitudini,pope,Pope St. Pius X,1903-1914,Tra Le Sollecitudini,1903,http://www.adoremus.org/TraLeSollecitudini.html,motu proprio,en,html,21603,Pope St. Pius X,1903-1914
-pope_pius_xi__acerba_animi,pope,Pope Pius XI,1922-1939,Acerba Animi,1932,https://www.papalencyclicals.net//pius11/p11animi.htm,document,en,html,21116,Pope Pius XI,1922-1939
-pope_pius_xi__ad_catholici_sacerdotii,pope,Pope Pius XI,1922-1939,Ad Catholici Sacerdotii,1935,https://www.papalencyclicals.net//pius11/p11catho.htm,apostolic letter,en,html,88123,Pope Pius XI,1922-1939
-pope_pius_xi__ad_salutem,pope,Pope Pius XI,1922-1939,Ad Salutem,1930,https://www.papalencyclicals.net//pius11/p11salut.htm,document,en,html,74860,Pope Pius XI,1922-1939
-pope_pius_xi__apostolicorum_in_missionibus,pope,Pope Pius XI,1922-1939,Apostolicorum in Missionibus,1927,https://www.papalencyclicals.net//pius11/p11apost.htm,document,en,html,1372,Pope Pius XI,1922-1939
-pope_pius_xi__caritate_christi_compulsi,pope,Pope Pius XI,1922-1939,Caritate Christi Compulsi,1932,https://www.papalencyclicals.net//pius11/p11carit.htm,encyclical,en,html,37211,Pope Pius XI,1922-1939
-pope_pius_xi__casti_connubii,pope,Pope Pius XI,1922-1939,Casti Connubii,1930,https://www.papalencyclicals.net//pius11/p11casti.htm,document,en,html,106580,Pope Pius XI,1922-1939
-pope_pius_xi__dilectissima_nobis,pope,Pope Pius XI,1922-1939,Dilectissima Nobis,1933,https://www.papalencyclicals.net//pius11/p11nobis.htm,document,en,html,23083,Pope Pius XI,1922-1939
-pope_pius_xi__divini_illius_magistri_december_31__1929,pope,Pope Pius XI,1922-1939,"Divini Illius Magistri December 31, 1929",1929,https://www.papalencyclicals.net//pius11/p11rappr.htm,apostolic exhortation,en,html,76047,Pope Pius XI,1922-1939
-pope_pius_xi__divini_redemptoris,pope,Pope Pius XI,1922-1939,Divini Redemptoris,1937,https://www.papalencyclicals.net//pius11/p11divin.htm,document,en,html,73031,Pope Pius XI,1922-1939
-pope_pius_xi__ecclesiam_dei,pope,Pope Pius XI,1922-1939,Ecclesiam Dei,1923,https://www.papalencyclicals.net//pius11/p11eccle.htm,prayer,en,html,23665,Pope Pius XI,1922-1939
-pope_pius_xi__ingravescentibus_malis,pope,Pope Pius XI,1922-1939,Ingravescentibus Malis,1937,https://www.papalencyclicals.net//pius11/p11grave.htm,encyclical,en,html,15447,Pope Pius XI,1922-1939
-pope_pius_xi__iniquis_afflictisque,pope,Pope Pius XI,1922-1939,Iniquis Afflictisque,1926,https://www.papalencyclicals.net//pius11/p11iniqu.htm,prayer,en,html,33898,Pope Pius XI,1922-1939
-pope_pius_xi__lux_veritatis,pope,Pope Pius XI,1922-1939,Lux Veritatis,1930,https://www.papalencyclicals.net//pius11/p11verit.htm,document,en,html,53153,Pope Pius XI,1922-1939
-pope_pius_xi__maximam_gravissimamque,pope,Pope Pius XI,1922-1939,Maximam Gravissimamque,1924,https://www.papalencyclicals.net//pius11/p11maxim.htm,document,en,html,18428,Pope Pius XI,1922-1939
-pope_pius_xi__mens_nostra,pope,Pope Pius XI,1922-1939,Mens Nostra,1929,https://www.papalencyclicals.net//pius11/p11mens.htm,apostolic constitution,en,html,34944,Pope Pius XI,1922-1939
-pope_pius_xi__miserentissimus_redemptor,pope,Pope Pius XI,1922-1939,Miserentissimus Redemptor,1928,https://www.papalencyclicals.net//pius11/p11miser.htm,document,en,html,33755,Pope Pius XI,1922-1939
-pope_pius_xi__mit_brennender_sorge,pope,Pope Pius XI,1922-1939,Mit Brennender Sorge,1937,https://www.papalencyclicals.net//pius11/p11brenn.htm,message,en,html,46216,Pope Pius XI,1922-1939
-pope_pius_xi__mortalium_animos,pope,Pope Pius XI,1922-1939,Mortalium Animos,1928,https://www.papalencyclicals.net//pius11/p11morta.htm,document,en,html,25404,Pope Pius XI,1922-1939
-pope_pius_xi__non_abbiamo_bisogno,pope,Pope Pius XI,1922-1939,Non Abbiamo Bisogno,1931,https://www.papalencyclicals.net//pius11/p11fac.htm,document,en,html,61962,Pope Pius XI,1922-1939
-pope_pius_xi__nos_es_muy_conocida,pope,Pope Pius XI,1922-1939,Nos Es Muy Conocida,1937,https://www.papalencyclicals.net//pius11/p11noses.htm,document,en,html,30092,Pope Pius XI,1922-1939
-pope_pius_xi__nova_impendet,pope,Pope Pius XI,1922-1939,Nova Impendet,1917,https://www.papalencyclicals.net//pius11/p11impen.htm,document,en,html,7632,Pope Pius XI,1922-1939
-pope_pius_xi__quadragesimo_anno,pope,Pope Pius XI,1922-1939,Quadragesimo Anno,1931,https://www.papalencyclicals.net//pius11/p11quadr.htm,encyclical,en,html,115696,Pope Pius XI,1922-1939
-pope_pius_xi__quas_primas,pope,Pope Pius XI,1922-1939,Quas Primas,1925,https://www.papalencyclicals.net//pius11/p11prima.htm,encyclical,en,html,35493,Pope Pius XI,1922-1939
-pope_pius_xi__quinquagesimo_ante,pope,Pope Pius XI,1922-1939,Quinquagesimo Ante,1930,https://www.papalencyclicals.net//pius11/p11quinq.htm,document,en,html,31922,Pope Pius XI,1922-1939
-pope_pius_xi__rerum_condicio,pope,Pope Pius XI,1922-1939,Rerum condicio,,https://www.papalencyclicals.net//pius11/rerum-condicio.htm,document,en,html,400,Pope Pius XI,1922-1939
-pope_pius_xi__rerum_ecclesiae,pope,Pope Pius XI,1922-1939,Rerum Ecclesiae,1926,https://www.papalencyclicals.net//pius11/p11rerec.htm,document,en,html,47132,Pope Pius XI,1922-1939
-pope_pius_xi__rerum_omnium_perturbationem,pope,Pope Pius XI,1922-1939,Rerum Omnium Perturbationem,1923,https://www.papalencyclicals.net//pius11/p11pertu.htm,encyclical,en,html,33749,Pope Pius XI,1922-1939
-pope_pius_xi__rerum_orientalium,pope,Pope Pius XI,1922-1939,Rerum Orientalium,1928,https://www.papalencyclicals.net//pius11/p11reror.htm,document,en,html,23391,Pope Pius XI,1922-1939
-pope_pius_xi__rite_expiatis,pope,Pope Pius XI,1922-1939,Rite Expiatis,1926,https://www.papalencyclicals.net//pius11/p11ritex.htm,document,en,html,54712,Pope Pius XI,1922-1939
-pope_pius_xi__studiorum_ducem,pope,Pope Pius XI,1922-1939,Studiorum Ducem,1879,https://www.papalencyclicals.net//pius11/p11studi.htm,apostolic letter,en,html,39120,Pope Pius XI,1922-1939
-pope_pius_xi__ubi_arcano_dei_consilio,pope,Pope Pius XI,1922-1939,Ubi Arcano Dei Consilio,1922,https://www.papalencyclicals.net//pius11/p11arcan.htm,message,en,html,65357,Pope Pius XI,1922-1939
-pope_pius_xi__vigilanti_cura,pope,Pope Pius XI,1922-1939,Vigilanti Cura,1934,https://www.papalencyclicals.net//pius11/p11vigil.htm,encyclical,en,html,27294,Pope Pius XI,1922-1939
-pope_pius_xii__ad_apostolorum_principis,pope,Pope Pius XII,1939-1958,Ad Apostolorum Principis,1952,https://www.papalencyclicals.net//pius12/p12apost.htm,document,en,html,26293,Pope Pius XII,1939-1958
-pope_pius_xii__ad_caeli_reginam,pope,Pope Pius XII,1939-1958,Ad Caeli Reginam,1954,https://www.papalencyclicals.net//pius12/p12caeli.htm,prayer,en,html,27579,Pope Pius XII,1939-1958
-pope_pius_xii__ad_sinarum_gentem,pope,Pope Pius XII,1939-1958,Ad Sinarum Gentem,1954,https://www.papalencyclicals.net//pius12/p12sinar.htm,apostolic letter,en,html,16950,Pope Pius XII,1939-1958
-pope_pius_xii__anni_sacri,pope,Pope Pius XII,1939-1958,Anni Sacri,1950,https://www.papalencyclicals.net//pius12/p12anni.htm,document,en,html,8571,Pope Pius XII,1939-1958
-pope_pius_xii__auspicia_quaedam,pope,Pope Pius XII,1939-1958,Auspicia Quaedam,1948,https://www.papalencyclicals.net//pius12/p12auspi.htm,prayer,en,html,7246,Pope Pius XII,1939-1958
-pope_pius_xii__communium_interpretes_doloraum,pope,Pope Pius XII,1939-1958,Communium Interpretes Doloraum,1945,https://www.papalencyclicals.net//pius12/p12commu.htm,document,en,html,6078,Pope Pius XII,1939-1958
-pope_pius_xii__datis_nuperrime,pope,Pope Pius XII,1939-1958,Datis Nuperrime,1956,https://www.papalencyclicals.net//pius12/p12datis.htm,encyclical,en,html,3011,Pope Pius XII,1939-1958
-pope_pius_xii__deiparae_virginis_mariae,pope,Pope Pius XII,1939-1958,Deiparae Virginis Mariae,1946,https://www.papalencyclicals.net//pius12/p12deipa.htm,document,en,html,3602,Pope Pius XII,1939-1958
-pope_pius_xii__divino_afflante_spiritu,pope,Pope Pius XII,1939-1958,Divino Afflante Spiritu,1893,https://www.papalencyclicals.net//pius12/p12divin.htm,decree,en,html,58637,Pope Pius XII,1939-1958
-pope_pius_xii__doctor_mellifluus,pope,Pope Pius XII,1939-1958,Doctor Mellifluus,1953,https://www.papalencyclicals.net//pius12/p12docto.htm,document,en,html,32832,Pope Pius XII,1939-1958
-pope_pius_xii__ecclesiae_fastos,pope,Pope Pius XII,1939-1958,Ecclesiae Fastos,1954,https://www.papalencyclicals.net//pius12/p12fasto.htm,prayer,en,html,35993,Pope Pius XII,1939-1958
-pope_pius_xii__evangelii_praecones,pope,Pope Pius XII,1939-1958,Evangelii Praecones,1944,https://www.papalencyclicals.net//pius12/p12evang.htm,encyclical,en,html,54608,Pope Pius XII,1939-1958
-pope_pius_xii__fidei_donum,pope,Pope Pius XII,1939-1958,Fidei Donum,1957,https://www.papalencyclicals.net//pius12/p12fidei.htm,document,en,html,43476,Pope Pius XII,1939-1958
-pope_pius_xii__fulgens_corona,pope,Pope Pius XII,1939-1958,Fulgens Corona,1950,https://www.papalencyclicals.net//pius12/p12fulge.htm,document,en,html,30289,Pope Pius XII,1939-1958
-pope_pius_xii__fulgens_radiatur,pope,Pope Pius XII,1939-1958,Fulgens Radiatur,1947,https://www.papalencyclicals.net//pius12/p12radia.htm,document,en,html,33700,Pope Pius XII,1939-1958
-pope_pius_xii__haurietis_aquas,pope,Pope Pius XII,1939-1958,Haurietis Aquas,1956,https://www.papalencyclicals.net//pius12/p12hauri.htm,prayer,en,html,87573,Pope Pius XII,1939-1958
-pope_pius_xii__humani_generis,pope,Pope Pius XII,1939-1958,Humani Generis,1950,https://www.papalencyclicals.net//pius12/p12human.htm,document,en,html,36532,Pope Pius XII,1939-1958
-pope_pius_xii__in_multiplicibus_curis,pope,Pope Pius XII,1939-1958,In Multiplicibus Curis,1948,https://www.papalencyclicals.net//pius12/p12multi.htm,document,en,html,6102,Pope Pius XII,1939-1958
-pope_pius_xii__ingruentium_malorum,pope,Pope Pius XII,1939-1958,Ingruentium Malorum,1951,https://www.papalencyclicals.net//pius12/p12ingru.htm,apostolic exhortation,en,html,11741,Pope Pius XII,1939-1958
-pope_pius_xii__invicti_athletae,pope,Pope Pius XII,1939-1958,Invicti Athletae,1938,https://www.papalencyclicals.net//pius12/p12invic.htm,encyclical,en,html,19194,Pope Pius XII,1939-1958
-pope_pius_xii__laetamur_admodum,pope,Pope Pius XII,1939-1958,Laetamur Admodum,1956,https://www.papalencyclicals.net//pius12/p12laeta.htm,encyclical,en,html,4791,Pope Pius XII,1939-1958
-pope_pius_xii__le_pelerinage_de_lourdes,pope,Pope Pius XII,1939-1958,Le Pelerinage De Lourdes,1957,https://www.papalencyclicals.net//pius12/p12peler.htm,document,en,html,26583,Pope Pius XII,1939-1958
-pope_pius_xii__luctuosissimi_eventus,pope,Pope Pius XII,1939-1958,Luctuosissimi Eventus,1956,https://www.papalencyclicals.net//pius12/p12luctu.htm,prayer,en,html,5004,Pope Pius XII,1939-1958
-pope_pius_xii__mediator_dei,pope,Pope Pius XII,1939-1958,Mediator Dei,1947,https://www.papalencyclicals.net//pius12/p12media.htm,prayer,en,html,147678,Pope Pius XII,1939-1958
-pope_pius_xii__meminisse_iuvat,pope,Pope Pius XII,1939-1958,Meminisse Iuvat,1958,https://www.papalencyclicals.net//pius12/p12memin.htm,apostolic exhortation,en,html,19878,Pope Pius XII,1939-1958
-pope_pius_xii__mirabile_illud,pope,Pope Pius XII,1939-1958,Mirabile Illud,1950,https://www.papalencyclicals.net//pius12/p12mirab.htm,document,en,html,7219,Pope Pius XII,1939-1958
-pope_pius_xii__miranda_prorsus,pope,Pope Pius XII,1939-1958,Miranda Prorsus,1957,https://www.papalencyclicals.net//pius12/p12miran.htm,instruction,en,html,69280,Pope Pius XII,1939-1958
-pope_pius_xii__musicae_sacrae,pope,Pope Pius XII,1939-1958,Musicae Sacrae,1929,https://www.papalencyclicals.net//pius12/p12music.htm,encyclical,en,html,41421,Pope Pius XII,1939-1958
-pope_pius_xii__mystici_corporis,pope,Pope Pius XII,1939-1958,Mystici Corporis,1943,https://www.papalencyclicals.net//pius12/p12mysti.htm,encyclical,en,html,106963,Pope Pius XII,1939-1958
-pope_pius_xii__optatissima_pax,pope,Pope Pius XII,1939-1958,Optatissima Pax,1947,https://www.papalencyclicals.net//pius12/p12optat.htm,prayer,en,html,6291,Pope Pius XII,1939-1958
-pope_pius_xii__orientales_omnes_ecclesias,pope,Pope Pius XII,1939-1958,Orientales Omnes Ecclesias,1945,https://www.papalencyclicals.net//pius12/p12omnes.htm,document,en,html,56915,Pope Pius XII,1939-1958
-pope_pius_xii__orientalis_ecclesiae,pope,Pope Pius XII,1939-1958,Orientalis Ecclesiae,1931,https://www.papalencyclicals.net//pius12/p12orien.htm,brief,en,html,29793,Pope Pius XII,1939-1958
-pope_pius_xii__quemadmodum,pope,Pope Pius XII,1939-1958,Quemadmodum,1946,https://www.papalencyclicals.net//pius12/p12quema.htm,document,en,html,10574,Pope Pius XII,1939-1958
-pope_pius_xii__redemptoris_nostri_cruciatus,pope,Pope Pius XII,1939-1958,Redemptoris Nostri Cruciatus,1949,https://www.papalencyclicals.net//pius12/p12redem.htm,apostolic letter,en,html,7326,Pope Pius XII,1939-1958
-pope_pius_xii__sacra_virginitas,pope,Pope Pius XII,1939-1958,Sacra Virginitas,1954,https://www.papalencyclicals.net//pius12/p12sacra.htm,document,en,html,56506,Pope Pius XII,1939-1958
-pope_pius_xii__saeculo_exeunte_octavo,pope,Pope Pius XII,1939-1958,Saeculo Exeunte Octavo,1940,https://www.papalencyclicals.net//pius12/p12saecu.htm,document,en,html,23186,Pope Pius XII,1939-1958
-pope_pius_xii__sempiternus_rex_christus,pope,Pope Pius XII,1939-1958,Sempiternus Rex Christus,1925,https://www.papalencyclicals.net//pius12/p12sempi.htm,encyclical,en,html,39324,Pope Pius XII,1939-1958
-pope_pius_xii__sertum_laetitiae,pope,Pope Pius XII,1939-1958,Sertum Laetitiae,1936,https://www.papalencyclicals.net//pius12/p12sertu.htm,brief,en,html,30502,Pope Pius XII,1939-1958
-pope_pius_xii__summi_maeroris,pope,Pope Pius XII,1939-1958,Summi Maeroris,1950,https://www.papalencyclicals.net//pius12/p12maero.htm,apostolic exhortation,en,html,7272,Pope Pius XII,1939-1958
-pope_pius_xii__summi_pontificatus,pope,Pope Pius XII,1939-1958,Summi Pontificatus,1925,https://www.papalencyclicals.net//pius12/p12summi.htm,encyclical,en,html,72110,Pope Pius XII,1939-1958
-pope_pius_xii__address_to_midwives_on_the_nature_of_their_profess,pope,Pope Pius XII,1939-1958,Address to Midwives on the Nature of Their Profession,1951,https://www.papalencyclicals.net//pius12/p12midwives.htm,biography,en,html,41126,Pope Pius XII,1939-1958
-pope_pius_xii__applied_psychology,pope,Pope Pius XII,1939-1958,Applied Psychology,1953,https://www.papalencyclicals.net//pius12/p12appsy.htm,document,en,html,34062,Pope Pius XII,1939-1958
-pope_pius_xii__christus_dominus,pope,Pope Pius XII,1939-1958,Christus Dominus,1953,https://www.papalencyclicals.net//pius12/p12chdom.htm,document,en,html,29071,Pope Pius XII,1939-1958
-pope_pius_xii__counsel_to_teaching_sisters,pope,Pope Pius XII,1939-1958,Counsel To Teaching Sisters,1951,https://www.papalencyclicals.net//pius12/p12tchrs.htm,document,en,html,14621,Pope Pius XII,1939-1958
-pope_pius_xii__democracy_and_a_lasting_peace,pope,Pope Pius XII,1939-1958,Democracy And A Lasting Peace,,https://www.papalencyclicals.net//pius12/p12xmas.htm,document,en,html,31972,Pope Pius XII,1939-1958
-pope_pius_xii__exsul_familia_nazarethana,pope,Pope Pius XII,1939-1958,Exsul Familia Nazarethana,1904,https://www.papalencyclicals.net//pius12/p12exsul.htm,decree,en,html,66756,Pope Pius XII,1939-1958
-pope_pius_xii__guiding_principles_of_the_lay_apostolate,pope,Pope Pius XII,1939-1958,Guiding Principles Of The Lay Apostolate,1946,https://www.papalencyclicals.net//pius12/p12layap.htm,apostolic letter,en,html,51596,Pope Pius XII,1939-1958
-pope_pius_xii__menti_nostrae,pope,Pope Pius XII,1939-1958,Menti Nostrae,1950,https://www.papalencyclicals.net//pius12/p12clerg.htm,apostolic exhortation,en,html,87057,Pope Pius XII,1939-1958
-pope_pius_xii__munificentissimus_deus,pope,Pope Pius XII,1939-1958,Munificentissimus Deus,1946,https://www.papalencyclicals.net//pius12/p12munif.htm,document,en,html,37083,Pope Pius XII,1939-1958
-pope_pius_xii__on_psychotherapy_and_religion,pope,Pope Pius XII,1939-1958,On Psychotherapy And Religion,1952,https://www.papalencyclicals.net//pius12/p12psyre.htm,document,en,html,21893,Pope Pius XII,1939-1958
-pope_pius_xii__on_rural_life,pope,Pope Pius XII,1939-1958,On Rural Life,1891,https://www.papalencyclicals.net//pius12/poprural.htm,apostolic exhortation,en,html,15749,Pope Pius XII,1939-1958
-pope_pius_xii__papal_directives_for_the_woman_of_today,pope,Pope Pius XII,1939-1958,Papal Directives For The Woman Of Today,,https://www.papalencyclicals.net//pius12/p12woman.htm,document,en,html,19472,Pope Pius XII,1939-1958
-pope_pius_xii__the_function_of_art,pope,Pope Pius XII,1939-1958,The Function Of Art,,https://www.papalencyclicals.net//pius12/p12art.htm,document,en,html,5828,Pope Pius XII,1939-1958
-pope_pius_xii__the_internal_order_of_states_and_people,pope,Pope Pius XII,1939-1958,The Internal Order Of States And People,,https://www.papalencyclicals.net//pius12/p12ch42.htm,message,en,html,40793,Pope Pius XII,1939-1958
-pope_pius_xii__the_moral_limits_of_medical_research_and_treatment,pope,Pope Pius XII,1939-1958,The Moral Limits Of Medical Research And Treatment,1952,https://www.papalencyclicals.net//pius12/p12psych.htm,document,en,html,25775,Pope Pius XII,1939-1958
-pope_pius_xii__the_proofs_for_the_existence_of_god_in_the_light_o,pope,Pope Pius XII,1939-1958,The Proofs For The Existence Of God In The Light Of Modern Natural Science,1948,https://www.papalencyclicals.net//pius12/p12exist.htm,document,en,html,28884,Pope Pius XII,1939-1958
-pope_pius_xii__the_states_of_perfection,pope,Pope Pius XII,1939-1958,The States Of Perfection,1947,https://www.papalencyclicals.net//pius12/p12perf.htm,prayer,en,html,23624,Pope Pius XII,1939-1958
-pope_pius_xii__sacram_communionem,pope,Pope Pius XII,1939-1958,Sacram Communionem,1957,https://www.papalencyclicals.net//pius12/p12fast.htm,apostolic constitution,en,html,8476,Pope Pius XII,1939-1958
-pope_pius_xii__sacramentum_ordinis,pope,Pope Pius XII,1939-1958,Sacramentum Ordinis,1947,https://www.papalencyclicals.net//pius12/p12sacrao.htm,apostolic constitution,en,html,7980,Pope Pius XII,1939-1958
-pope_pius_xii__si_diligis___canonisation_of_st_pius_x,pope,Pope Pius XII,1939-1958,Si Diligis – Canonisation Of St Pius X,1954,https://www.papalencyclicals.net//pius12/p12sidil.htm,audience,en,html,13482,Pope Pius XII,1939-1958
-pope_sixtus_iv__superna_caelestis,pope,Pope Sixtus IV,1471-1484,Superna Caelestis,1482,http://www.franciscan-archive.org/bullarium/supern-e.html,document,en,html,20779,Pope Sixtus IV,1471-1484
-pope_sixtus_v__triumphantis_hierusalem,pope,Pope Sixtus V,1585-1585,Triumphantis Hierusalem,,https://www.papalencyclicals.net//sixtus05/triumph.htm,prayer,en,html,29834,Pope Sixtus V,1585-1585
-church_councils__the_first_general_council_of_nicaea__325,council,"The First General Council of Nicaea, 325",,"The First General Council of Nicaea, 325",,https://www.papalencyclicals.net//councils/ecum01.htm,decree,en,html,6116,Church Councils,
-church_councils__the_first_general_council_of_constantinople__381,council,"The First General Council of Constantinople, 381",,"The First General Council of Constantinople, 381",,https://www.papalencyclicals.net//councils/ecum02.htm,document,en,html,22941,Church Councils,
-church_councils__the_general_council_of_ephesus__431,council,"The General Council of Ephesus, 431",,"The General Council of Ephesus, 431",,https://www.papalencyclicals.net//councils/ecum03.htm,decree,en,html,40930,Church Councils,
-church_councils__the_general_council_of_chalcedon__451,council,"The General Council of Chalcedon, 451",,"The General Council of Chalcedon, 451",,https://www.papalencyclicals.net//councils/ecum04.htm,document,en,html,44743,Church Councils,
-church_councils__the_second_general_council_of_constantinople__553,council,"The Second General Council of Constantinople, 553",,"The Second General Council of Constantinople, 553",,https://www.papalencyclicals.net//councils/ecum05.htm,decree,en,html,27997,Church Councils,
-church_councils__the_third_general_council_of_constantinople__680_6,council,"The Third General Council of Constantinople, 680-681",,"The Third General Council of Constantinople, 680-681",,https://www.papalencyclicals.net//councils/ecum06.htm,document,en,html,11221,Church Councils,
-church_councils__the_second_general_council_of_nicaea__787,council,"The Second General Council of Nicaea, 787",,"The Second General Council of Nicaea, 787",,https://www.papalencyclicals.net//councils/ecum07.htm,apostolic letter,en,html,32456,Church Councils,
-church_councils__the_fourth_general_council_of_constantinople__869_,council,"The Fourth General Council of Constantinople, 869-870",,"The Fourth General Council of Constantinople, 869-870",,https://www.papalencyclicals.net//councils/ecum08.htm,decree,en,html,68236,Church Councils,
-church_councils__the_first_general_council_of_the_lateran__1123,council,"The First General Council of the Lateran, 1123",,"The First General Council of the Lateran, 1123",,https://www.papalencyclicals.net//councils/ecum09.htm,decree,en,html,16679,Church Councils,
-church_councils__the_second_general_council_of_the_lateran__1139,council,"The Second General Council of the Lateran, 1139",,"The Second General Council of the Lateran, 1139",,https://www.papalencyclicals.net//councils/ecum10.htm,document,en,html,18572,Church Councils,
-church_councils__the_third_general_council_of_the_lateran__1179,council,"The Third General Council of the Lateran, 1179",,"The Third General Council of the Lateran, 1179",,https://www.papalencyclicals.net//councils/ecum11.htm,document,en,html,46062,Church Councils,
-church_councils__the_fourth_general_council_of_the_lateran__1215,council,"The Fourth General Council of the Lateran, 1215",,"The Fourth General Council of the Lateran, 1215",1215,https://www.papalencyclicals.net//councils/ecum12-2.htm,document,en,html,125077,Church Councils,
-church_councils__the_first_general_council_of_lyons__1245,council,"The First General Council of Lyons, 1245",,"The First General Council of Lyons, 1245",1245,https://www.papalencyclicals.net//councils/ecum13.htm,apostolic letter,en,html,77605,Church Councils,
-church_councils__the_second_general_council_of_lyons__1274,council,"The Second General Council of Lyons, 1274",,"The Second General Council of Lyons, 1274",1274,https://www.papalencyclicals.net//councils/ecum14.htm,document,en,html,70031,Church Councils,
-church_councils__the_general_council_of_vienne__1311_12,council,"The General Council of Vienne, 1311-12",,"The General Council of Vienne, 1311-12",1311,https://www.papalencyclicals.net//councils/ecum15.htm,document,en,html,202374,Church Councils,
-church_councils__the_general_council_of_constance__1414_18,council,"The General Council of Constance, 1414-18",,"The General Council of Constance, 1414-18",1414,https://www.papalencyclicals.net//councils/ecum16.htm,decree,en,html,144057,Church Councils,
-church_councils__the_general_council_of_basel_ferrara_florence__143,council,"The General Council of Basel-Ferrara-Florence, 1431-45",,"The General Council of Basel-Ferrara-Florence, 1431-45",1431,https://www.papalencyclicals.net//councils/ecum17.htm,decree,en,html,325511,Church Councils,
-church_councils__the_fifth_general_council_of_the_lateran__1512_17,council,"The Fifth General Council of the Lateran, 1512-17",,"The Fifth General Council of the Lateran, 1512-17",1512,https://www.papalencyclicals.net//councils/ecum18.htm,decree,en,html,212125,Church Councils,
-church_councils__the_general_council_of_trent__1545_63,council,"The General Council of Trent, 1545-63",,"The General Council of Trent, 1545-63",1545,https://www.papalencyclicals.net//councils/trent.htm,document,en,html,593,Church Councils,
-church_councils__the_first_general_council_of_the_vatican__1869_70,council,"The First General Council of the Vatican, 1869-70",,"The First General Council of the Vatican, 1869-70",1869,https://www.papalencyclicals.net//councils/ecum20.htm,decree,en,html,7835,Church Councils,
-church_councils__vatican_ii___1962_1965,council,Vatican II – 1962-1965,,Vatican II – 1962-1965,1962,https://www.papalencyclicals.net//councils/vatican2.htm,document,en,html,246,Church Councils,
+doc_id,pope,title,year,n_paragraphs,n_chars,n_tokens,sentiment_neg,sentiment_neu,sentiment_pos,sentiment_compound
+church_councils__the_fifth_general_council_of_the_lateran__1512_17,Church Councils,"The Fifth General Council of the Lateran, 1512-17",1512,196,211930,40440,0.036,0.865,0.099,0.9996
+church_councils__the_first_general_council_of_constantinople__381,Church Councils,"The First General Council of Constantinople, 381",,51,22891,4427,0.073,0.8,0.126,0.9997
+church_councils__the_first_general_council_of_lyons__1245,Church Councils,"The First General Council of Lyons, 1245",1245,94,77512,15108,0.088,0.772,0.141,0.9998
+church_councils__the_first_general_council_of_nicaea__325,Church Councils,"The First General Council of Nicaea, 325",,20,6097,1169,0.043,0.781,0.175,0.9995
+church_councils__the_first_general_council_of_the_lateran__1123,Church Councils,"The First General Council of the Lateran, 1123",,37,16643,3527,0.068,0.861,0.071,-0.6946
+church_councils__the_first_general_council_of_the_vatican__1869_70,Church Councils,"The First General Council of the Vatican, 1869-70",1869,103,7733,1536,0.032,0.786,0.183,0.9997
+church_councils__the_fourth_general_council_of_constantinople__869_,Church Councils,"The Fourth General Council of Constantinople, 869-870",,116,68121,13034,0.096,0.736,0.168,0.9999
+church_councils__the_fourth_general_council_of_the_lateran__1215,Church Councils,"The Fourth General Council of the Lateran, 1215",1215,242,124836,23649,0.068,0.793,0.139,0.9999
+church_councils__the_general_council_of_basel_ferrara_florence__143,Church Councils,"The General Council of Basel-Ferrara-Florence, 1431-45",1431,411,325101,62253,0.04,0.84,0.12,0.9999
+church_councils__the_general_council_of_chalcedon__451,Church Councils,"The General Council of Chalcedon, 451",,101,44643,8840,0.094,0.744,0.162,0.9999
+church_councils__the_general_council_of_constance__1414_18,Church Councils,"The General Council of Constance, 1414-18",1414,441,143617,28255,0.038,0.833,0.129,0.9999
+church_councils__the_general_council_of_ephesus__431,Church Councils,"The General Council of Ephesus, 431",,84,40847,8138,0.077,0.782,0.141,0.9998
+church_councils__the_general_council_of_trent__1545_63,Church Councils,"The General Council of Trent, 1545-63",1545,1,4483,759,0.021,0.939,0.04,0.8934
+church_councils__the_general_council_of_vienne__1311_12,Church Councils,"The General Council of Vienne, 1311-12",1311,169,202206,38573,0.074,0.822,0.104,0.999
+church_councils__the_second_general_council_of_constantinople__553,Church Councils,"The Second General Council of Constantinople, 553",,25,27973,5349,0.087,0.799,0.115,0.999
+church_councils__the_second_general_council_of_lyons__1274,Church Councils,"The Second General Council of Lyons, 1274",1274,71,69961,13406,0.076,0.786,0.138,0.9999
+church_councils__the_second_general_council_of_nicaea__787,Church Councils,"The Second General Council of Nicaea, 787",,79,32378,6206,0.071,0.803,0.126,0.9998
+church_councils__the_second_general_council_of_the_lateran__1139,Church Councils,"The Second General Council of the Lateran, 1139",,40,18533,3651,0.129,0.761,0.109,-0.9986
+church_councils__the_third_general_council_of_constantinople__680_6,Church Councils,"The Third General Council of Constantinople, 680-681",,17,11205,2199,0.056,0.772,0.172,0.9998
+church_councils__the_third_general_council_of_the_lateran__1179,Church Councils,"The Third General Council of the Lateran, 1179",,39,46024,8858,0.074,0.828,0.098,0.9973
+church_councils__vatican_ii___1962_1965,Church Councils,Vatican II – 1962-1965,1962,1,1243,189,0.0,0.959,0.041,0.8316
+pope_alexander_iv__clara_claris_praeclara,Pope Alexander IV,Clara claris praeclara,1255,78,35617,6348,0.027,0.867,0.106,0.9999
+pope_alexander_iv__petitionibus_vestris_benignum_impertientes,Pope Alexander IV,Petitionibus vestris benignum impertientes,1255,3,944,177,0.0,0.982,0.018,0.34
+pope_alexander_vi__inter_caetera,Pope Alexander VI,Inter Caetera,1493,11,10036,1928,0.025,0.776,0.199,0.9999
+pope_alexander_vii__super_cathedram_principis_apostolorum,Pope Alexander VII,Super Cathedram Principis Apostolorum,1659,8,3719,571,0.009,0.983,0.009,0.0
+pope_benedict_xii__benedictus_deus,Pope Benedict XII,Benedictus Deus,1336,1,2806,551,0.108,0.707,0.184,0.9882
+pope_benedict_xiv__a_quo_primum,Pope Benedict XIV,A Quo Primum,1751,14,12862,2458,0.097,0.747,0.156,0.9993
+pope_benedict_xiv__accepimus_praestantium,Pope Benedict XIV,Accepimus praestantium,1746,21,20560,3820,0.003,0.991,0.007,0.8126
+pope_benedict_xiv__allatae_sunt,Pope Benedict XIV,Allatae Sunt,1755,158,101317,19419,0.053,0.835,0.112,0.9998
+pope_benedict_xiv__apostolica_constitutio,Pope Benedict XIV,Apostolica Constitutio,1749,51,64345,12435,0.053,0.798,0.149,0.9999
+pope_benedict_xiv__benedictus_deus,Pope Benedict XIV,Benedictus Deus,1741,20,19509,3479,0.002,0.991,0.007,0.8967
+pope_benedict_xiv__celebrationem_magni,Pope Benedict XIV,Celebrationem magni,1751,39,37585,6687,0.01,0.986,0.004,-0.9876
+pope_benedict_xiv__certiores_effecti,Pope Benedict XIV,Certiores effecti,1742,16,7146,1299,0.003,0.992,0.005,0.3182
+pope_benedict_xiv__cum_illud_semper,Pope Benedict XIV,Cum illud semper,1742,60,33927,6278,0.005,0.99,0.004,-0.7579
+pope_benedict_xiv__cum_multorum_charitate,Pope Benedict XIV,Cum multorum charitate,1745,11,2454,447,0.02,0.98,0.0,-0.8074
+pope_benedict_xiv__cum_religiosi,Pope Benedict XIV,Cum Religiosi,1754,13,8786,1642,0.027,0.839,0.134,0.9994
+pope_benedict_xiv__cum_semper_oblatas,Pope Benedict XIV,Cum semper oblatas,1744,49,27600,4942,0.01,0.985,0.006,-0.9702
+pope_benedict_xiv__elapso_proxime_anno,Pope Benedict XIV,Elapso proxime anno,1751,14,6801,1255,0.005,0.979,0.016,0.7964
+pope_benedict_xiv__etsi_minime,Pope Benedict XIV,Etsi minime,1742,46,20512,3662,0.006,0.985,0.008,0.6486
+pope_benedict_xiv__ex_omnibus,Pope Benedict XIV,Ex Omnibus,1756,18,9410,1748,0.084,0.755,0.162,0.9992
+pope_benedict_xiv__ex_quo,Pope Benedict XIV,Ex Quo,1756,136,137739,26772,0.034,0.867,0.099,0.9998
+pope_benedict_xiv__gravissimo_animi,Pope Benedict XIV,Gravissimo animi,1749,14,6550,1167,0.019,0.975,0.006,-0.9217
+pope_benedict_xiv__gravissimum_supremi,Pope Benedict XIV,Gravissimum supremi,1745,26,17082,3172,0.013,0.984,0.003,-0.9819
+pope_benedict_xiv__in_suprema_catholicae,Pope Benedict XIV,In suprema Catholicae,1744,21,11269,2021,0.0,0.985,0.015,0.9652
+pope_benedict_xiv__in_suprema_universalis,Pope Benedict XIV,In suprema Universalis,1741,13,4978,896,0.0,1.0,0.0,0.0
+pope_benedict_xiv__inter_caetera,Pope Benedict XIV,Inter caetera,1748,18,15211,2879,0.019,0.978,0.003,-0.9916
+pope_benedict_xiv__inter_omnigenas,Pope Benedict XIV,Inter omnigenas,1744,37,24899,4470,0.009,0.989,0.002,-0.9808
+pope_benedict_xiv__inter_praeteritos,Pope Benedict XIV,Inter praeteritos,1749,155,137599,26556,0.031,0.966,0.003,-0.999
+pope_benedict_xiv__libentissime_quidem,Pope Benedict XIV,Libentissime quidem,1745,48,33107,5889,0.012,0.983,0.005,-0.9887
+pope_benedict_xiv__magnae_nobis,Pope Benedict XIV,Magnae Nobis,1724,21,15090,2864,0.072,0.808,0.12,0.999
+pope_benedict_xiv__magno_cum_animi,Pope Benedict XIV,Magno cum animi,1703,65,46378,8631,0.025,0.968,0.007,-0.998
+pope_benedict_xiv__nimiam_licentiam,Pope Benedict XIV,Nimiam Licentiam,1743,35,13796,2521,0.071,0.807,0.122,0.9989
+pope_benedict_xiv__non_ambigimus,Pope Benedict XIV,Non ambigimus,1741,20,6920,1205,0.0,0.992,0.008,0.7717
+pope_benedict_xiv__officii_nostri,Pope Benedict XIV,Officii nostri,1736,30,29755,5286,0.015,0.972,0.013,-0.9638
+pope_benedict_xiv__peregrinantes,Pope Benedict XIV,Peregrinantes,1750,27,15254,2965,0.073,0.689,0.238,1.0
+pope_benedict_xiv__pro_eximia_tua,Pope Benedict XIV,Pro eximia tua,1741,14,2926,515,0.0,1.0,0.0,0.0
+pope_benedict_xiv__prodiit_jamdudum,Pope Benedict XIV,Prodiit jamdudum,1751,23,14306,2685,0.018,0.978,0.004,-0.9867
+pope_benedict_xiv__providas_romanorum,Pope Benedict XIV,Providas Romanorum,1738,26,15636,2761,0.009,0.986,0.005,-0.9062
+pope_benedict_xiv__quam_ex_sublimi,Pope Benedict XIV,Quam ex sublimi,1755,20,10374,1834,0.006,0.987,0.006,-0.2263
+pope_benedict_xiv__quam_grave,Pope Benedict XIV,Quam grave,1757,29,20098,3635,0.009,0.984,0.007,-0.8591
+pope_benedict_xiv__quamvis_paternae,Pope Benedict XIV,Quamvis paternae,1741,23,8990,1557,0.004,0.988,0.008,0.4588
+pope_benedict_xiv__quanta_cura,Pope Benedict XIV,Quanta Cura,1741,10,5520,1043,0.125,0.749,0.126,0.1337
+pope_benedict_xiv__quemadmodum_nihil,Pope Benedict XIV,Quemadmodum nihil,1746,16,6908,1264,0.003,0.993,0.004,0.0516
+pope_benedict_xiv__quemadmodum_preces,Pope Benedict XIV,Quemadmodum preces,1743,18,6430,1172,0.006,0.981,0.013,0.7351
+pope_benedict_xiv__quod_provinciale,Pope Benedict XIV,Quod Provinciale,1754,10,6952,1309,0.103,0.723,0.174,0.9981
+pope_benedict_xiv__satis_vobis_compertum,Pope Benedict XIV,Satis vobis compertum,1741,40,16454,2854,0.006,0.993,0.002,-0.8439
+pope_benedict_xiv__ubi_primum,Pope Benedict XIV,Ubi Primum,1740,20,13191,2554,0.051,0.759,0.191,0.9999
+pope_benedict_xiv__vix_pervenit,Pope Benedict XIV,Vix Pervenit,1745,20,11406,2160,0.068,0.786,0.146,0.9995
+pope_benedict_xv__ad_beatissimi_apostolorum,Pope Benedict XV,Ad Beatissimi Apostolorum,,37,36067,7410,0.107,0.702,0.191,0.9999
+pope_benedict_xv__annus_iam_plenus,Pope Benedict XV,Annus Iam Plenus,,10,9040,1774,0.094,0.694,0.212,0.9998
+pope_benedict_xv__fausto_appetente_die,Pope Benedict XV,Fausto Appetente Die,1921,18,12110,2383,0.054,0.732,0.214,0.9999
+pope_benedict_xv__humani_generis_redemptionem,Pope Benedict XV,Humani Generis Redemptionem,,28,26776,5525,0.067,0.77,0.163,0.9999
+pope_benedict_xv__in_hac_tanta,Pope Benedict XV,In Hac Tanta,1919,38,19025,3805,0.044,0.748,0.208,1.0
+pope_benedict_xv__in_praeclara_summorum,Pope Benedict XV,In Praeclara Summorum,1921,16,15376,3074,0.055,0.7,0.245,1.0
+pope_benedict_xv__pacem__dei_munus_pulcherrimum,Pope Benedict XV,"Pacem, Dei Munus Pulcherrimum",1920,26,18101,3623,0.111,0.685,0.203,0.9999
+pope_benedict_xv__paterno_iam_diu,Pope Benedict XV,Paterno Iam Diu,1919,8,4782,919,0.073,0.719,0.208,0.9992
+pope_benedict_xv__principi_apostolorum_petro,Pope Benedict XV,Principi Apostolorum Petro,1920,29,25521,5100,0.05,0.754,0.196,1.0
+pope_benedict_xv__quod_iam_diu,Pope Benedict XV,Quod Iam Diu,,5,2791,549,0.051,0.678,0.271,0.9993
+pope_benedict_xv__sacra_propediem,Pope Benedict XV,Sacra Propediem,1882,34,17865,3514,0.05,0.748,0.202,1.0
+pope_benedict_xv__spiritus_paraclitus,Pope Benedict XV,Spiritus Paraclitus,1920,137,73352,15344,0.067,0.788,0.145,0.9999
+pope_benedict_xvi__africae_munus,Pope Benedict XVI,Africae Munus,1975,529,171828,34666,0.048,0.749,0.202,1.0
+pope_benedict_xvi__anglicanorum_coetibus,Pope Benedict XVI,Anglicanorum Coetibus,2009,46,11131,2080,0.002,0.896,0.102,0.9996
+pope_benedict_xvi__caritas_in_veritate,Pope Benedict XVI,Caritas in veritate,2006,302,188453,35208,0.037,0.695,0.267,1.0
+pope_benedict_xvi__complementary_norms_for_the_apostolic_constitution,Pope Benedict XVI,Complementary Norms for the Apostolic Constitution Anglicanorum coetibus,2009,78,11109,1977,0.007,0.887,0.106,0.9995
+pope_benedict_xvi__deus_caritas_est,Pope Benedict XVI,Deus Caritas Est,2004,136,92317,18464,0.04,0.677,0.282,1.0
+pope_benedict_xvi__doctrinal_note_on_some_aspects_of_evangelization,Pope Benedict XVI,Doctrinal Note on Some Aspects of Evangelization,2005,101,40165,8167,0.042,0.727,0.231,1.0
+pope_benedict_xvi__guide_to_understanding_basic_cdf_procedures_concer,Pope Benedict XVI,Guide to Understanding Basic CDF Procedures concerning Sexual Abuse Allegations,2001,21,4024,724,0.092,0.857,0.051,-0.9846
+pope_benedict_xvi__instruction_concerning_the_criteria_for_the_discer,Pope Benedict XVI,Instruction Concerning the Criteria for the Discernment of Vocations with Regard to Persons with Homosexual Tendencies in View of Their Admission to the Seminary and to Holy Orders,2004,49,16496,3239,0.026,0.856,0.119,0.9997
+pope_benedict_xvi__instruction_dignitas_personae_on_certain_bioethica,Pope Benedict XVI,Instruction Dignitas Personae on Certain Bioethical Questions,2006,184,70064,12960,0.058,0.759,0.183,1.0
+pope_benedict_xvi__instruction_on_the_application_of_the_apostolic_le,Pope Benedict XVI,"Instruction on the application of the Apostolic Letter Summorum Pontificum of His Holiness Pope Benedict XVI given Motu Proprio (April 30, 2011)",2011,73,17303,3129,0.009,0.838,0.153,0.9999
+pope_benedict_xvi__letter_to_bishops_which_accompanied_summorum_ponti,Pope Benedict XVI,Letter to Bishops which accompanied Summorum Pontificum,1962,24,11032,2096,0.044,0.811,0.145,0.9996
+pope_benedict_xvi__letter_to_the_bishops__priests__consecrated_person,Pope Benedict XVI,"Letter to the Bishops, Priests, Consecrated Persons and the Lay Faithful in the People’s Republic of China",2000,196,77353,14958,0.044,0.754,0.202,1.0
+pope_benedict_xvi__meeting_with_the_representatives_of_science,Pope Benedict XVI,Meeting with the Representatives of Science,2006,39,27398,5243,0.072,0.808,0.121,0.9998
+pope_benedict_xvi__motu_proprio,Pope Benedict XVI,Motu Proprio,1996,17,2852,417,0.022,0.966,0.012,-0.5525
+pope_benedict_xvi__proclamation_of_st_john_of_avila_and_st_hildegarde,Pope Benedict XVI,Proclamation of St John of Avila and St Hildegarde of Bingen as “Doctors of the Church”,2012,18,10258,1959,0.036,0.739,0.225,0.9999
+pope_benedict_xvi__redactional_note_on_the_instruction_universae_eccl,Pope Benedict XVI,Redactional Note on the Instruction Universae Ecclesiae,2007,7,2772,529,0.0,0.932,0.068,0.9792
+pope_benedict_xvi__responses_to_certain_questions_of_the_united_state,Pope Benedict XVI,Responses to Certain Questions of the United States Conference of Catholic Bishops Concerning Artificial Nutrition and Hydration,2007,10,1819,317,0.045,0.811,0.144,0.9798
+pope_benedict_xvi__responses_to_some_questions_regarding_certain_aspe,Pope Benedict XVI,Responses to some questions regarding certain aspects of the Doctrine of the Church,2007,65,12857,2484,0.023,0.894,0.083,0.9989
+pope_benedict_xvi__sacramentum_caritatis,Pope Benedict XVI,Sacramentum Caritatis,2005,569,195479,38362,0.029,0.828,0.143,0.9999
+pope_benedict_xvi__spe_salvi,Pope Benedict XVI,Spe Salvi,2007,114,109034,22492,0.067,0.787,0.146,0.9999
+pope_benedict_xvi__summorum_pontificum,Pope Benedict XVI,Summorum Pontificum,1962,34,11185,2242,0.017,0.774,0.208,0.9999
+pope_bl__pius_ix__amantissimi_redemptoris,Pope Bl. Pius IX,Amantissimi Redemptoris,1858,17,13496,2548,0.043,0.717,0.24,1.0
+pope_bl__pius_ix__amantissimus,Pope Bl. Pius IX,Amantissimus,1862,26,17965,3511,0.051,0.726,0.223,1.0
+pope_bl__pius_ix__apostolicae_nostrae_caritatis,Pope Bl. Pius IX,Apostolicae Nostrae Caritatis,1854,11,8947,1721,0.085,0.712,0.203,0.9996
+pope_bl__pius_ix__beneficia_dei,Pope Bl. Pius IX,Beneficia Dei,1871,15,8141,1587,0.111,0.658,0.232,0.9997
+pope_bl__pius_ix__cum_nuper,Pope Bl. Pius IX,Cum Nuper,1858,18,10422,1942,0.054,0.784,0.163,0.9994
+pope_bl__pius_ix__cum_sancta_mater_ecclesia,Pope Bl. Pius IX,Cum Sancta Mater Ecclesia,1859,8,3591,696,0.038,0.731,0.23,0.999
+pope_bl__pius_ix__dives_in_misericordia_deus,Pope Bl. Pius IX,Dives In Misericordia Deus,,26,423,78,0.0,1.0,0.0,0.0
+pope_bl__pius_ix__etsi_multa,Pope Bl. Pius IX,Etsi Multa,1873,51,31762,6084,0.124,0.737,0.139,0.9959
+pope_bl__pius_ix__exultavit_cor_nostrum,Pope Bl. Pius IX,Exultavit Cor Nostrum,1851,10,7367,1459,0.068,0.691,0.242,0.9998
+pope_bl__pius_ix__graves_ac_diuturnae,Pope Bl. Pius IX,Graves Ac Diuturnae,1875,17,8851,1648,0.086,0.672,0.241,0.9998
+pope_bl__pius_ix__gravibus_ecclesiae,Pope Bl. Pius IX,Gravibus Ecclesiae,1874,35,15824,2935,0.068,0.774,0.158,0.9997
+pope_bl__pius_ix__incredibili,Pope Bl. Pius IX,Incredibili,1863,20,9981,1870,0.131,0.719,0.15,0.9952
+pope_bl__pius_ix__ineffabilis_deus,Pope Bl. Pius IX,Ineffabilis Deus,1854,59,38041,7341,0.044,0.73,0.225,1.0
+pope_bl__pius_ix__inter_multiplices,Pope Bl. Pius IX,Inter Multiplices,1853,12,12938,2502,0.06,0.673,0.267,1.0
+pope_bl__pius_ix__levate,Pope Bl. Pius IX,Levate,,19,10337,1951,0.156,0.681,0.163,0.5684
+pope_bl__pius_ix__maximae_quidem,Pope Bl. Pius IX,Maximae Quidem,1864,9,6892,1273,0.085,0.72,0.195,0.9994
+pope_bl__pius_ix__meridionali_americae,Pope Bl. Pius IX,Meridionali Americae,1865,4,1823,359,0.068,0.67,0.261,0.9975
+pope_bl__pius_ix__neminem_vestrum,Pope Bl. Pius IX,Neminem Vestrum,1854,20,26760,4993,0.05,0.735,0.215,1.0
+pope_bl__pius_ix__nemo_certe_ignorat,Pope Bl. Pius IX,Nemo Certe Ignorat,1852,13,10939,2119,0.065,0.681,0.254,0.9999
+pope_bl__pius_ix__nostis_et_nobiscum,Pope Bl. Pius IX,Nostis Et Nobiscum,1849,41,33853,6487,0.127,0.671,0.202,0.9999
+pope_bl__pius_ix__nullis_certe_verbis,Pope Bl. Pius IX,Nullis Certe Verbis,1860,16,9308,1795,0.078,0.745,0.177,0.9995
+pope_bl__pius_ix__omnem_sollicitudinem,Pope Bl. Pius IX,Omnem Sollicitudinem,1848,18,9273,1700,0.066,0.765,0.169,0.9995
+pope_bl__pius_ix__optime_noscitis,Pope Bl. Pius IX,Optime Noscitis,1854,14,8497,1610,0.036,0.759,0.204,0.9998
+pope_bl__pius_ix__praedecessores_nostros,Pope Bl. Pius IX,Praedecessores Nostros,1847,12,5969,1214,0.082,0.755,0.163,0.9985
+pope_bl__pius_ix__probe_noscitis_venerabiles,Pope Bl. Pius IX,Probe Noscitis Venerabiles,1852,7,7040,1315,0.046,0.715,0.238,0.9998
+pope_bl__pius_ix__quae_in_patriarchatu,Pope Bl. Pius IX,Quae In Patriarchatu,1872,19,14470,2677,0.064,0.805,0.131,0.9995
+pope_bl__pius_ix__quanta_cura,Pope Bl. Pius IX,Quanta Cura,1864,19,21558,4194,0.086,0.717,0.196,0.9999
+pope_bl__pius_ix__quanto_conficiamur_moerore,Pope Bl. Pius IX,Quanto Conficiamur Moerore,1863,25,16870,3251,0.12,0.686,0.194,0.9997
+pope_bl__pius_ix__quartus_supra,Pope Bl. Pius IX,Quartus Supra,1873,66,54382,10380,0.092,0.769,0.139,0.9997
+pope_bl__pius_ix__qui_nuper,Pope Bl. Pius IX,Qui Nuper,1859,6,2853,560,0.084,0.792,0.124,0.9718
+pope_bl__pius_ix__qui_pluribus,Pope Bl. Pius IX,Qui Pluribus,1846,41,31632,6110,0.1,0.662,0.238,1.0
+pope_bl__pius_ix__quod_nunquam,Pope Bl. Pius IX,Quod Nunquam,1875,17,8709,1695,0.126,0.698,0.176,0.998
+pope_bl__pius_ix__respicientes,Pope Bl. Pius IX,Respicientes,1870,31,18738,3568,0.138,0.71,0.152,0.9927
+pope_bl__pius_ix__saepe_venerabiles_fratre,Pope Bl. Pius IX,Saepe Venerabiles Fratre,1871,13,6515,1246,0.058,0.658,0.284,0.9999
+pope_bl__pius_ix__saepe_venerabiles_fratres,Pope Bl. Pius IX,Saepe Venerabiles Fratres,1871,13,6515,1246,0.058,0.658,0.284,0.9999
+pope_bl__pius_ix__singulari_quidem,Pope Bl. Pius IX,Singulari Quidem,1856,26,29572,5652,0.06,0.721,0.218,1.0
+pope_bl__pius_ix__the_syllabus_of_errors,Pope Bl. Pius IX,The Syllabus Of Errors,1862,95,24979,5064,0.061,0.804,0.134,0.9999
+pope_bl__pius_ix__ubi_nos,Pope Bl. Pius IX,Ubi Nos,1869,29,14224,2787,0.08,0.664,0.256,1.0
+pope_bl__pius_ix__ubi_primum,Pope Bl. Pius IX,Ubi Primum,1847,13,10838,2036,0.036,0.718,0.246,0.9999
+pope_bl__pius_ix__vix_dum_a_nobis,Pope Bl. Pius IX,Vix Dum A Nobis,1874,24,12221,2363,0.103,0.726,0.17,0.9995
+pope_boniface_viii__unam_sanctam,Pope Boniface VIII,Unam Sanctam,1302,3,4544,978,0.037,0.838,0.125,0.9976
+pope_clement_v__exivi_de_paradiso,Pope Clement V,Exivi De Paradiso,,10,8879,1723,0.051,0.865,0.084,0.9955
+pope_clement_viii__ex_supernae_dispositionis_arbitrio,Pope Clement VIII,Ex supernae dispositionis arbitrio,1595,4,6216,988,0.0,0.987,0.013,0.8807
+pope_clement_xi__latin_w_partial_french_translation,Pope Clement XI,Latin w/partial French translation,1714,306,63792,12261,0.008,0.977,0.015,0.988
+pope_clement_xi__unigenitus,Pope Clement XI,Unigenitus,1719,105,19023,4051,0.123,0.65,0.227,0.9999
+pope_clement_xii__in_eminenti,Pope Clement XII,In Eminenti,1738,7,5349,1023,0.097,0.77,0.134,0.9859
+pope_clement_xiii__a_quo_die,Pope Clement XIII,A Quo Die,1758,21,28523,6161,0.094,0.698,0.209,1.0
+pope_clement_xiii__accedamus_cum_fiducia,Pope Clement XIII,Accedamus cum fiducia,1768,17,7440,1331,0.0,0.994,0.006,0.6124
+pope_clement_xiii__appetente_sacro,Pope Clement XIII,Appetente Sacro,1759,5,6070,1166,0.104,0.742,0.153,0.9958
+pope_clement_xiii__christianae_reipublicae,Pope Clement XIII,Christianae Reipublicae,1766,11,8791,1668,0.156,0.677,0.167,0.9009
+pope_clement_xiii__cum_primum,Pope Clement XIII,Cum Primum,1759,20,22115,4038,0.088,0.787,0.125,0.999
+pope_clement_xiii__in_dominico_agro,Pope Clement XIII,In Dominico Agro,1761,1,10422,2025,0.107,0.668,0.224,0.9998
+pope_clement_xiii__pastoralis_officii,Pope Clement XIII,Pastoralis officii,1752,12,9049,1726,0.163,0.621,0.217,0.9988
+pope_clement_xiii__quam_graviter,Pope Clement XIII,Quam graviter,1766,10,3082,536,0.006,0.984,0.01,0.2406
+pope_clement_xiii__quanta_auxilii,Pope Clement XIII,Quanta auxilii,1765,15,6776,1212,0.003,0.994,0.002,-0.2263
+pope_clement_xiii__quanto_in_dolore,Pope Clement XIII,Quanto in dolore,1762,13,7968,1425,0.005,0.991,0.004,-0.2869
+pope_clement_xiii__summa_quae,Pope Clement XIII,Summa Quae,1768,11,5842,1121,0.116,0.745,0.139,0.9551
+pope_clement_xiii__ubi_primum_accepimus,Pope Clement XIII,Ubi primum accepimus,1764,10,3116,559,0.01,0.984,0.005,-0.5106
+pope_clement_xiii__venimus_in_altitudinem,Pope Clement XIII,Venimus in altitudinem,1758,17,10871,1971,0.002,0.992,0.006,0.6662
+pope_clement_xiv__cum_summi,Pope Clement XIV,Cum Summi,1769,13,11576,2288,0.066,0.694,0.24,0.9999
+pope_clement_xiv__decet_quam_maxime,Pope Clement XIV,Decet Quam Maxime,1769,66,60353,11250,0.052,0.824,0.124,0.9999
+pope_clement_xiv__inscrutabili_divinae_sapientiae,Pope Clement XIV,Inscrutabili Divinae Sapientiae,1769,9,6715,1273,0.044,0.811,0.145,0.9988
+pope_clement_xiv__salutis_nostrae,Pope Clement XIV,Salutis Nostrae,1744,15,10057,1929,0.032,0.72,0.248,0.9999
+pope_eugene_iv__sicut_dudum,Pope Eugene IV,Sicut Dudum,1435,10,4623,915,0.066,0.838,0.096,0.9453
+pope_francis__amoris_laetitia___post_synodal_apostolic_exhortati,Pope Francis,Amoris laetitia : Post-Synodal Apostolic Exhortation on love in the family (19 March 2016),2016,5,271,34,0.0,0.863,0.137,0.7125
+pope_francis__belarusian,Pope Francis,Belarusian,2013,177,97978,19047,0.0,1.0,0.0,0.0
+pope_francis__chinese_simple,Pope Francis,Chinese Simple,2013,193,34201,713,0.0,0.973,0.027,0.9406
+pope_francis__dilexit_nos_,Pope Francis,Dilexit nos:,2014,537,176299,38224,0.079,0.768,0.153,0.9999
+pope_francis__evangelii_guadium,Pope Francis,Evangelii Guadium,1990,680,304242,61222,0.054,0.712,0.235,1.0
+pope_francis__fratelli_tutti_,Pope Francis,Fratelli tutti:,2015,704,258393,52166,0.14,0.691,0.169,0.9994
+pope_francis__laudato_si_,Pope Francis,Laudato si’,1995,491,247177,47458,0.107,0.731,0.162,0.9998
+pope_francis__lumen_fidei,Pope Francis,Lumen Fidei,1967,174,108259,22685,0.046,0.674,0.279,1.0
+pope_francis__misericordia_et_misera,Pope Francis,Misericordia et Misera,2015,90,42083,8585,0.072,0.635,0.293,1.0
+pope_francis__placuit_deo,Pope Francis,Placuit Deo,2015,51,24167,5041,0.052,0.795,0.153,0.9999
+pope_gregory_ix__mira_circa_nos,Pope Gregory IX,Mira Circa Nos,,16,9075,1866,0.091,0.693,0.216,0.9998
+pope_gregory_x__protection_of_the_jews,Pope Gregory X,Protection Of The Jews,1247,13,5812,1135,0.137,0.788,0.075,-0.9981
+pope_gregory_xiii__english___alternate_wikisource_translation,Pope Gregory XIII,English – alternate Wikisource translation,1581,35,11083,2110,0.033,0.846,0.121,0.9995
+pope_gregory_xiii__inter_gravissimas,Pope Gregory XIII,Inter Gravissimas,1581,15,2537,486,0.022,0.929,0.05,0.8372
+pope_gregory_xvi__commissum_divinitus,Pope Gregory XVI,Commissum Divinitus,1835,26,20480,3856,0.083,0.774,0.142,0.9997
+pope_gregory_xvi__cum_primum,Pope Gregory XVI,Cum Primum,1832,8,6348,1236,0.079,0.742,0.179,0.9989
+pope_gregory_xvi__in_supremo_apostolatus,Pope Gregory XVI,In Supremo Apostolatus,,6,6955,1325,0.109,0.754,0.137,0.9771
+pope_gregory_xvi__inter_praecipuas,Pope Gregory XVI,Inter Praecipuas,1816,44,20179,3894,0.077,0.804,0.118,0.9993
+pope_gregory_xvi__mirari_vos,Pope Gregory XVI,Mirari Vos,1832,28,23892,4700,0.135,0.714,0.15,0.9962
+pope_gregory_xvi__probe_nostis,Pope Gregory XVI,Probe Nostis,1840,20,11235,2176,0.096,0.671,0.233,0.9999
+pope_gregory_xvi__quas_vestro,Pope Gregory XVI,Quas Vestro,1841,12,9683,1793,0.084,0.734,0.182,0.9996
+pope_gregory_xvi__quo_graviora,Pope Gregory XVI,Quo Graviora,1833,17,19043,3634,0.097,0.79,0.114,0.9947
+pope_gregory_xvi__singulari_nos,Pope Gregory XVI,Singulari Nos,1834,13,9625,1860,0.127,0.687,0.186,0.9991
+pope_gregory_xvi__summo_iugiter_studio,Pope Gregory XVI,Summo Iugiter Studio,1832,19,10616,1963,0.088,0.724,0.188,0.9997
+pope_honorious_iii__solet_annuere,Pope Honorious III,Solet annuere,,58,13329,2692,0.061,0.808,0.131,0.9995
+pope_innocent_iv__quae_honorem_conditoris_omnium,Pope Innocent IV,Quae Honorem Conditoris Omnium,1247,55,10754,2216,0.052,0.844,0.103,0.9978
+pope_innocent_xi__coelestis_pastor,Pope Innocent XI,Coelestis Pastor,1687,45,13381,2728,0.081,0.702,0.218,0.9999
+pope_john_xxii__ad_ea_ex_quibus,Pope John XXII,Ad ea ex quibus,,7,180,56,0.0,0.887,0.113,0.5319
+pope_john_xxii__quia_quorundam,Pope John XXII,Quia Quorundam,,13,32726,6567,0.039,0.856,0.105,0.9999
+pope_john_xxii__quum_inter_nonnullos,Pope John XXII,Quum inter nonnullos,1323,19,4335,898,0.028,0.929,0.043,0.8641
+pope_john_xxii__summa_providit_altitudo_consilii,Pope John XXII,Summa providit altitudo consilii,1333,4,3606,560,0.0,0.987,0.013,0.743
+pope_leo_x__decet_romanum_pontificem,Pope Leo X,Decet Romanum Pontificem,1521,19,11453,2143,0.096,0.779,0.126,0.9961
+pope_leo_x__exsurge_domine,Pope Leo X,Exsurge Domine,,61,22356,4439,0.151,0.696,0.153,-0.956
+pope_leo_xii__charitate_christi,Pope Leo XII,Charitate Christi,1825,29,28121,5469,0.111,0.712,0.177,0.9999
+pope_leo_xii__quanta_laetitia,Pope Leo XII,Quanta laetitia,1823,6,395,71,0.0,0.876,0.124,0.7003
+pope_leo_xii__quo_graviora,Pope Leo XII,Quo Graviora,1821,59,51542,9882,0.104,0.764,0.133,0.9992
+pope_leo_xii__quod_hoc_ineunte,Pope Leo XII,Quod Hoc Ineunte,1825,17,14803,2872,0.053,0.755,0.192,0.9999
+pope_leo_xii__ubi_primum,Pope Leo XII,Ubi Primum,1824,31,17181,3465,0.096,0.688,0.216,0.9999
+pope_leo_xiii__ad_extremas,Pope Leo XIII,Ad Extremas,1893,15,10340,1925,0.051,0.803,0.146,0.9995
+pope_leo_xiii__adiutricem,Pope Leo XIII,Adiutricem,,36,22760,4518,0.035,0.685,0.28,1.0
+pope_leo_xiii__aeterni_patris,Pope Leo XIII,Aeterni Patris,1879,37,46642,9129,0.062,0.684,0.255,1.0
+pope_leo_xiii__affari_vos,Pope Leo XIII,Affari Vos,1897,14,14966,2854,0.069,0.728,0.203,0.9999
+pope_leo_xiii__amantissimae_voluntatis,Pope Leo XIII,Amantissimae Voluntatis,1857,22,26398,5283,0.043,0.693,0.264,1.0
+pope_leo_xiii__annum_sacrum,Pope Leo XIII,Annum Sacrum,1899,33,14032,2917,0.052,0.737,0.212,0.9999
+pope_leo_xiii__apostolicae_curae,Pope Leo XIII,Apostolicae Curae,,45,30027,5880,0.038,0.838,0.124,0.9999
+pope_leo_xiii__arcanum,Pope Leo XIII,Arcanum,1880,48,48627,9707,0.062,0.78,0.158,0.9999
+pope_leo_xiii__au_milieu_des_sollicitudes,Pope Leo XIII,Au Milieu Des Sollicitudes,1892,36,30218,5794,0.089,0.734,0.178,0.9999
+pope_leo_xiii__augustissimae_virginis_mariae,Pope Leo XIII,Augustissimae Virginis Mariae,1897,16,15338,3175,0.029,0.731,0.24,1.0
+pope_leo_xiii__auspicato_concessum,Pope Leo XIII,Auspicato Concessum,1882,31,23339,4593,0.083,0.699,0.217,1.0
+pope_leo_xiii__caritatis_studium,Pope Leo XIII,Caritatis Studium,1898,17,20791,4139,0.061,0.727,0.212,1.0
+pope_leo_xiii__catholicae_ecclesiae,Pope Leo XIII,Catholicae Ecclesiae,1890,8,8641,1631,0.069,0.743,0.188,0.9996
+pope_leo_xiii__christi_nomen,Pope Leo XIII,Christi Nomen,1894,7,5895,1117,0.031,0.718,0.251,0.9998
+pope_leo_xiii__constanti_hungarorum,Pope Leo XIII,Constanti Hungarorum,1893,30,15584,2930,0.077,0.69,0.233,0.9999
+pope_leo_xiii__cum_multa,Pope Leo XIII,Cum Multa,1882,24,16841,3269,0.056,0.732,0.212,1.0
+pope_leo_xiii__custodi_di_quella_fede,Pope Leo XIII,Custodi Di Quella Fede,1892,25,18062,3390,0.117,0.708,0.175,0.9997
+pope_leo_xiii__dall_alto_dell_apostolico_seggio,Pope Leo XIII,Dall’alto Dell’apostolico Seggio,1890,24,33615,6548,0.095,0.734,0.171,0.9999
+pope_leo_xiii__depuis_le_jour,Pope Leo XIII,Depuis Le Jour,1899,61,42352,8128,0.047,0.774,0.179,1.0
+pope_leo_xiii__diuturni_temporis,Pope Leo XIII,Diuturni Temporis,1898,10,6430,1263,0.018,0.681,0.301,0.9999
+pope_leo_xiii__diuturnum,Pope Leo XIII,Diuturnum,1881,31,29591,6008,0.083,0.714,0.203,1.0
+pope_leo_xiii__divinum_illud_munus,Pope Leo XIII,Divinum Illud Munus,1897,18,36334,7777,0.052,0.724,0.223,1.0
+pope_leo_xiii__dum_multa,Pope Leo XIII,Dum Multa,1902,5,4629,865,0.062,0.695,0.243,0.9995
+pope_leo_xiii__etsi_cunctas,Pope Leo XIII,Etsi Cunctas,1888,8,2359,453,0.068,0.666,0.266,0.9984
+pope_leo_xiii__etsi_nos,Pope Leo XIII,Etsi Nos,1882,27,25078,4834,0.107,0.703,0.19,0.9999
+pope_leo_xiii__exeunte_iam_anno,Pope Leo XIII,Exeunte Iam Anno,1888,18,28035,5776,0.12,0.672,0.207,0.9999
+pope_leo_xiii__fidentem_piumque_animum,Pope Leo XIII,Fidentem Piumque Animum,1896,10,15074,3004,0.026,0.72,0.254,1.0
+pope_leo_xiii__fin_dal_principio,Pope Leo XIII,Fin Dal Principio,1902,23,19503,3707,0.04,0.768,0.192,1.0
+pope_leo_xiii__grande_munus,Pope Leo XIII,Grande Munus,1880,25,18029,3444,0.041,0.748,0.212,1.0
+pope_leo_xiii__graves_de_communi_re,Pope Leo XIII,Graves De Communi Re,1901,32,30371,5935,0.083,0.742,0.175,0.9999
+pope_leo_xiii__gravissimas,Pope Leo XIII,Gravissimas,1901,8,3268,618,0.047,0.821,0.132,0.9954
+pope_leo_xiii__humanum_genus,Pope Leo XIII,Humanum Genus,1884,46,46946,9280,0.1,0.762,0.138,0.9995
+pope_leo_xiii__iampridem,Pope Leo XIII,Iampridem,1886,20,17002,3205,0.069,0.69,0.241,1.0
+pope_leo_xiii__immortale_dei,Pope Leo XIII,Immortale Dei,1885,54,53868,10760,0.05,0.767,0.184,1.0
+pope_leo_xiii__in_amplissimo,Pope Leo XIII,In Amplissimo,1902,8,5705,1098,0.03,0.704,0.266,0.9998
+pope_leo_xiii__in_ipso,Pope Leo XIII,In Ipso,1891,13,9895,1838,0.065,0.71,0.225,0.9999
+pope_leo_xiii__in_plurimis,Pope Leo XIII,In Plurimis,1888,28,39057,7801,0.105,0.699,0.195,0.9999
+pope_leo_xiii__inimica_vis,Pope Leo XIII,Inimica Vis,1892,13,8414,1587,0.138,0.678,0.185,0.9975
+pope_leo_xiii__inscrutabili_dei_consilio,Pope Leo XIII,Inscrutabili Dei Consilio,1878,23,23873,4656,0.101,0.678,0.221,1.0
+pope_leo_xiii__insignes,Pope Leo XIII,Insignes,,22,18614,3496,0.052,0.715,0.234,1.0
+pope_leo_xiii__iucunda_semper_expectatione,Pope Leo XIII,Iucunda Semper Expectatione,1894,14,18837,3815,0.059,0.697,0.244,1.0
+pope_leo_xiii__laetitiae_sanctae,Pope Leo XIII,Laetitiae Sanctae,1893,23,19811,4005,0.088,0.69,0.222,1.0
+pope_leo_xiii__libertas_praestantissimum__a,Pope Leo XIII,Libertas Praestantissimum</a,1888,49,56839,11463,0.077,0.69,0.233,1.0
+pope_leo_xiii__licet_multa,Pope Leo XIII,Licet Multa,1881,9,7919,1519,0.034,0.808,0.158,0.9994
+pope_leo_xiii__litteras_a_vobis,Pope Leo XIII,Litteras A Vobis,1894,10,9405,1777,0.053,0.743,0.204,0.9998
+pope_leo_xiii__longinqua,Pope Leo XIII,Longinqua,1895,37,32029,6096,0.046,0.751,0.204,1.0
+pope_leo_xiii__magnae_dei_matris,Pope Leo XIII,Magnae Dei Matris,1892,39,25778,5232,0.077,0.647,0.277,1.0
+pope_leo_xiii__magni_nobis,Pope Leo XIII,Magni Nobis,1889,12,4994,904,0.01,0.754,0.236,0.9996
+pope_leo_xiii__militantis_ecclesiae,Pope Leo XIII,Militantis Ecclesiae,1897,29,17370,3289,0.068,0.695,0.237,1.0
+pope_leo_xiii__mirae_caritatis,Pope Leo XIII,Mirae Caritatis,1902,24,39026,7951,0.051,0.745,0.204,1.0
+pope_leo_xiii__misericors_dei_filius,Pope Leo XIII,Misericors Dei Filius,1888,62,39760,8060,0.054,0.79,0.157,0.9999
+pope_leo_xiii__nobilissima_gallorum_gens,Pope Leo XIII,Nobilissima Gallorum Gens,1884,14,19910,3865,0.081,0.714,0.206,0.9999
+pope_leo_xiii__octobri_mense,Pope Leo XIII,Octobri Mense,1891,18,25299,4966,0.073,0.658,0.269,1.0
+pope_leo_xiii__officio_sanctissimo,Pope Leo XIII,Officio Sanctissimo,1851,18,40320,7897,0.074,0.727,0.2,1.0
+pope_leo_xiii__omnibus_compertum,Pope Leo XIII,Omnibus Compertum,1900,12,6180,1194,0.018,0.741,0.241,0.9998
+pope_leo_xiii__orientalium_dignitas,Pope Leo XIII,Orientalium Dignitas,1893,20,15436,2884,0.013,0.793,0.194,0.9999
+pope_leo_xiii__pastoralis,Pope Leo XIII,Pastoralis,1891,16,14226,2717,0.047,0.71,0.243,1.0
+pope_leo_xiii__pastoralis_officii,Pope Leo XIII,Pastoralis Officii,1891,12,9049,1726,0.163,0.621,0.217,0.9988
+pope_leo_xiii__paternae,Pope Leo XIII,Paternae,1899,19,9367,1779,0.053,0.755,0.192,0.9998
+pope_leo_xiii__pergrata,Pope Leo XIII,Pergrata,1886,21,16108,3042,0.053,0.7,0.248,1.0
+pope_leo_xiii__permoti_nos,Pope Leo XIII,Permoti Nos,1895,14,9129,1715,0.073,0.71,0.217,0.9998
+pope_leo_xiii__praeclara_gratulationis_publicae,Pope Leo XIII,Praeclara Gratulationis Publicae,,45,34046,6663,0.06,0.729,0.211,1.0
+pope_leo_xiii__providentissimus_deus,Pope Leo XIII,Providentissimus Deus,1893,29,60720,11697,0.034,0.763,0.204,1.0
+pope_leo_xiii__quam_aerumnosa,Pope Leo XIII,Quam Aerumnosa,1888,8,7657,1522,0.077,0.731,0.192,0.9996
+pope_leo_xiii__quam_religiosa,Pope Leo XIII,Quam Religiosa,,8,6044,1112,0.02,0.78,0.199,0.9995
+pope_leo_xiii__quamquam_pluries,Pope Leo XIII,Quamquam Pluries,1889,9,12361,2467,0.04,0.747,0.212,0.9999
+pope_leo_xiii__quarto_abeunte_saeculo,Pope Leo XIII,Quarto Abeunte Saeculo,1892,13,12967,2542,0.054,0.727,0.219,0.9999
+pope_leo_xiii__quod_anniversarius,Pope Leo XIII,Quod Anniversarius,1888,14,5469,1072,0.078,0.705,0.217,0.9993
+pope_leo_xiii__quod_apostolici_muneris,Pope Leo XIII,Quod Apostolici Muneris,1878,17,21627,4373,0.105,0.698,0.197,0.9999
+pope_leo_xiii__quod_auctoritate,Pope Leo XIII,Quod Auctoritate,1879,16,14741,2931,0.048,0.756,0.196,0.9999
+pope_leo_xiii__quod_multum,Pope Leo XIII,Quod Multum,1886,17,22745,4277,0.066,0.694,0.239,1.0
+pope_leo_xiii__quod_votis,Pope Leo XIII,Quod Votis,1902,5,1966,376,0.014,0.73,0.257,0.9986
+pope_leo_xiii__quum_diuturnum,Pope Leo XIII,Quum Diuturnum,1898,7,2739,539,0.021,0.768,0.211,0.9988
+pope_leo_xiii__reputantiubus,Pope Leo XIII,Reputantiubus,1901,21,6544,1344,0.046,0.779,0.176,0.9995
+pope_leo_xiii__rerum_novarum,Pope Leo XIII,Rerum Novarum,1891,72,80365,16107,0.1,0.759,0.141,0.9997
+pope_leo_xiii__saepe_nos,Pope Leo XIII,Saepe Nos,1888,14,7708,1486,0.092,0.727,0.181,0.9993
+pope_leo_xiii__sancta_dei_civitas,Pope Leo XIII,Sancta Dei Civitas,1880,17,16364,3182,0.054,0.735,0.21,1.0
+pope_leo_xiii__sapientiae_christianae,Pope Leo XIII,Sapientiae Christianae,1890,48,54357,10856,0.083,0.706,0.211,1.0
+pope_leo_xiii__satis_cognitum,Pope Leo XIII,Satis Cognitum,1896,62,80714,16959,0.034,0.809,0.157,1.0
+pope_leo_xiii__spectata_fides,Pope Leo XIII,Spectata Fides,1885,10,5298,1051,0.039,0.747,0.215,0.9996
+pope_leo_xiii__spesse_volte,Pope Leo XIII,Spesse Volte,1898,31,20435,3813,0.118,0.702,0.18,0.9998
+pope_leo_xiii__superiore_anno,Pope Leo XIII,Superiore Anno,1884,9,7547,1492,0.037,0.773,0.19,0.9997
+pope_leo_xiii__supremi_apostolatus_officio,Pope Leo XIII,Supremi Apostolatus Officio,1883,14,14714,2866,0.061,0.7,0.239,1.0
+pope_leo_xiii__tametsi_futura_prospicientibus,Pope Leo XIII,Tametsi Futura Prospicientibus,1900,18,30145,6165,0.09,0.701,0.209,1.0
+pope_leo_xiii__testem_benevolentiae_nostrae,Pope Leo XIII,Testem Benevolentiae Nostrae,1899,38,24300,4808,0.05,0.743,0.208,1.0
+pope_leo_xiii__urbanitatis_veteris,Pope Leo XIII,Urbanitatis Veteris,1901,9,8376,1596,0.028,0.697,0.275,0.9999
+pope_leo_xiii__vi_e_ben_noto,Pope Leo XIII,Vi E Ben Noto,1887,6,6933,1382,0.038,0.728,0.234,0.9998
+pope_nicholas_iii__exiit_qui_seminat,Pope Nicholas III,Exiit qui seminat,1279,57,60593,11876,0.033,0.847,0.12,0.9999
+pope_nicholas_iv__supra_montem,Pope Nicholas IV,Supra Montem,1289,56,39401,7887,0.042,0.852,0.106,0.9998
+pope_nicholas_v__romanus_pontifex,Pope Nicholas V,Romanus Pontifex,1455,14,22192,4311,0.049,0.81,0.14,0.9999
+pope_paul_iii__in_apostolatus_culmine,Pope Paul III,In apostolatus culmine,1538,4,10556,1776,0.0,0.985,0.015,0.9603
+pope_paul_iii__sublimis_deus,Pope Paul III,Sublimis Deus,1537,5,3236,633,0.064,0.708,0.228,0.9989
+pope_paul_vi__address_during_the_last_general_meeting_of_vatican,Pope Paul VI,Address During The Last General Meeting Of Vatican II,1962,24,19652,3963,0.031,0.765,0.204,1.0
+pope_paul_vi__christi_matri,Pope Paul VI,Christi Matri,1966,18,9095,1842,0.076,0.685,0.238,0.9999
+pope_paul_vi__confronting_the_devil_s_power,Pope Paul VI,Confronting The Devil’s Power,1948,30,11596,2362,0.225,0.646,0.129,-0.9999
+pope_paul_vi__credo_of_the_people_of_god,Pope Paul VI,Credo Of The People Of God,1964,35,19699,4004,0.049,0.731,0.221,1.0
+pope_paul_vi__ecclesiae_sanctae,Pope Paul VI,Ecclesiae Sanctae,1966,294,77138,14210,0.029,0.852,0.119,0.9999
+pope_paul_vi__ecclesiam_suam,Pope Paul VI,Ecclesiam Suam,1964,228,102291,20072,0.041,0.772,0.188,1.0
+pope_paul_vi__election_of_the_roman_pontiff,Pope Paul VI,Election Of The Roman Pontiff,1975,208,67983,13259,0.052,0.864,0.085,0.9987
+pope_paul_vi__evangelii_nuntiandi,Pope Paul VI,Evangelii Nuntiandi,1975,217,116093,22554,0.032,0.795,0.172,1.0
+pope_paul_vi__gaudete_in_domino,Pope Paul VI,Gaudete In Domino,1975,77,57554,11796,0.065,0.645,0.29,1.0
+pope_paul_vi__general_catechetical_directory,Pope Paul VI,General Catechetical Directory,1971,674,187740,36467,0.041,0.788,0.17,1.0
+pope_paul_vi__humanae_vitae,Pope Paul VI,Humanae Vitae,1963,69,36816,6962,0.057,0.731,0.213,1.0
+pope_paul_vi__indulgentiarum_doctrina,Pope Paul VI,Indulgentiarum Doctrina,1967,82,29373,5355,0.071,0.712,0.218,1.0
+pope_paul_vi__inter_insigniores,Pope Paul VI,Inter Insigniores,1965,76,38208,7748,0.038,0.831,0.131,0.9999
+pope_paul_vi__last_will_and_testament_of_pope_paul_vi,Pope Paul VI,Last Will and Testament of Pope Paul VI,1973,34,9179,1933,0.03,0.757,0.213,0.9998
+pope_paul_vi__marialis_cultus,Pope Paul VI,Marialis Cultus,1963,99,94494,18683,0.014,0.745,0.241,1.0
+pope_paul_vi__mense_maio,Pope Paul VI,Mense Maio,,13,9693,1889,0.069,0.712,0.219,0.9998
+pope_paul_vi__missale_romanum,Pope Paul VI,Missale Romanum,1969,19,9755,1895,0.013,0.861,0.126,0.9996
+pope_paul_vi__mysterium_fidei,Pope Paul VI,Mysterium Fidei,1965,96,47102,9479,0.046,0.782,0.172,1.0
+pope_paul_vi__octagesima_adveniens,Pope Paul VI,Octagesima Adveniens,1971,128,66166,12125,0.086,0.751,0.163,0.9999
+pope_paul_vi__on_religious_life,Pope Paul VI,On Religious Life,,26,17287,3196,0.037,0.758,0.205,1.0
+pope_paul_vi__orientalium_ecclesiarum,Pope Paul VI,Orientalium Ecclesiarum,1964,79,25351,5213,0.017,0.871,0.112,0.9999
+pope_paul_vi__paenitemini,Pope Paul VI,Paenitemini,1965,58,19873,3744,0.051,0.798,0.152,0.9999
+pope_paul_vi__pastoral_norms_for_general_sacramental_absolution,Pope Paul VI,Pastoral Norms For General Sacramental Absolution,1972,29,10312,1896,0.085,0.778,0.137,0.9982
+pope_paul_vi__pastorale_munus,Pope Paul VI,Pastorale Munus,1963,48,12683,2378,0.051,0.798,0.151,0.9997
+pope_paul_vi__populorum_progressio,Pope Paul VI,Populorum Progressio,1960,91,67375,12841,0.086,0.732,0.182,0.9999
+pope_paul_vi__reflections_at_nazareth,Pope Paul VI,Reflections at Nazareth,1964,33,9091,1841,0.038,0.708,0.255,0.9999
+pope_paul_vi__renewal_of_the_religious_life,Pope Paul VI,Renewal Of The Religious Life,1971,67,51228,9958,0.049,0.76,0.191,1.0
+pope_paul_vi__sacerdotalis_caelibatus,Pope Paul VI,Sacerdotalis Caelibatus,1967,121,69999,13701,0.031,0.75,0.219,1.0
+pope_paul_vi__sacram_liturgiam,Pope Paul VI,Sacram Liturgiam,1964,27,8645,1635,0.003,0.878,0.119,0.9993
+pope_paul_vi__sacrum_diaconatus,Pope Paul VI,Sacrum Diaconatus,1967,64,15715,3005,0.006,0.842,0.152,0.9999
+pope_paul_vi__second_vatican_council_ii_closing_speech,Pope Paul VI,Second Vatican Council II Closing Speech,1962,68,32213,6503,0.07,0.71,0.22,1.0
+pope_paul_vi__signum_magnum,Pope Paul VI,Signum Magnum,1967,39,21854,4463,0.027,0.723,0.25,1.0
+pope_paul_vi__the_sacrament_of_anointing_of_the_sick,Pope Paul VI,The Sacrament Of Anointing Of The Sick,1973,18,7544,1502,0.081,0.827,0.093,0.3883
+pope_paul_vi__vatican_ii_documents,Pope Paul VI,Vatican II Documents,1965,1,1243,189,0.0,0.959,0.041,0.8316
+pope_paul_vi__voi_forse_sapete,Pope Paul VI,Voi Forse Sapete,1943,12,6804,1391,0.033,0.746,0.221,0.9998
+pope_pius_vi__ad_nostras_manus,Pope Pius VI,Ad nostras manus,1793,15,5242,924,0.009,0.979,0.012,0.0258
+pope_pius_vi__adeo_nota,Pope Pius VI,Adeo nota,1791,59,37280,6692,0.01,0.986,0.004,-0.984
+pope_pius_vi__ancorché_antichissimo,Pope Pius VI,Ancorché antichissimo,1791,18,20164,3521,0.008,0.987,0.006,-0.9001
+pope_pius_vi__auctorem_fidei,Pope Pius VI,Auctorem fidei,1755,466,81523,15149,0.009,0.989,0.002,-0.9871
+pope_pius_vi__charitas,Pope Pius VI,Charitas,1791,47,33117,6247,0.106,0.805,0.089,-0.999
+pope_pius_vi__christi_ecclesiae,Pope Pius VI,Christi Ecclesiae,1797,17,11591,2062,0.005,0.994,0.001,-0.7882
+pope_pius_vi__constantiam_vestram,Pope Pius VI,Constantiam vestram,1798,24,21648,4049,0.01,0.984,0.006,-0.9474
+pope_pius_vi__cum_nos_superiori,Pope Pius VI,Cum nos superiori,1732,20,15879,2807,0.003,0.995,0.002,-0.555
+pope_pius_vi__cum_populi,Pope Pius VI,Cum populi,1791,9,2151,382,0.0,1.0,0.0,0.0
+pope_pius_vi__dum_nos,Pope Pius VI,Dum nos,1791,22,14806,2684,0.006,0.987,0.007,-0.296
+pope_pius_vi__ignotae_nemini,Pope Pius VI,Ignotae nemini,1792,19,8211,1478,0.003,0.993,0.004,0.0516
+pope_pius_vi__in_gravissimis,Pope Pius VI,In gravissimis,1792,40,12801,2272,0.004,0.991,0.005,-0.1027
+pope_pius_vi__inscrutabile,Pope Pius VI,Inscrutabile,1775,21,18248,3664,0.124,0.653,0.223,0.9999
+pope_pius_vi__novae_hae_litterae,Pope Pius VI,Novae hae litterae,1792,39,31258,5644,0.006,0.99,0.004,-0.9091
+pope_pius_vi__nuper_pro,Pope Pius VI,Nuper pro,1779,12,3104,541,0.018,0.975,0.007,-0.6597
+pope_pius_vi__perpensis_circumstantiis,Pope Pius VI,Perpensis circumstantiis,1792,9,2427,437,0.021,0.971,0.008,-0.6486
+pope_pius_vi__quae_causa,Pope Pius VI,Quae causa,1792,32,16749,3064,0.002,0.994,0.004,0.504
+pope_pius_vi__quare_lacrymae,Pope Pius VI,Quare lacrymae,1775,33,24939,4600,0.026,0.969,0.006,-0.9981
+pope_pius_vi__quo_fluctu,Pope Pius VI,Quo fluctu,1792,9,3903,677,0.0,0.991,0.009,0.5719
+pope_pius_vi__quo_luctu,Pope Pius VI,Quo luctu,1792,9,3903,677,0.0,0.991,0.009,0.5719
+pope_pius_vi__quod_aliquantum,Pope Pius VI,Quod aliquantum,1791,62,110222,20399,0.013,0.977,0.01,-0.9768
+pope_pius_vi__quoties_animo,Pope Pius VI,Quoties animo,1799,13,5601,992,0.0,0.997,0.003,0.4003
+pope_pius_vi__summa_dei,Pope Pius VI,Summa Dei,1741,26,17701,3202,0.006,0.987,0.007,-0.296
+pope_pius_vi__super_soliditate,Pope Pius VI,Super soliditate,1786,44,28988,5281,0.009,0.978,0.013,0.7998
+pope_pius_vi__ubi_communis,Pope Pius VI,Ubi communis,1792,15,6911,1267,0.005,0.98,0.015,0.7783
+pope_pius_vi__ubi_lutetiam,Pope Pius VI,Ubi lutetiam,1792,24,17539,3125,0.013,0.984,0.003,-0.9819
+pope_pius_vii__diu_satis,Pope Pius VII,Diu Satis,1800,27,16948,3537,0.105,0.719,0.176,0.9997
+pope_pius_vii__il_trionfo,Pope Pius VII,Il trionfo,1814,10,4398,772,0.0,0.997,0.003,0.2023
+pope_pius_viii__traditi_humilitati,Pope Pius VIII,Traditi Humilitati,1829,18,12778,2511,0.115,0.714,0.171,0.9993
+pope_pius_xi__acerba_animi,Pope Pius XI,Acerba Animi,1932,26,21091,3897,0.103,0.731,0.167,0.9998
+pope_pius_xi__ad_catholici_sacerdotii,Pope Pius XI,Ad Catholici Sacerdotii,1935,94,88030,17597,0.056,0.715,0.229,1.0
+pope_pius_xi__ad_salutem,Pope Pius XI,Ad Salutem,1930,77,74784,15283,0.069,0.726,0.204,1.0
+pope_pius_xi__caritate_christi_compulsi,Pope Pius XI,Caritate Christi Compulsi,1932,38,37174,7508,0.107,0.7,0.192,0.9999
+pope_pius_xi__casti_connubii,Pope Pius XI,Casti Connubii,1930,134,106447,21034,0.04,0.723,0.236,1.0
+pope_pius_xi__dilectissima_nobis,Pope Pius XI,Dilectissima Nobis,1933,45,23039,4163,0.099,0.712,0.19,0.9999
+pope_pius_xi__divini_illius_magistri_december_31__1929,Pope Pius XI,"Divini Illius Magistri December 31, 1929",1929,122,75926,14720,0.038,0.778,0.183,1.0
+pope_pius_xi__divini_redemptoris,Pope Pius XI,Divini Redemptoris,1937,86,72946,13818,0.106,0.766,0.128,0.9985
+pope_pius_xi__ecclesiam_dei,Pope Pius XI,Ecclesiam Dei,1923,29,23637,4783,0.053,0.762,0.185,1.0
+pope_pius_xi__ingravescentibus_malis,Pope Pius XI,Ingravescentibus Malis,1937,37,15411,3108,0.095,0.679,0.226,0.9999
+pope_pius_xi__iniquis_afflictisque,Pope Pius XI,Iniquis Afflictisque,1926,34,33865,6543,0.113,0.745,0.143,0.9992
+pope_pius_xi__lux_veritatis,Pope Pius XI,Lux Veritatis,1930,68,53086,10899,0.059,0.789,0.153,0.9999
+pope_pius_xi__maximam_gravissimamque,Pope Pius XI,Maximam Gravissimamque,1924,24,18405,3628,0.063,0.746,0.191,0.9999
+pope_pius_xi__mens_nostra,Pope Pius XI,Mens Nostra,1929,24,34921,6945,0.035,0.716,0.249,1.0
+pope_pius_xi__miserentissimus_redemptor,Pope Pius XI,Miserentissimus Redemptor,1928,48,33708,6908,0.105,0.717,0.178,0.9999
+pope_pius_xi__mit_brennender_sorge,Pope Pius XI,Mit Brennender Sorge,1937,49,46168,9252,0.097,0.701,0.202,0.9999
+pope_pius_xi__mortalium_animos,Pope Pius XI,Mortalium Animos,1928,17,25388,5123,0.049,0.781,0.17,1.0
+pope_pius_xi__non_abbiamo_bisogno,Pope Pius XI,Non Abbiamo Bisogno,1931,79,61884,11863,0.079,0.74,0.181,0.9999
+pope_pius_xi__nos_es_muy_conocida,Pope Pius XI,Nos Es Muy Conocida,1937,68,30025,5635,0.068,0.741,0.191,1.0
+pope_pius_xi__nova_impendet,Pope Pius XI,Nova Impendet,1917,22,7611,1544,0.065,0.757,0.178,0.9995
+pope_pius_xi__quadragesimo_anno,Pope Pius XI,Quadragesimo Anno,1931,152,115545,21897,0.067,0.738,0.196,1.0
+pope_pius_xi__quas_primas,Pope Pius XI,Quas Primas,1925,40,35454,7196,0.051,0.759,0.19,1.0
+pope_pius_xi__quinquagesimo_ante,Pope Pius XI,Quinquagesimo Ante,1930,54,31869,6099,0.053,0.727,0.22,1.0
+pope_pius_xi__rerum_condicio,Pope Pius XI,Rerum condicio,1922,6,395,71,0.0,0.876,0.124,0.7003
+pope_pius_xi__rerum_ecclesiae,Pope Pius XI,Rerum Ecclesiae,1926,38,47095,9067,0.047,0.752,0.201,1.0
+pope_pius_xi__rerum_omnium_perturbationem,Pope Pius XI,Rerum Omnium Perturbationem,1923,40,33710,6622,0.076,0.718,0.206,1.0
+pope_pius_xi__rerum_orientalium,Pope Pius XI,Rerum Orientalium,1928,24,23368,4490,0.029,0.796,0.175,1.0
+pope_pius_xi__rite_expiatis,Pope Pius XI,Rite Expiatis,1926,50,54663,10872,0.094,0.694,0.212,1.0
+pope_pius_xi__studiorum_ducem,Pope Pius XI,Studiorum Ducem,1879,46,39075,7561,0.042,0.751,0.207,1.0
+pope_pius_xi__ubi_arcano_dei_consilio,Pope Pius XI,Ubi Arcano Dei Consilio,1922,78,65280,12973,0.141,0.681,0.178,0.9996
+pope_pius_xi__vigilanti_cura,Pope Pius XI,Vigilanti Cura,1934,82,27213,5044,0.064,0.74,0.196,1.0
+pope_pius_xii__ad_apostolorum_principis,Pope Pius XII,Ad Apostolorum Principis,1952,65,26229,5059,0.092,0.728,0.18,0.9999
+pope_pius_xii__ad_caeli_reginam,Pope Pius XII,Ad Caeli Reginam,1954,56,27524,5767,0.033,0.726,0.242,1.0
+pope_pius_xii__ad_sinarum_gentem,Pope Pius XII,Ad Sinarum Gentem,1954,36,16915,3495,0.061,0.724,0.215,1.0
+pope_pius_xii__address_to_midwives_on_the_nature_of_their_profess,Pope Pius XII,Address to Midwives on the Nature of Their Profession,1951,83,41044,8076,0.091,0.727,0.182,0.9999
+pope_pius_xii__anni_sacri,Pope Pius XII,Anni Sacri,1950,18,8554,1675,0.149,0.647,0.204,0.9986
+pope_pius_xii__applied_psychology,Pope Pius XII,Applied Psychology,1953,110,33953,6165,0.056,0.808,0.136,0.9999
+pope_pius_xii__auspicia_quaedam,Pope Pius XII,Auspicia Quaedam,1948,31,7216,1432,0.071,0.687,0.242,0.9998
+pope_pius_xii__christus_dominus,Pope Pius XII,Christus Dominus,1953,86,28986,5706,0.053,0.804,0.143,0.9999
+pope_pius_xii__communium_interpretes_doloraum,Pope Pius XII,Communium Interpretes Doloraum,1945,11,6068,1184,0.127,0.633,0.24,0.9995
+pope_pius_xii__counsel_to_teaching_sisters,Pope Pius XII,Counsel To Teaching Sisters,1951,38,14584,2775,0.056,0.735,0.209,0.9999
+pope_pius_xii__datis_nuperrime,Pope Pius XII,Datis Nuperrime,1956,11,3001,598,0.141,0.651,0.208,0.9892
+pope_pius_xii__deiparae_virginis_mariae,Pope Pius XII,Deiparae Virginis Mariae,1946,8,3595,689,0.012,0.756,0.232,0.9994
+pope_pius_xii__democracy_and_a_lasting_peace,Pope Pius XII,Democracy And A Lasting Peace,,108,31865,6186,0.103,0.706,0.19,0.9999
+pope_pius_xii__divino_afflante_spiritu,Pope Pius XII,Divino Afflante Spiritu,1893,65,58573,11169,0.04,0.767,0.193,1.0
+pope_pius_xii__doctor_mellifluus,Pope Pius XII,Doctor Mellifluus,1953,41,32792,6957,0.065,0.643,0.293,1.0
+pope_pius_xii__ecclesiae_fastos,Pope Pius XII,Ecclesiae Fastos,1954,45,35949,7138,0.053,0.709,0.238,1.0
+pope_pius_xii__evangelii_praecones,Pope Pius XII,Evangelii Praecones,1944,77,54532,10419,0.049,0.775,0.176,1.0
+pope_pius_xii__exsul_familia_nazarethana,Pope Pius XII,Exsul Familia Nazarethana,1904,182,66575,12220,0.069,0.75,0.182,1.0
+pope_pius_xii__fidei_donum,Pope Pius XII,Fidei Donum,1957,81,43396,8397,0.055,0.777,0.169,1.0
+pope_pius_xii__fulgens_corona,Pope Pius XII,Fulgens Corona,1950,51,30239,5989,0.073,0.681,0.246,1.0
+pope_pius_xii__fulgens_radiatur,Pope Pius XII,Fulgens Radiatur,1947,39,33662,6597,0.069,0.684,0.247,1.0
+pope_pius_xii__guiding_principles_of_the_lay_apostolate,Pope Pius XII,Guiding Principles Of The Lay Apostolate,1946,137,51460,9637,0.03,0.828,0.141,0.9999
+pope_pius_xii__haurietis_aquas,Pope Pius XII,Haurietis Aquas,1956,132,87442,17811,0.044,0.696,0.26,1.0
+pope_pius_xii__humani_generis,Pope Pius XII,Humani Generis,1950,48,36485,6764,0.085,0.725,0.19,1.0
+pope_pius_xii__in_multiplicibus_curis,Pope Pius XII,In Multiplicibus Curis,1948,12,6091,1167,0.093,0.668,0.239,0.9997
+pope_pius_xii__ingruentium_malorum,Pope Pius XII,Ingruentium Malorum,1951,24,11718,2325,0.063,0.708,0.229,0.9999
+pope_pius_xii__invicti_athletae,Pope Pius XII,Invicti Athletae,1938,41,19154,3863,0.093,0.668,0.239,1.0
+pope_pius_xii__laetamur_admodum,Pope Pius XII,Laetamur Admodum,1956,15,4777,955,0.11,0.647,0.244,0.9991
+pope_pius_xii__le_pelerinage_de_lourdes,Pope Pius XII,Le Pelerinage De Lourdes,1957,66,26518,5327,0.054,0.721,0.225,1.0
+pope_pius_xii__luctuosissimi_eventus,Pope Pius XII,Luctuosissimi Eventus,1956,12,4993,982,0.07,0.659,0.271,0.9998
+pope_pius_xii__mediator_dei,Pope Pius XII,Mediator Dei,1947,214,147465,29152,0.037,0.759,0.204,1.0
+pope_pius_xii__meminisse_iuvat,Pope Pius XII,Meminisse Iuvat,1958,52,19827,4085,0.097,0.677,0.226,1.0
+pope_pius_xii__menti_nostrae,Pope Pius XII,Menti Nostrae,1950,263,86795,16971,0.047,0.736,0.216,1.0
+pope_pius_xii__mirabile_illud,Pope Pius XII,Mirabile Illud,1950,17,7203,1347,0.109,0.644,0.247,0.9997
+pope_pius_xii__miranda_prorsus,Pope Pius XII,Miranda Prorsus,1957,180,69101,13236,0.055,0.729,0.216,1.0
+pope_pius_xii__munificentissimus_deus,Pope Pius XII,Munificentissimus Deus,1946,51,37033,7342,0.026,0.73,0.244,1.0
+pope_pius_xii__musicae_sacrae,Pope Pius XII,Musicae Sacrae,1929,87,41335,7862,0.025,0.765,0.21,1.0
+pope_pius_xii__mystici_corporis,Pope Pius XII,Mystici Corporis,1943,120,106844,21280,0.068,0.746,0.186,1.0
+pope_pius_xii__on_psychotherapy_and_religion,Pope Pius XII,On Psychotherapy And Religion,1952,45,21849,4188,0.075,0.803,0.122,0.9996
+pope_pius_xii__on_rural_life,Pope Pius XII,On Rural Life,1891,40,15710,2994,0.072,0.731,0.198,0.9999
+pope_pius_xii__optatissima_pax,Pope Pius XII,Optatissima Pax,1947,17,6275,1229,0.155,0.628,0.216,0.9986
+pope_pius_xii__orientales_omnes_ecclesias,Pope Pius XII,Orientales Omnes Ecclesias,1945,69,56847,10812,0.077,0.74,0.183,1.0
+pope_pius_xii__orientalis_ecclesiae,Pope Pius XII,Orientalis Ecclesiae,1931,64,29730,5919,0.056,0.702,0.242,1.0
+pope_pius_xii__papal_directives_for_the_woman_of_today,Pope Pius XII,Papal Directives For The Woman Of Today,,36,19437,3781,0.093,0.698,0.209,0.9999
+pope_pius_xii__quemadmodum,Pope Pius XII,Quemadmodum,1946,19,10556,2108,0.08,0.674,0.246,0.9999
+pope_pius_xii__redemptoris_nostri_cruciatus,Pope Pius XII,Redemptoris Nostri Cruciatus,1949,20,7307,1383,0.096,0.678,0.226,0.9996
+pope_pius_xii__sacra_virginitas,Pope Pius XII,Sacra Virginitas,1954,78,56429,11464,0.03,0.725,0.245,1.0
+pope_pius_xii__sacram_communionem,Pope Pius XII,Sacram Communionem,1957,29,8448,1568,0.042,0.836,0.122,0.9986
+pope_pius_xii__sacramentum_ordinis,Pope Pius XII,Sacramentum Ordinis,1947,21,7960,1544,0.022,0.878,0.1,0.9987
+pope_pius_xii__saeculo_exeunte_octavo,Pope Pius XII,Saeculo Exeunte Octavo,1940,57,23130,4493,0.034,0.732,0.234,1.0
+pope_pius_xii__sempiternus_rex_christus,Pope Pius XII,Sempiternus Rex Christus,1925,47,39278,8133,0.061,0.795,0.144,0.9999
+pope_pius_xii__sertum_laetitiae,Pope Pius XII,Sertum Laetitiae,1936,50,30453,5775,0.065,0.662,0.273,1.0
+pope_pius_xii__si_diligis___canonisation_of_st_pius_x,Pope Pius XII,Si Diligis – Canonisation Of St Pius X,1954,17,13466,2683,0.041,0.765,0.193,0.9999
+pope_pius_xii__summi_maeroris,Pope Pius XII,Summi Maeroris,1950,17,7256,1436,0.086,0.682,0.232,0.9997
+pope_pius_xii__summi_pontificatus,Pope Pius XII,Summi Pontificatus,1925,120,71991,14216,0.094,0.699,0.207,1.0
+pope_pius_xii__the_function_of_art,Pope Pius XII,The Function Of Art,,15,5814,1140,0.014,0.748,0.238,0.9997
+pope_pius_xii__the_internal_order_of_states_and_people,Pope Pius XII,The Internal Order Of States And People,,65,40729,7739,0.087,0.715,0.198,1.0
+pope_pius_xii__the_moral_limits_of_medical_research_and_treatment,Pope Pius XII,The Moral Limits Of Medical Research And Treatment,1952,46,25730,4967,0.059,0.816,0.125,0.9998
+pope_pius_xii__the_proofs_for_the_existence_of_god_in_the_light_o,Pope Pius XII,The Proofs For The Existence Of God In The Light Of Modern Natural Science,1948,69,28816,5468,0.038,0.834,0.128,0.9999
+pope_pius_xii__the_states_of_perfection,Pope Pius XII,The States Of Perfection,1947,73,23552,4364,0.042,0.747,0.212,1.0
+pope_sixtus_iv__superna_caelestis,Pope Sixtus IV,Superna Caelestis,1482,36,20744,4174,0.023,0.754,0.223,1.0
+pope_sixtus_v__triumphantis_hierusalem,Pope Sixtus V,Triumphantis Hierusalem,,22,29813,5772,0.033,0.7,0.267,1.0
+pope_st__john_paul_ii__a_concilio_constantinopolitano_i,Pope St. John Paul II,A Concilio Constantinopolitano I,1981,47,26411,5293,0.015,0.813,0.172,1.0
+pope_st__john_paul_ii__address_of_pope_john_paul_ii_to_the_tribunal_of_th,Pope St. John Paul II,Address of Pope John Paul II to the Tribunal of the Roman Rota,1987,28,14729,2658,0.073,0.789,0.138,0.9994
+pope_st__john_paul_ii__catechesi_tradendae,Pope St. John Paul II,Catechesi Tradendae,1971,416,128355,25247,0.025,0.852,0.123,0.9999
+pope_st__john_paul_ii__centesimus_annus,Pope St. John Paul II,Centesimus Annus,1989,214,153959,28225,0.06,0.802,0.138,0.9999
+pope_st__john_paul_ii__christifideles_laici,Pope St. John Paul II,Christifideles Laici,1982,721,257343,50341,0.051,0.791,0.158,0.9999
+pope_st__john_paul_ii__considerations_regarding_proposals_to_give_legal_r,Pope St. John Paul II,Considerations Regarding Proposals To Give Legal Recognition To Unions Between Homosexual Persons,1995,63,19954,3715,0.075,0.777,0.148,0.9998
+pope_st__john_paul_ii__crossing_the_threshold_of_hope,Pope St. John Paul II,Crossing the Threshold of Hope,2000,9,1941,381,0.038,0.766,0.195,0.9952
+pope_st__john_paul_ii__dies_domini,Pope St. John Paul II,Dies Domini,1969,371,135379,27751,0.026,0.784,0.19,1.0
+pope_st__john_paul_ii__dilecti_amici,Pope St. John Paul II,Dilecti Amici,1985,267,94738,19476,0.051,0.805,0.145,0.9999
+pope_st__john_paul_ii__dives_in_misericordia,Pope St. John Paul II,Dives in Misericordia,1980,135,97741,19376,0.059,0.738,0.203,1.0
+pope_st__john_paul_ii__divini_amoris_scientia,Pope St. John Paul II,Divini Amoris Scientia,1987,68,35909,6943,0.024,0.767,0.209,1.0
+pope_st__john_paul_ii__dominum_et_vivificantem,Pope St. John Paul II,Dominum et Vivificantem,1943,226,186802,38855,0.014,0.817,0.168,1.0
+pope_st__john_paul_ii__dominus_iesus,Pope St. John Paul II,Dominus Iesus,2000,182,63212,12509,0.029,0.78,0.19,1.0
+pope_st__john_paul_ii__ecclesia_de_eucharistia,Pope St. John Paul II,Ecclesia De Eucharistia,2001,257,104507,20377,0.034,0.798,0.168,1.0
+pope_st__john_paul_ii__ecclesia_dei,Pope St. John Paul II,Ecclesia Dei,1988,34,8303,1593,0.035,0.83,0.136,0.9992
+pope_st__john_paul_ii__ecclesia_in_africa,Pope St. John Paul II,Ecclesia in Africa,1969,398,174496,33060,0.02,0.794,0.186,1.0
+pope_st__john_paul_ii__ecclesia_in_america,Pope St. John Paul II,Ecclesia in America,1992,683,180489,35345,0.023,0.826,0.151,1.0
+pope_st__john_paul_ii__ecclesia_in_asia,Pope St. John Paul II,Ecclesia in Asia,1994,567,192198,36275,0.056,0.785,0.159,0.9999
+pope_st__john_paul_ii__evangelium_vitae,Pope St. John Paul II,Evangelium Vitae,1991,428,263433,52502,0.154,0.688,0.158,-0.9928
+pope_st__john_paul_ii__ex_corde_ecclesiae,Pope St. John Paul II,Ex Corde Ecclesiae,1989,183,66749,12301,0.02,0.788,0.192,1.0
+pope_st__john_paul_ii__familiaris_consortio,Pope St. John Paul II,Familiaris Consortio,1981,706,214124,41052,0.036,0.754,0.21,1.0
+pope_st__john_paul_ii__fidei_depositum,Pope St. John Paul II,Fidei Depositum,1992,46,12409,2366,0.017,0.782,0.201,0.9999
+pope_st__john_paul_ii__fides_et_ratio,Pope St. John Paul II,Fides et Ratio,1998,260,194136,35835,0.041,0.767,0.192,1.0
+pope_st__john_paul_ii__general_directory_for_catechesis,Pope St. John Paul II,General Directory for Catechesis,1965,2282,423059,83396,0.026,0.885,0.089,0.9996
+pope_st__john_paul_ii__inaestamabile_donum,Pope St. John Paul II,Inaestamabile Donum,1980,26,9394,1750,0.039,0.781,0.18,0.9997
+pope_st__john_paul_ii__iuvenum_patris,Pope St. John Paul II,Iuvenum Patris,1979,119,44429,8495,0.028,0.762,0.21,1.0
+pope_st__john_paul_ii__laborem_exercens,Pope St. John Paul II,Laborem Exercens,1981,176,127528,23527,0.034,0.867,0.099,0.9998
+pope_st__john_paul_ii__letter_to_families__gratissimam_sane_,Pope St. John Paul II,Letter to Families (Gratissimam Sane),1994,226,157294,31461,0.021,0.806,0.174,1.0
+pope_st__john_paul_ii__magnum_matrimonii_sacramentum,Pope St. John Paul II,Magnum Matrimonii Sacramentum,1982,1,5633,1026,0.004,0.888,0.108,0.9982
+pope_st__john_paul_ii__misericordia_dei,Pope St. John Paul II,Misericordia Dei,1984,76,19266,3801,0.08,0.788,0.132,0.9995
+pope_st__john_paul_ii__mulieris_dignitatem,Pope St. John Paul II,Mulieris Dignitatem,1987,217,141867,28957,0.011,0.849,0.14,1.0
+pope_st__john_paul_ii__novo_millennio_ineunte,Pope St. John Paul II,Novo Millennio Ineunte,1991,231,107393,21233,0.036,0.77,0.194,1.0
+pope_st__john_paul_ii__ordinatio_sacerdotalis,Pope St. John Paul II,Ordinatio Sacerdotalis,1977,33,8296,1653,0.014,0.817,0.169,0.9998
+pope_st__john_paul_ii__orientale_lumen,Pope St. John Paul II,Orientale Lumen,1960,132,67953,13087,0.035,0.813,0.152,1.0
+pope_st__john_paul_ii__pastores_dabo_vobis,Pope St. John Paul II,Pastores Dabo Vobis,1964,728,323086,64047,0.047,0.832,0.122,0.9998
+pope_st__john_paul_ii__pastores_gregis,Pope St. John Paul II,Pastores Gregis,1999,739,264102,49607,0.031,0.799,0.17,1.0
+pope_st__john_paul_ii__reconciliatio_et_paenitentia,Pope St. John Paul II,Reconciliatio et Paenitentia,1984,521,178342,35089,0.063,0.805,0.132,0.9999
+pope_st__john_paul_ii__redemptionis_donum,Pope St. John Paul II,Redemptionis Donum,1983,228,63267,13360,0.033,0.781,0.186,1.0
+pope_st__john_paul_ii__redemptor_hominis,Pope St. John Paul II,Redemptor Hominis,1964,134,134947,26765,0.054,0.78,0.166,1.0
+pope_st__john_paul_ii__redemptoris_custos,Pope St. John Paul II,Redemptoris Custos,1988,169,56777,12314,0.012,0.819,0.169,1.0
+pope_st__john_paul_ii__redemptoris_mater,Pope St. John Paul II,Redemptoris Mater,1987,185,154150,32430,0.015,0.781,0.204,1.0
+pope_st__john_paul_ii__redemptoris_missio,Pope St. John Paul II,Redemptoris Missio,1983,349,200216,38479,0.031,0.782,0.187,1.0
+pope_st__john_paul_ii__rosarium_virginis_mariae,Pope St. John Paul II,Rosarium Virginis Mariae,1999,200,77986,15566,0.028,0.811,0.161,1.0
+pope_st__john_paul_ii__sacrae_disciplinae_leges,Pope St. John Paul II,Sacrae Disciplinae Leges,1983,39,15272,2928,0.008,0.834,0.158,0.9999
+pope_st__john_paul_ii__salvifici_doloris,Pope St. John Paul II,Salvifici Doloris,1984,246,97481,20112,0.171,0.716,0.114,-0.9999
+pope_st__john_paul_ii__sapientia_christiana,Pope St. John Paul II,Sapientia Christiana,1949,400,77854,14242,0.011,0.837,0.152,1.0
+pope_st__john_paul_ii__sescentesima_anniversaria,Pope St. John Paul II,Sescentesima Anniversaria,1987,66,25446,4912,0.038,0.728,0.234,1.0
+pope_st__john_paul_ii__slavorum_apostoli,Pope St. John Paul II,Slavorum Apostoli,1980,114,61901,11495,0.033,0.815,0.152,1.0
+pope_st__john_paul_ii__sollicitudo_rei_socialis,Pope St. John Paul II,Sollicitudo Rei Socialis,1987,262,121945,22808,0.075,0.819,0.105,0.999
+pope_st__john_paul_ii__speeches,Pope St. John Paul II,Speeches,1980,1,4287,666,0.005,0.99,0.005,0.0516
+pope_st__john_paul_ii__tertio_millennio_adveniente,Pope St. John Paul II,Tertio Millennio Adveniente,1994,148,92750,17849,0.052,0.786,0.162,0.9999
+pope_st__john_paul_ii__the_350_years_of_the_union_of_uzhorod,Pope St. John Paul II,The 350 Years of the Union of Uzhorod,1995,50,16193,3095,0.018,0.822,0.16,0.9999
+pope_st__john_paul_ii__the_fourth_centenary_of_the_union_of_brest,Pope St. John Paul II,The Fourth Centenary of the Union of Brest,1952,81,25529,4780,0.038,0.797,0.165,1.0
+pope_st__john_paul_ii__the_third_centenary_anniversary_of_the_union_of_th,Pope St. John Paul II,The Third Centenary Anniversary of the Union of the Greek-Catholic Church of Romania with the Church of Rome,2000,49,24038,4557,0.027,0.81,0.163,1.0
+pope_st__john_paul_ii__universi_dominici_gregis,Pope St. John Paul II,Universi Dominici Gregis,1977,223,79323,15040,0.039,0.881,0.079,0.9992
+pope_st__john_paul_ii__ut_unum_sint,Pope St. John Paul II,Ut Unum Sint,1982,274,147974,27570,0.04,0.771,0.189,1.0
+pope_st__john_paul_ii__veritatis_splendor,Pope St. John Paul II,Veritatis Splendor,1976,341,261577,51442,0.04,0.761,0.2,1.0
+pope_st__john_paul_ii__vita_consecrata,Pope St. John Paul II,Vita Consecrata,1996,337,251253,46143,0.022,0.808,0.171,1.0
+pope_st__john_xxiii__ad_petri_cathedram,Pope St. John XXIII,Ad Petri Cathedram,1959,154,62570,12681,0.11,0.675,0.214,1.0
+pope_st__john_xxiii__aeterna_dei_sapientia,Pope St. John XXIII,Aeterna Dei Sapientia,1961,75,36051,7508,0.037,0.744,0.219,1.0
+pope_st__john_xxiii__grata_recordatio,Pope St. John XXIII,Grata Recordatio,1959,26,9530,1910,0.032,0.749,0.219,0.9999
+pope_st__john_xxiii__le_voci_che_da_tutti,Pope St. John XXIII,Le voci che da tutti,1919,1,17459,3445,0.02,0.727,0.252,1.0
+pope_st__john_xxiii__mater_et_magistra,Pope St. John XXIII,Mater Et Magistra,1961,280,119920,22687,0.049,0.782,0.17,1.0
+pope_st__john_xxiii__on_promoting_devotion_to_the_most_precious_blood,Pope St. John XXIII,On Promoting Devotion to the Most Precious Blood,1960,44,12328,2509,0.026,0.74,0.234,0.9999
+pope_st__john_xxiii__pacem_in_terris,Pope St. John XXIII,Pacem In Terris,1963,178,86070,16425,0.033,0.766,0.201,1.0
+pope_st__john_xxiii__paenitentiam_agere,Pope St. John XXIII,Paenitentiam Agere,1962,47,21315,4379,0.073,0.726,0.201,1.0
+pope_st__john_xxiii__princeps_pastorum,Pope St. John XXIII,Princeps Pastorum,1959,63,56980,10943,0.034,0.756,0.209,1.0
+pope_st__john_xxiii__religiosorum_institutio,Pope St. John XXIII,Religiosorum institutio,1957,229,76455,14546,0.082,0.748,0.17,0.9999
+pope_st__john_xxiii__sacerdotii_nostri_primordia,Pope St. John XXIII,Sacerdotii Nostri Primordia,1959,123,66394,13589,0.066,0.7,0.233,1.0
+pope_st__john_xxiii__veterum_sapientia,Pope St. John XXIII,Veterum Sapientia,1959,50,13317,2678,0.029,0.791,0.18,0.9999
+pope_st__pius_v__consueverunt_romani,Pope St. Pius V,Consueverunt Romani,1569,5,3416,684,0.065,0.812,0.123,0.9862
+pope_st__pius_v__quo_primum,Pope St. Pius V,Quo Primum,1570,11,8213,1565,0.03,0.885,0.085,0.9963
+pope_st__pius_v__regnans_in_excelsis,Pope St. Pius V,Regnans in Excelsis,,10,6023,1183,0.1,0.769,0.131,0.9674
+pope_st__pius_x__acerbo_nimis,Pope St. Pius X,Acerbo Nimis,1905,32,25860,5299,0.088,0.737,0.175,0.9999
+pope_st__pius_x__ad_diem_illum_laetissimum,Pope St. Pius X,Ad Diem Illum Laetissimum,1904,39,34157,7082,0.072,0.747,0.181,1.0
+pope_st__pius_x__communium_rerum,Pope St. Pius X,Communium Rerum,1909,63,64982,13289,0.118,0.691,0.191,0.9999
+pope_st__pius_x__divino_afflatu,Pope St. Pius X,Divino Afflatu,,14,9496,1492,0.005,0.984,0.011,0.8249
+pope_st__pius_x__dogma_of_the_immaculate_conception,Pope St. Pius X,Dogma of the Immaculate Conception,1904,11,2924,608,0.107,0.694,0.199,0.9969
+pope_st__pius_x__e_supremi,Pope St. Pius X,E Supremi,1903,20,25238,5380,0.092,0.709,0.2,1.0
+pope_st__pius_x__editae_saepe,Pope St. Pius X,Editae Saepe,1910,53,46807,9314,0.105,0.713,0.183,0.9999
+pope_st__pius_x__gravissimo_officii_munere,Pope St. Pius X,Gravissimo Officii Munere,1906,18,8887,1730,0.086,0.745,0.169,0.9993
+pope_st__pius_x__haerent_animo,Pope St. Pius X,Haerent Animo,1908,114,49898,9982,0.071,0.739,0.19,1.0
+pope_st__pius_x__iamdudum,Pope St. Pius X,Iamdudum,1911,15,15363,2952,0.093,0.768,0.139,0.9993
+pope_st__pius_x__il_fermo_proposito,Pope St. Pius X,Il Fermo Proposito,1905,31,31538,6032,0.048,0.725,0.228,1.0
+pope_st__pius_x__iucunda_sane,Pope St. Pius X,Iucunda Sane,1904,44,41929,8522,0.091,0.74,0.168,0.9999
+pope_st__pius_x__lacrimabili_statu,Pope St. Pius X,Lacrimabili Statu,1912,11,9713,1962,0.08,0.755,0.165,0.9995
+pope_st__pius_x__lamentabili_sane,Pope St. Pius X,Lamentabili Sane,,72,13832,2586,0.054,0.82,0.126,0.9996
+pope_st__pius_x__notre_charge_apostolique,Pope St. Pius X,Notre Charge Apostolique,1910,57,52102,9989,0.066,0.756,0.178,1.0
+pope_st__pius_x__pascendi_dominici_gregis,Pope St. Pius X,Pascendi Dominici Gregis,1907,76,128556,24773,0.075,0.794,0.131,0.9998
+pope_st__pius_x__pieni_l_animo,Pope St. Pius X,Pieni L’animo,1905,19,16301,3062,0.076,0.789,0.135,0.9995
+pope_st__pius_x__praestantia_scripturae,Pope St. Pius X,Praestantia Scripturae,1907,9,6530,1182,0.086,0.797,0.117,0.9869
+pope_st__pius_x__quam_singulari,Pope St. Pius X,Quam Singulari,1905,32,15611,2975,0.078,0.823,0.099,0.9908
+pope_st__pius_x__septimo_iam,Pope St. Pius X,Septimo Iam,1903,6,395,71,0.0,0.876,0.124,0.7003
+pope_st__pius_x__singulari_quadam,Pope St. Pius X,Singulari Quadam,1912,19,11923,2151,0.038,0.782,0.18,0.9998
+pope_st__pius_x__the_oath_against_modernism,Pope St. Pius X,The Oath Against Modernism,,6,5588,1057,0.06,0.79,0.151,0.9977
+pope_st__pius_x__tra_le_sollecitudini,Pope St. Pius X,Tra Le Sollecitudini,1903,73,21531,4057,0.042,0.804,0.154,0.9999
+pope_st__pius_x__tribus_circiter,Pope St. Pius X,Tribus Circiter,1904,16,10927,2106,0.081,0.741,0.177,0.9997
+pope_st__pius_x__une_fois_encore,Pope St. Pius X,Une Fois Encore,1907,27,16394,3196,0.135,0.713,0.152,0.9938
+pope_st__pius_x__vehementer_nos,Pope St. Pius X,Vehementer Nos,1906,23,30335,5810,0.089,0.739,0.172,0.9999

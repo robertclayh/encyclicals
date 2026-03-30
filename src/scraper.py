@@ -47,6 +47,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RAW_DIR = DATA_DIR / "raw"
 INDEX_FILE = DATA_DIR / "encyclicals_index.json"
 LIBRARY_FILE = DATA_DIR / "processed" / "LIBRARY.csv"
+DEAD_LINK_REPLACEMENTS_FILE = DATA_DIR / "processed" / "dead_link_replacements.csv"
 
 HEADERS = {
     "User-Agent": (
@@ -108,6 +109,52 @@ logging.basicConfig(
     format="%(asctime)s [%(levelname)s] %(message)s",
 )
 logger = logging.getLogger(__name__)
+
+
+def load_dead_link_replacements(csv_path: Path | None = None) -> dict[str, str]:
+    """Load non-empty dead-link replacements keyed by doc_id."""
+    path = csv_path or DEAD_LINK_REPLACEMENTS_FILE
+    if not path.exists():
+        logger.info(f"No dead-link replacement file found at {path}")
+        return {}
+
+    replacements = {}
+    with open(path, "r", encoding="utf-8", newline="") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            doc_id = (row.get("doc_id") or "").strip()
+            replacement_url = (row.get("replacement_url") or "").strip()
+            if doc_id and replacement_url:
+                replacements[doc_id] = replacement_url
+
+    logger.info(f"Loaded {len(replacements)} dead-link replacements from {path}")
+    return replacements
+
+
+def apply_dead_link_replacements(
+    documents: list[dict],
+    replacements: dict[str, str] | None = None,
+) -> tuple[list[dict], set[str]]:
+    """Apply curated replacement URLs to document metadata in place."""
+    replacement_map = replacements if replacements is not None else load_dead_link_replacements()
+    replaced_doc_ids: set[str] = set()
+
+    for doc in documents:
+        doc_id = (doc.get("doc_id") or "").strip()
+        replacement_url = replacement_map.get(doc_id, "")
+        current_url = (doc.get("url") or "").strip()
+        if not replacement_url or replacement_url == current_url:
+            continue
+
+        if current_url and not doc.get("original_url"):
+            doc["original_url"] = current_url
+        doc["url"] = replacement_url
+        replaced_doc_ids.add(doc_id)
+
+    if replaced_doc_ids:
+        logger.info(f"Applied curated replacement URLs to {len(replaced_doc_ids)} documents")
+
+    return documents, replaced_doc_ids
 
 
 # ---------------------------------------------------------------------------
@@ -480,6 +527,11 @@ _DATE_RE = re.compile(
     re.IGNORECASE | re.DOTALL,
 )
 _YEAR_RE = re.compile(r"\b(1[2-9]\d{2}|20[0-2]\d)\b")
+_ISSUE_YEAR_RE = re.compile(
+    r"\b(?:issued|promulgated|published|dated|enacted|proclaimed|approved|signed)\b"
+    r"[^\d]{0,50}\b(?:in\s+)?(1[2-9]\d{2}|20[0-2]\d)\b",
+    re.IGNORECASE,
+)
 
 
 def _extract_year_from_page(
@@ -504,6 +556,27 @@ def _extract_year_from_page(
     content = _find_content_area(soup)
     if content is None:
         return ""
+
+    # Pass -1: explicit issuance phrases often appear in title/subtitle blocks.
+    header_parts = []
+    if soup.title and soup.title.get_text(" ", strip=True):
+        header_parts.append(soup.title.get_text(" ", strip=True))
+    for tag_name in ("h1", "h2", "h3", "h4"):
+        for tag in soup.find_all(tag_name)[:3]:
+            text = tag.get_text(" ", strip=True)
+            if text:
+                header_parts.append(text)
+    for meta_name in ("description", "og:description", "twitter:description"):
+        meta = soup.find("meta", attrs={"name": meta_name}) or soup.find("meta", attrs={"property": meta_name})
+        if meta:
+            value = (meta.get("content") or "").strip()
+            if value:
+                header_parts.append(value)
+
+    header_blob = " ".join(header_parts)
+    m_issue = _ISSUE_YEAR_RE.search(header_blob)
+    if m_issue and _plausible(m_issue.group(1)):
+        return m_issue.group(1)
 
     tags = content.find_all(["h1", "h2", "h3", "h4", "p", "b", "strong"])
 
@@ -533,6 +606,9 @@ def _extract_year_from_page(
     # Pass 3: scan the full content text (catches years in plain text nodes /
     # divs not covered by the tag search above)
     full_text = content.get_text(" ", strip=True)
+    m_issue = _ISSUE_YEAR_RE.search(full_text[:2500])
+    if m_issue and _plausible(m_issue.group(1)):
+        return m_issue.group(1)
     for m in _DATE_RE.finditer(full_text):
         if _plausible(m.group(1)):
             return m.group(1)
@@ -559,19 +635,24 @@ def _extract_year_from_text(text: str, valid_range: tuple[int, int] | None = Non
         lo, hi = valid_range
         return (lo - 50) <= int(y) <= (hi + 50)
 
-    # Pass 0: search the last 1000 chars first — subscription date is always
+    # Pass 0: explicit issuance phrase near front matter.
+    m_issue = _ISSUE_YEAR_RE.search(text[:2500])
+    if m_issue and _plausible(m_issue.group(1)):
+        return m_issue.group(1)
+
+    # Pass 1: search the last 1000 chars first — subscription date is always
     # at the end of the document.
     tail = text[-1000:] if len(text) > 1000 else text
     for m in _DATE_RE.finditer(tail):
         if _plausible(m.group(1)):
             return m.group(1)
 
-    # Pass 1: month + year, full document
+    # Pass 2: month + year, full document
     for m in _DATE_RE.finditer(text):
         if _plausible(m.group(1)):
             return m.group(1)
 
-    # Pass 2: standalone year within valid range
+    # Pass 3: standalone year within valid range
     if valid_range:
         for m in _YEAR_RE.finditer(text):
             if _plausible(m.group(1)):
@@ -661,18 +742,29 @@ def extract_text_from_html(soup: BeautifulSoup) -> str:
     if content is None:
         return ""
 
-    # Get text, preserving paragraph breaks
+    # Structured extraction: gather text from semantic block elements.
+    # Include <center> because some older pages use it for sub-headings and
+    # issuance lines (e.g., papalencyclicals.net older constitutions).
     paragraphs = []
-    for p in content.find_all(["p", "blockquote", "h1", "h2", "h3", "h4", "h5", "h6"]):
+    for p in content.find_all(["p", "blockquote", "center",
+                                "h1", "h2", "h3", "h4", "h5", "h6"]):
         text = p.get_text(strip=True)
         if text:
             paragraphs.append(text)
 
-    if paragraphs:
-        return "\n\n".join(paragraphs)
+    para_text = "\n\n".join(paragraphs)
 
-    # If no paragraphs found, get all text
-    return content.get_text(separator="\n", strip=True)
+    # Full-content fallback via get_text(), which also captures raw text nodes
+    # that live outside block elements.  Some older pages place the entire body
+    # text in bare text nodes rather than in <p> tags; in those cases the
+    # paragraph extraction above only returns a small fragment of the real text.
+    full_text = re.sub(r"\n{3,}", "\n\n", content.get_text(separator="\n", strip=True))
+
+    # Use structured extraction when it captures most of the content.
+    # Fall back to get_text() when significant text is in raw text nodes.
+    if para_text.strip() and len(para_text.strip()) >= 0.6 * len(full_text.strip()):
+        return para_text
+    return full_text
 
 
 def download_and_extract_epub(epub_url: str) -> str:
@@ -784,6 +876,8 @@ def scrape_documents(documents: list[dict], max_docs: int = 0,
         documents = documents[:max_docs]
         logger.info(f"Limiting to {max_docs} of {total} documents")
 
+    documents, replaced_doc_ids = apply_dead_link_replacements(documents)
+
     skipped = 0
     extracted = 0
     errors = 0
@@ -802,6 +896,10 @@ def scrape_documents(documents: list[dict], max_docs: int = 0,
     for i, doc in enumerate(documents):
         doc_id = doc["doc_id"]
         raw_file = RAW_DIR / f"{doc_id}.txt"
+        has_replacement = doc_id in replaced_doc_ids
+
+        if has_replacement:
+            doc.pop("error", None)
 
         # Skip known dead domains to avoid repeated DNS/connection noise.
         if _domain(doc.get("url", "")) in KNOWN_DEAD_DOMAINS:
@@ -813,7 +911,7 @@ def scrape_documents(documents: list[dict], max_docs: int = 0,
             continue
 
         # Skip if already downloaded
-        if raw_file.exists() and raw_file.stat().st_size > 100:
+        if raw_file.exists() and raw_file.stat().st_size > 100 and not has_replacement:
             if not show_progress:
                 logger.info(f"[{i+1}/{len(documents)}] Skipping {doc_id} (already exists)")
             with open(raw_file, "r", encoding="utf-8") as f:
@@ -823,6 +921,13 @@ def scrape_documents(documents: list[dict], max_docs: int = 0,
             if not doc.get("year"):
                 valid_range = _parse_pope_dates(doc.get("pope_dates", ""))
                 doc["year"] = _extract_year_from_text(text, valid_range=valid_range)
+                if not doc.get("year") and doc.get("url"):
+                    page_html = fetch_page(doc["url"], retries=2)
+                    if page_html is not None:
+                        doc["year"] = _extract_year_from_page(
+                            _make_soup(page_html),
+                            valid_range=valid_range,
+                        )
             if not doc.get("document_type") or doc.get("document_type") in {"document", "index"}:
                 doc["document_type"] = infer_document_type(doc.get("title", ""), doc.get("url", ""), text)
             skipped += 1
@@ -835,7 +940,15 @@ def scrape_documents(documents: list[dict], max_docs: int = 0,
         result = extract_document_text(doc["url"], pope_dates=doc.get("pope_dates", ""))
 
         doc["format"] = result["format"]
-        doc["language"] = result["language"]
+        # Don't downgrade a previously-valid language to "unknown" when the
+        # freshly scraped page yielded very little text (e.g., tiny index pages
+        # that are re-fetched every run because their raw file is < 100 bytes).
+        new_lang = result["language"]
+        if new_lang and new_lang != "unknown":
+            doc["language"] = new_lang
+        elif not doc.get("language") or doc["language"] == "unknown":
+            doc["language"] = new_lang
+        # else: keep existing valid language from a prior scrape run
         doc["text_length"] = len(result["text"])
         if result.get("year") and not doc.get("year"):
             doc["year"] = result["year"]
@@ -848,6 +961,7 @@ def scrape_documents(documents: list[dict], max_docs: int = 0,
             if not show_progress:
                 logger.warning(f"  Error: {result['error']}")
         else:
+            doc.pop("error", None)
             extracted += 1
             if not show_progress:
                 logger.info(f"  Extracted {len(result['text'])} chars ({result['language']})")
@@ -892,6 +1006,7 @@ def save_library_csv(documents: list[dict]):
 
     fieldnames = [
         "doc_id", "category", "author", "author_dates", "title", "year", "url",
+        "original_url",
         "document_type", "language", "format", "text_length",
         "pope", "pope_dates"
     ]
