@@ -1,0 +1,58 @@
+pope,source,detail_level,n_documents,n_with_text,languages
+Church Councils,papalencyclicals.net,standard,21,21,en
+Pope Alexander IV,papalencyclicals.net,standard,4,4,en;la
+Pope Alexander VI,papalencyclicals.net,standard,1,1,en
+Pope Alexander VII,papalencyclicals.net,standard,1,1,en
+Pope Benedict XII,papalencyclicals.net,standard,1,1,en
+Pope Benedict XIV,papalencyclicals.net,standard,43,43,en
+Pope Benedict XV,papalencyclicals.net,standard,12,12,en
+Pope Benedict XV,vatican.va,detailed,14,14,en
+Pope Benedict XVI,papalencyclicals.net,standard,21,21,en
+Pope Benedict XVI,vatican.va,detailed,3125,3125,en
+Pope Bl. Pius IX,papalencyclicals.net,standard,40,40,en
+Pope Boniface VIII,papalencyclicals.net,standard,1,1,en
+Pope Clement V,papalencyclicals.net,standard,1,1,en
+Pope Clement VIII,papalencyclicals.net,standard,1,1,en
+Pope Clement XI,papalencyclicals.net,standard,2,2,en
+Pope Clement XII,papalencyclicals.net,standard,1,1,en
+Pope Clement XIII,papalencyclicals.net,standard,13,13,en
+Pope Clement XIV,papalencyclicals.net,standard,4,4,en
+Pope Eugene IV,papalencyclicals.net,standard,1,1,en
+Pope Francesco,vatican.va,detailed,5747,5747,en
+Pope Francis,papalencyclicals.net,standard,10,10,en
+Pope Gregory IX,papalencyclicals.net,standard,1,1,en
+Pope Gregory X,papalencyclicals.net,standard,1,1,en
+Pope Gregory XIII,papalencyclicals.net,standard,2,2,en
+Pope Gregory XVI,papalencyclicals.net,standard,10,10,en
+Pope Honorious III,papalencyclicals.net,standard,1,1,en
+Pope Innocent IV,papalencyclicals.net,standard,1,1,en
+Pope Innocent XI,papalencyclicals.net,standard,1,1,en
+Pope John Paul I,vatican.va,detailed,22,22,en
+Pope John Paul II,vatican.va,detailed,6155,6155,en;fr;it
+Pope John XXII,papalencyclicals.net,standard,4,4,en
+Pope John XXIII,vatican.va,detailed,33,33,en
+Pope Leo X,papalencyclicals.net,standard,2,2,en
+Pope Leo XII,papalencyclicals.net,standard,5,5,en
+Pope Leo XIII,papalencyclicals.net,standard,88,88,en
+Pope Leo XIII,vatican.va,detailed,87,87,en;it
+Pope Leo XIV,vatican.va,detailed,545,545,en
+Pope Nicholas III,papalencyclicals.net,standard,1,1,en
+Pope Nicholas IV,papalencyclicals.net,standard,1,1,en
+Pope Nicholas V,papalencyclicals.net,standard,1,1,en
+Pope Paul III,papalencyclicals.net,standard,2,2,en
+Pope Paul VI,papalencyclicals.net,standard,35,35,en
+Pope Paul VI,vatican.va,detailed,877,877,en;fr;it
+Pope Pius VI,papalencyclicals.net,standard,26,26,en
+Pope Pius VII,papalencyclicals.net,standard,2,2,en
+Pope Pius VIII,papalencyclicals.net,standard,1,1,en
+Pope Pius X,vatican.va,detailed,16,16,en
+Pope Pius XI,papalencyclicals.net,standard,32,32,en;la
+Pope Pius XI,vatican.va,detailed,25,25,en
+Pope Pius XII,papalencyclicals.net,standard,60,60,en
+Pope Pius XII,vatican.va,detailed,220,220,en;it
+Pope Sixtus IV,papalencyclicals.net,standard,1,1,en
+Pope Sixtus V,papalencyclicals.net,standard,1,1,en
+Pope St. John Paul II,papalencyclicals.net,standard,60,60,en
+Pope St. John XXIII,papalencyclicals.net,standard,17,17,en;unknown
+Pope St. Pius V,papalencyclicals.net,standard,4,4,en;la
+Pope St. Pius X,papalencyclicals.net,standard,26,26,en
