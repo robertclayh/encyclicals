@@ -7,7 +7,7 @@ Vatican raw files follow the naming pattern:
 This script:
 1. Scans data/raw for vatican__*.txt files
 2. Parses the filename to extract doc_id, pope_slug, language
-3. Reads first few lines to estimate document info
+3. Infers document type from filename patterns (angelus, encyclical, etc.)
 4. Merges new entries into encyclicals_index.json
 5. Saves the updated index
 """
@@ -23,6 +23,46 @@ logging.basicConfig(level=logging.INFO, format='%(message)s')
 DATA_DIR = Path(__file__).parent / "data"
 RAW_DIR = DATA_DIR / "raw"
 INDEX_FILE = DATA_DIR / "encyclicals_index.json"
+
+
+def infer_document_type(title: str, url: str = "", filename: str = "") -> str:
+    """Infer normalized document type from title, URL, and filename patterns."""
+    title_blob = f"{title} {filename}".lower()
+    url_blob = (url or "").lower()
+    blob = f"{title_blob} {url_blob}"
+
+    patterns = [
+        ("index", ["index", ".index.html", "alphabetic order", "chronological order"]),
+        ("encyclical", [" enc_", "/encyclicals/", "encyclical"]),
+        ("apostolic exhortation", ["apostolic exhortation", "exhortation", " exh_", "apost_exhortations"]),
+        ("apostolic constitution", ["apostolic constitution", "apostolic constitutions", "apc_", "apost_constitutions"]),
+        ("apostolic letter", ["apostolic letter", "apostolic letters", "letters", " let_"]),
+        ("motu proprio", ["motu proprio", "motu-proprio", "moto proprio"]),
+        ("homily", ["homily", "homilies", " hom_"]),
+        ("speech", ["speech", "speeches", " spe_"]),
+        ("message", ["message", "messages", "msg", "communications day", "world day of peace"]),
+        ("angelus", ["angelus", "regina coeli"]),
+        ("audience", ["audience", "audiences"]),
+        ("bull", ["[bull]", " bolla ", " papal bull "]),
+        ("decree", ["decree", "decret"]),
+        ("brief", [" brief ", " breve "]),
+        ("instruction", ["instruction"]),
+        ("prayer", ["prayer", "preghiera"]),
+        ("travel", ["travel", "viaggio"]),
+        ("biography", ["biography", "bio"]),
+    ]
+
+    for doc_type, hints in patterns:
+        if doc_type == "encyclical":
+            # Avoid false positives from domain names
+            if " enc_" in blob or "/encyclicals/" in url_blob or "encyclical" in title_blob:
+                return doc_type
+            continue
+
+        if any(h in blob for h in hints):
+            return doc_type
+
+    return "document"
 
 def parse_vatican_filename(filename):
     """
@@ -53,19 +93,21 @@ def parse_vatican_filename(filename):
     
     return doc_id, pope_slug, lang, description
 
-def extract_text_info(filepath, description, max_chars=200):
+def extract_text_info(filepath, description):
     """
-    Use file size and parse description to create placeholder title.
-    Returns: (text_length, title_hint)
+    Use file size and parse description to create title and infer document type.
+    Returns: (text_length, title_hint, document_type)
     """
     try:
         text_length = filepath.stat().st_size
         # Create title from description by replacing underscores with spaces
-        title_hint = description.replace("_", " ").replace("-", " ").title()[:200] if description else f"Vatican Document"
-        return text_length, title_hint
+        title_hint = description.replace("_", " ").replace("-", " ").title()[:200] if description else "Vatican Document"
+        # Infer document type from description
+        doc_type = infer_document_type(title_hint, filename=description.lower())
+        return text_length, title_hint, doc_type
     except Exception as e:
         logger.error(f"Failed to stat {filepath}: {e}")
-        return 0, ""
+        return 0, "", "document"
 
 def build_vatican_index_entries():
     """
@@ -75,9 +117,17 @@ def build_vatican_index_entries():
         logger.error(f"Index file not found: {INDEX_FILE}")
         return None
     
-    # Load existing index
-    with open(INDEX_FILE, 'r', encoding='utf-8') as f:
-        documents = json.load(f)
+    # Load existing index (try multiple encodings)
+    try:
+        with open(INDEX_FILE, 'r', encoding='utf-8') as f:
+            documents = json.load(f)
+    except UnicodeDecodeError:
+        try:
+            with open(INDEX_FILE, 'r', encoding='utf-16') as f:
+                documents = json.load(f)
+        except UnicodeDecodeError:
+            with open(INDEX_FILE, 'r', encoding='utf-8-sig') as f:
+                documents = json.load(f)
     
     existing_doc_ids = {doc['doc_id'] for doc in documents}
     logger.info(f"Loaded {len(documents)} documents from index")
@@ -107,7 +157,7 @@ def build_vatican_index_entries():
             continue
         
         # Extract text info
-        text_length, title_hint = extract_text_info(raw_file, description, max_chars=200)
+        text_length, title_hint, doc_type = extract_text_info(raw_file, description)
         
         # Build doc entry (matching the structure expected by pipeline)
         entry = {
@@ -120,7 +170,7 @@ def build_vatican_index_entries():
             "language": lang,
             "text_length": text_length,
             "category": "pope",
-            "document_type": "papal_document",
+            "document_type": doc_type,  # Now properly inferred
             "source": "vatican.va",
             "format": "text"
         }
