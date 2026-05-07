@@ -1,14 +1,15 @@
 ﻿"""
-Papal Encyclicals Web Scraper
+Papal Documents Web Scraper
 DS 5001 - Exploratory Text Analytics Final Project
 
-Scrapes encyclical texts from https://www.papalencyclicals.net/document-directory
-Collects metadata (pope, title, date, language) and full document text.
+Supports two sources:
+    1) papalencyclicals.net directory corpus
+    2) vatican.va pope section crawling (index pages -> document pages)
 
 Usage:
-    python src/scraper.py                  # Scrape everything
-    python src/scraper.py --index-only     # Only scrape the directory index
-    python src/scraper.py --max-docs 10    # Limit number of documents
+        python src/scraper.py --source papalencyclicals
+        python src/scraper.py --source vatican --pope benedict-xvi --lang en
+        python src/scraper.py --source vatican --pope francis --index-only
 """
 
 import os
@@ -19,6 +20,7 @@ import time
 import warnings
 import logging
 import argparse
+from collections import Counter
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
@@ -34,6 +36,7 @@ from urllib3.exceptions import InsecureRequestWarning
 
 BASE_URL = "https://www.papalencyclicals.net"
 DIRECTORY_URL = f"{BASE_URL}/document-directory"
+VATICAN_BASE_URL = "https://www.vatican.va"
 
 # Known dead/unreliable archival hosts. Keep metadata rows, skip fetch attempts.
 KNOWN_DEAD_DOMAINS = {
@@ -48,6 +51,7 @@ RAW_DIR = DATA_DIR / "raw"
 INDEX_FILE = DATA_DIR / "encyclicals_index.json"
 LIBRARY_FILE = DATA_DIR / "processed" / "LIBRARY.csv"
 DEAD_LINK_REPLACEMENTS_FILE = DATA_DIR / "processed" / "dead_link_replacements.csv"
+POPE_COVERAGE_FILE = DATA_DIR / "processed" / "POPE_COVERAGE.csv"
 
 HEADERS = {
     "User-Agent": (
@@ -318,6 +322,9 @@ def parse_directory(html: str | bytes) -> list[dict]:
             "category": category,
             "author": author,
             "author_dates": "" if is_council else current_section["dates"],
+            "source": "papalencyclicals.net",
+            "collection": "legacy_encyclicals",
+            "detail_level": "standard",
             "pope": current_section["name"],
             "pope_dates": current_section["dates"],
             "title": title,
@@ -431,6 +438,405 @@ def _is_non_document_link_title(title: str) -> bool:
         return True
 
     return False
+
+
+def _normalize_url(url: str) -> str:
+    """Normalize URL for de-duplication during crawling."""
+    parsed = urlparse(url)
+    clean_path = re.sub(r"/{2,}", "/", parsed.path)
+    return f"{parsed.scheme}://{parsed.netloc}{clean_path}".rstrip("/")
+
+
+def _build_vatican_scope_prefixes(
+    pope_slug: str,
+    lang: str,
+    start_url: str = "",
+    include_canonical: bool = True,
+) -> list[str]:
+    """Build allowed Vatican path prefixes for one pope/language crawl."""
+    prefixes = []
+    if include_canonical:
+        prefixes.append(f"/content/{pope_slug.lower()}/{lang.lower()}")
+
+    if start_url:
+        parsed = urlparse(start_url)
+        start_path = re.sub(r"/{2,}", "/", (parsed.path or "").rstrip("/")).lower()
+        if start_path.endswith(".html") or start_path.endswith(".htm"):
+            start_path = start_path.rsplit(".", 1)[0]
+        if start_path:
+            prefixes.append(start_path)
+
+    deduped = []
+    seen = set()
+    for p in prefixes:
+        if p in seen:
+            continue
+        seen.add(p)
+        deduped.append(p)
+    return deduped
+
+
+def _is_vatican_same_scope(url: str, scope_prefixes: list[str]) -> bool:
+    """Keep crawl bounded to allowed Vatican path prefixes."""
+    parsed = urlparse(url)
+    if parsed.netloc.lower() != "www.vatican.va":
+        return False
+
+    path = parsed.path.lower()
+    return any(path.startswith(prefix) for prefix in scope_prefixes)
+
+
+def _is_vatican_document_url(url: str, scope_prefixes: list[str], lang: str) -> bool:
+    """Heuristic for Vatican leaf documents."""
+    if not _is_vatican_same_scope(url, scope_prefixes):
+        return False
+
+    path = urlparse(url).path.lower()
+    filename = path.rsplit("/", 1)[-1]
+    if not (filename.endswith(".html") or filename.endswith(".htm")):
+        return False
+    if "index" in filename:
+        return False
+    if path.endswith(f"/{lang.lower()}.html"):
+        return False
+    if "/_jcr_content/" in path:
+        return False
+
+    if "/documents/" in path:
+        return True
+
+    return bool(re.match(r"^(?:hf_|ben|fra|jpii|pio|let|msg|spe|hom)[\w\-\.]*\.(?:html|htm)$", filename))
+
+
+def _extract_vatican_title(anchor) -> str:
+    """Extract item title from link context (works when anchor text is just EN/IT/etc)."""
+    raw = ""
+    container = anchor.find_parent(["li", "p", "td", "tr", "div"])
+    if container is not None:
+        raw = container.get_text(" ", strip=True)
+    if not raw:
+        raw = anchor.get_text(" ", strip=True)
+
+    raw = re.sub(r"\b([A-Z]{2})(\s*-\s*[A-Z]{2})+\b", "", raw)
+    raw = re.sub(r"\s+", " ", raw).strip(" -\u2013\u2014")
+    if len(raw) < 4:
+        raw = (anchor.get("title") or "").strip() or anchor.get_text(" ", strip=True)
+
+    return raw or "Untitled"
+
+
+def _vatican_doc_type_from_url(url: str, lang: str) -> str:
+    """Infer Vatican document category from path segment after language."""
+    parts = [p for p in urlparse(url).path.strip("/").split("/") if p]
+    try:
+        lang_idx = parts.index(lang)
+    except ValueError:
+        return "document"
+
+    if lang_idx + 1 >= len(parts):
+        return "document"
+
+    seg = parts[lang_idx + 1].lower()
+    mapping = {
+        "angelus": "angelus",
+        "apost_constitutions": "apostolic constitution",
+        "apost_exhortations": "apostolic exhortation",
+        "apost_letters": "apostolic letter",
+        "audiences": "audience",
+        "biography": "biography",
+        "encyclicals": "encyclical",
+        "homilies": "homily",
+        "letters": "letter",
+        "messages": "message",
+        "motu_proprio": "motu proprio",
+        "prayers": "prayer",
+        "speeches": "speech",
+        "documentation": "documentation",
+        "travels": "travel",
+    }
+    return mapping.get(seg, seg.replace("_", " "))
+
+
+def _format_pope_display_name(pope_slug: str) -> str:
+    """Convert pope slug to display label while preserving Roman numerals."""
+    parts = []
+    for token in pope_slug.split("-"):
+        if re.fullmatch(r"[ivxlcdm]+", token):
+            parts.append(token.upper())
+        else:
+            parts.append(token.capitalize())
+    return f"Pope {' '.join(parts)}"
+
+
+def _vatican_doc_id(url: str, pope_slug: str, lang: str, scope_prefixes: list[str] | None = None) -> str:
+    """Generate stable doc_id for Vatican documents."""
+    path = urlparse(url).path.lower()
+    tail = path.strip("/")
+    if scope_prefixes:
+        for scope_prefix in sorted(scope_prefixes, key=len, reverse=True):
+            scope = f"{scope_prefix.rstrip('/')}/"
+            if path.startswith(scope):
+                tail = path[len(scope):]
+                break
+    if tail == path.strip("/"):
+        scope = f"/content/{pope_slug.lower()}/{lang.lower()}/"
+        if scope in path:
+            tail = path.split(scope, 1)[-1]
+    slug = re.sub(r"[^a-z0-9]+", "_", tail).strip("_")[:120]
+    return f"vatican__{pope_slug.lower()}__{lang.lower()}__{slug}"
+
+
+def discover_vatican_pope_links(source_url: str = "https://www.vatican.va/content/vatican/en.html") -> list[dict]:
+    """Discover pope profile card links from the Vatican English home page."""
+    html = fetch_page(source_url)
+    if html is None:
+        logger.warning(f"Failed to fetch Vatican source page: {source_url}")
+        return []
+
+    soup = _make_soup(html)
+    links = []
+    seen = set()
+    for a in soup.find_all("a", href=True):
+        href = urljoin(source_url, a.get("href", "").strip())
+        path = urlparse(href).path.lower()
+        if "/content/vatican/en/holy-father/" not in path:
+            continue
+        if not path.endswith(".html"):
+            continue
+        normalized = _normalize_url(href)
+        if normalized in seen:
+            continue
+        seen.add(normalized)
+        title = re.sub(r"\s+", " ", a.get_text(" ", strip=True)).strip()
+        links.append({
+            "pope_label": title,
+            "pope_card_url": normalized,
+        })
+
+    logger.info(f"Discovered {len(links)} pope profile links from {source_url}")
+    return links
+
+
+def _resolve_vatican_pope_slug_from_card(card_url: str, lang: str = "en") -> tuple[str, str]:
+    """Resolve canonical pope slug/home URL from a Vatican pope profile card page."""
+    html = fetch_page(card_url, retries=2)
+    if html is None:
+        return "", ""
+
+    soup = _make_soup(html)
+    pattern = re.compile(rf"/content/([^/]+)/{re.escape(lang)}/?\.html$", re.IGNORECASE)
+    candidates: dict[str, str] = {}
+    for a in soup.find_all("a", href=True):
+        href = urljoin(card_url, a.get("href", "").strip())
+        path = urlparse(href).path
+        match = pattern.search(path)
+        if not match:
+            continue
+        slug = match.group(1).lower()
+        if slug in {"vatican", "romancuria", "liturgy", "photogallery"}:
+            continue
+
+        normalized_href = _normalize_url(href)
+        if slug not in candidates:
+            candidates[slug] = normalized_href
+
+    if not candidates:
+        return "", ""
+
+    card_slug = urlparse(card_url).path.rstrip("/").rsplit("/", 1)[-1].replace(".html", "").lower()
+    candidate_list = list(candidates.keys())
+    selected_slug = _select_best_slug_for_card(card_slug, candidate_list)
+
+    # Some profile pages do not expose their own /content/<slug>/<lang>.html
+    # link in static HTML. In that case, build a best-effort translated slug
+    # from the profile card path.
+    translated_slug = _translate_card_slug(card_slug)
+    if selected_slug and _slug_match_score(card_slug, selected_slug) == (0, 0, 0):
+        if translated_slug and translated_slug not in {"", "vatican"}:
+            return translated_slug, f"https://www.vatican.va/content/{translated_slug}/{lang}.html"
+
+    return selected_slug, candidates[selected_slug]
+
+
+def _select_best_slug_for_card(card_slug: str, candidate_slugs: list[str]) -> str:
+    """Pick the most likely pope content slug from a profile card slug."""
+    if not candidate_slugs:
+        return ""
+
+    if card_slug in candidate_slugs:
+        return card_slug
+
+    translated_slug = _translate_card_slug(card_slug)
+    if translated_slug in candidate_slugs:
+        return translated_slug
+
+    ranked = sorted(candidate_slugs, key=lambda c: _slug_match_score(card_slug, c), reverse=True)
+    return ranked[0]
+
+
+def _translate_card_slug(card_slug: str) -> str:
+    """Translate common Italian pope-name tokens to English equivalents."""
+    name_map = {
+        "francesco": "francis",
+        "benedetto": "benedict",
+        "giovanni": "john",
+        "paolo": "paul",
+        "pio": "pius",
+        "leone": "leo",
+        "clemente": "clement",
+        "gregorio": "gregory",
+        "innocenzo": "innocent",
+        "alessandro": "alexander",
+        "adriano": "adrian",
+        "niccolo": "nicholas",
+        "martino": "martin",
+        "urbano": "urban",
+        "eugenio": "eugene",
+        "onorio": "honorius",
+        "celestino": "celestine",
+        "stefano": "stephen",
+        "sisto": "sixtus",
+        "zaccaria": "zachary",
+        "silvestro": "sylvester",
+        "teodoro": "theodore",
+        "bonifacio": "boniface",
+        "anastasio": "anastasius",
+        "costantino": "constantine",
+        "sergio": "sergius",
+        "vigilio": "vigilius",
+        "pelagio": "pelagius",
+        "ormisda": "hormisdas",
+        "landone": "lando",
+        "damaso": "damasus",
+        "marino": "marinus",
+        "agapito": "agapetus",
+        "callisto": "callixtus",
+        "giulio": "julius",
+        "lucio": "lucius",
+    }
+
+    parts = card_slug.split("-")
+    translated_parts = [name_map.get(p, p) for p in parts]
+    return "-".join(translated_parts)
+
+
+def _slug_match_score(card_slug: str, candidate: str) -> tuple[int, int, int]:
+    """Score candidate slug similarity to profile card slug."""
+    parts = card_slug.split("-")
+    translated_parts = _translate_card_slug(card_slug).split("-")
+
+    card_parts = set(parts)
+    translated_set = set(translated_parts)
+
+    cand_parts = set(candidate.split("-"))
+    overlap_raw = len(card_parts.intersection(cand_parts))
+    overlap_translated = len(translated_set.intersection(cand_parts))
+    roman_bonus = 1 if any(re.fullmatch(r"[ivxlcdm]+", p) and p in cand_parts for p in parts) else 0
+    return (overlap_translated, overlap_raw, roman_bonus)
+
+
+def discover_vatican_pope_destinations(
+    source_url: str = "https://www.vatican.va/content/vatican/en.html",
+    lang: str = "en",
+    max_popes: int = 0,
+) -> list[dict]:
+    """Discover pope profile links and resolve crawl-ready Vatican slugs/home URLs."""
+    profile_links = discover_vatican_pope_links(source_url=source_url)
+    if max_popes > 0:
+        profile_links = profile_links[:max_popes]
+
+    rows = []
+    for row in profile_links:
+        slug, home_url = _resolve_vatican_pope_slug_from_card(row["pope_card_url"], lang=lang)
+        out = {
+            "pope_label": row["pope_label"],
+            "pope_card_url": row["pope_card_url"],
+            "pope_slug": slug,
+            "pope_home_url": home_url,
+        }
+        rows.append(out)
+
+    resolved = sum(1 for r in rows if r["pope_slug"])
+    logger.info(f"Resolved crawl slugs for {resolved}/{len(rows)} pope profiles")
+    return rows
+
+
+def scrape_vatican_pope_index(
+    pope_slug: str,
+    lang: str = "en",
+    start_url: str = "",
+    max_index_pages: int = 500,
+) -> list[dict]:
+    """Crawl one Vatican pope section and collect leaf document URLs."""
+    canonical_start = f"{VATICAN_BASE_URL}/content/{pope_slug}/{lang}.html"
+    explicit_start = bool(start_url.strip())
+    effective_start_url = _normalize_url(start_url.strip()) if explicit_start else canonical_start
+    scope_prefixes = _build_vatican_scope_prefixes(
+        pope_slug=pope_slug,
+        lang=lang,
+        start_url=effective_start_url,
+        include_canonical=not explicit_start,
+    )
+
+    queue = [effective_start_url]
+    if (not explicit_start) and (effective_start_url != canonical_start):
+        queue.append(canonical_start)
+    visited = set()
+    documents_by_url: dict[str, dict] = {}
+
+    logger.info(f"Crawling Vatican index pages from {effective_start_url}")
+    pope_display = _format_pope_display_name(pope_slug)
+
+    while queue and len(visited) < max_index_pages:
+        current = queue.pop(0)
+        norm_current = _normalize_url(current)
+        if norm_current in visited:
+            continue
+        visited.add(norm_current)
+
+        html = fetch_page(current)
+        if html is None:
+            continue
+
+        soup = _make_soup(html)
+        for anchor in soup.find_all("a", href=True):
+            href = _normalize_url(urljoin(current, anchor.get("href", "").strip()))
+            if not href or not _is_vatican_same_scope(href, scope_prefixes):
+                continue
+
+            if _is_vatican_document_url(href, scope_prefixes, lang):
+                if href not in documents_by_url:
+                    title = _extract_vatican_title(anchor)
+                    documents_by_url[href] = {
+                        "doc_id": _vatican_doc_id(href, pope_slug, lang, scope_prefixes=scope_prefixes),
+                        "category": "pope",
+                        "author": pope_display,
+                        "author_dates": "",
+                        "source": "vatican.va",
+                        "collection": "modern_popes_fulltext",
+                        "detail_level": "detailed",
+                        "pope": pope_display,
+                        "pope_dates": "",
+                        "title": title,
+                        "url": href,
+                        "year": extract_year(title),
+                        "document_type": _vatican_doc_type_from_url(href, lang),
+                        "language": lang.lower(),
+                        "format": "",
+                    }
+                continue
+
+            path = urlparse(href).path.lower()
+            filename = path.rsplit("/", 1)[-1]
+            # Queue remaining HTML navigation pages (includes year pages).
+            if (filename.endswith(".html") or filename.endswith(".htm")) and href not in visited and href not in queue:
+                queue.append(href)
+
+    logger.info(
+        f"Vatican crawl complete for {pope_slug}/{lang}: "
+        f"visited={len(visited)} index pages, documents={len(documents_by_url)}"
+    )
+    return list(documents_by_url.values())
 
 
 def extract_year(text: str) -> str:
@@ -823,27 +1229,124 @@ def download_and_extract_epub(epub_url: str) -> str:
 
 
 def detect_language_simple(text: str) -> str:
-    """Simple language detection based on common words."""
+    """Language detection using stopword frequency over a text sample."""
     if not text:
         return "unknown"
 
-    text_lower = text[:2000].lower()
+    sample = text[:12000].lower()
+    tokens = re.findall(r"[a-z\u00c0-\u00ff]+", sample)
+    if len(tokens) < 40:
+        return "unknown"
 
-    # Count common words for a few languages
-    en_words = ["the", "and", "of", "to", "in", "that", "which", "for", "with", "this"]
-    la_words = ["et", "in", "est", "non", "qui", "quae", "sed", "cum", "ad", "ut"]
-    it_words = ["il", "della", "che", "dei", "nella", "alla", "sono", "questo", "quella", "anche"]
-    fr_words = ["le", "la", "les", "des", "dans", "qui", "est", "pour", "avec", "nous"]
-
-    scores = {
-        "en": sum(1 for w in en_words if re.search(rf"\b{w}\b", text_lower)),
-        "la": sum(1 for w in la_words if re.search(rf"\b{w}\b", text_lower)),
-        "it": sum(1 for w in it_words if re.search(rf"\b{w}\b", text_lower)),
-        "fr": sum(1 for w in fr_words if re.search(rf"\b{w}\b", text_lower)),
+    stopwords = {
+        "en": {
+            "the", "and", "of", "to", "in", "that", "for", "with", "is", "on", "as", "by",
+            "be", "this", "we", "our", "are", "from", "or", "which", "an", "at", "it", "not",
+        },
+        "la": {
+            "et", "in", "est", "non", "qui", "quae", "quod", "sed", "cum", "ad", "ut", "sunt",
+            "autem", "hoc", "haec", "ecclesia", "christi", "dei", "romana", "apostolica", "sanctae",
+            "nostra", "fidei", "vitae", "quam", "omnibus", "ipsa", "eius", "per", "pro", "ita",
+        },
+        "it": {
+            "il", "la", "lo", "gli", "le", "dei", "degli", "della", "delle", "del", "di", "che",
+            "nella", "nelle", "alla", "alle", "con", "per", "non", "come", "sono", "questo", "questa",
+            "quello", "quella", "anche", "nel", "una", "un", "si", "dei", "dai", "agli",
+        },
+        "fr": {
+            "le", "la", "les", "des", "de", "du", "dans", "qui", "est", "pour", "avec", "nous",
+            "vous", "sur", "par", "une", "un", "et", "ce", "cette", "aux", "au", "pas", "que",
+            "plus", "comme", "ont", "ils", "elles", "leur", "leurs",
+        },
     }
 
-    best = max(scores, key=scores.get)
-    return best if scores[best] >= 3 else "unknown"
+    token_counts = Counter(tokens)
+    token_set = set(token_counts)
+
+    scores = {}
+    for lang, words in stopwords.items():
+        hit_count = sum(token_counts[w] for w in words if w in token_counts)
+        unique_hits = len(token_set.intersection(words))
+        freq_component = hit_count / len(tokens)
+        coverage_component = unique_hits / len(words)
+        scores[lang] = (0.75 * freq_component) + (0.25 * coverage_component)
+
+    ranked = sorted(scores.items(), key=lambda kv: kv[1], reverse=True)
+    best_lang, best_score = ranked[0]
+    second_score = ranked[1][1] if len(ranked) > 1 else 0.0
+
+    if best_score < 0.015:
+        return "unknown"
+    if second_score > 0 and best_score < (second_score * 1.15):
+        return "unknown"
+    return best_lang
+
+
+def recheck_languages_from_raw(
+    documents: list[dict],
+    source: str = "papalencyclicals.net",
+    only_if_current: str | None = "en",
+    min_text_chars: int = 500,
+) -> dict:
+    """Reclassify document language from local raw files only (no network calls)."""
+    updated = []
+    skipped_missing_raw = 0
+    skipped_short = 0
+    skipped_filter = 0
+    examined = 0
+
+    source_norm = source.strip().lower()
+    only_if_current_norm = (only_if_current or "").strip().lower()
+
+    for doc in documents:
+        doc_source = (doc.get("source") or "").strip().lower()
+        if source_norm and doc_source != source_norm:
+            skipped_filter += 1
+            continue
+
+        current_lang = (doc.get("language") or "unknown").strip().lower()
+        if only_if_current_norm and current_lang != only_if_current_norm:
+            skipped_filter += 1
+            continue
+
+        doc_id = doc.get("doc_id")
+        if not doc_id:
+            skipped_filter += 1
+            continue
+
+        raw_file = RAW_DIR / f"{doc_id}.txt"
+        if not raw_file.exists() or raw_file.stat().st_size <= 100:
+            skipped_missing_raw += 1
+            continue
+
+        text = raw_file.read_text(encoding="utf-8", errors="ignore").strip()
+        if len(text) < min_text_chars:
+            skipped_short += 1
+            continue
+
+        examined += 1
+        new_lang = detect_language_simple(text)
+        if new_lang and new_lang != "unknown" and new_lang != current_lang:
+            doc["language"] = new_lang
+            updated.append(
+                {
+                    "doc_id": doc_id,
+                    "old_language": current_lang,
+                    "new_language": new_lang,
+                    "title": doc.get("title", ""),
+                    "url": doc.get("url", ""),
+                }
+            )
+
+    return {
+        "total_documents": len(documents),
+        "examined": examined,
+        "updated": len(updated),
+        "skipped_missing_raw": skipped_missing_raw,
+        "skipped_short": skipped_short,
+        "skipped_filter": skipped_filter,
+        "changes": updated,
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -953,7 +1456,12 @@ def scrape_documents(documents: list[dict], max_docs: int = 0,
         if result.get("year") and not doc.get("year"):
             doc["year"] = result["year"]
         if result.get("document_type"):
-            doc["document_type"] = result["document_type"]
+            keep_existing_vatican_type = (
+                doc.get("source") == "vatican.va"
+                and (doc.get("document_type") or "").strip().lower() not in {"", "document", "index"}
+            )
+            if not keep_existing_vatican_type:
+                doc["document_type"] = result["document_type"]
 
         if result["error"]:
             doc["error"] = result["error"]
@@ -992,6 +1500,79 @@ def save_index(documents: list[dict]):
     logger.info(f"Saved index with {len(documents)} documents to {INDEX_FILE}")
 
 
+def load_index() -> list[dict]:
+    """Load the existing index if present."""
+    if not INDEX_FILE.exists():
+        return []
+    with open(INDEX_FILE, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def merge_documents(existing: list[dict], incoming: list[dict]) -> list[dict]:
+    """Merge incoming document records into existing index using doc_id as key."""
+    merged = {doc.get("doc_id"): doc for doc in existing if doc.get("doc_id")}
+    for doc in incoming:
+        doc_id = doc.get("doc_id")
+        if not doc_id:
+            continue
+        if doc_id in merged:
+            updated = merged[doc_id]
+            updated.update(doc)
+            merged[doc_id] = updated
+        else:
+            merged[doc_id] = doc
+    return list(merged.values())
+
+
+def save_pope_coverage_csv(documents: list[dict]):
+    """Save per-pope/source coverage metrics for corpus segmentation."""
+    POPE_COVERAGE_FILE.parent.mkdir(parents=True, exist_ok=True)
+
+    groups: dict[tuple[str, str], dict] = {}
+    for doc in documents:
+        pope = (doc.get("pope") or "Unknown").strip() or "Unknown"
+        source = (doc.get("source") or "unknown").strip() or "unknown"
+        key = (pope, source)
+        if key not in groups:
+            groups[key] = {
+                "pope": pope,
+                "source": source,
+                "detail_level": "standard",
+                "n_documents": 0,
+                "n_with_text": 0,
+                "languages": set(),
+            }
+
+        row = groups[key]
+        row["n_documents"] += 1
+        if int(doc.get("text_length", 0) or 0) > 100:
+            row["n_with_text"] += 1
+        lang = (doc.get("language") or "").strip()
+        if lang:
+            row["languages"].add(lang)
+        if (doc.get("detail_level") or "").strip().lower() == "detailed":
+            row["detail_level"] = "detailed"
+
+    fieldnames = [
+        "pope", "source", "detail_level", "n_documents", "n_with_text", "languages"
+    ]
+    with open(POPE_COVERAGE_FILE, "w", encoding="utf-8", newline="") as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        for key in sorted(groups):
+            row = groups[key]
+            writer.writerow({
+                "pope": row["pope"],
+                "source": row["source"],
+                "detail_level": row["detail_level"],
+                "n_documents": row["n_documents"],
+                "n_with_text": row["n_with_text"],
+                "languages": ";".join(sorted(row["languages"])),
+            })
+
+    logger.info(f"Saved pope coverage summary to {POPE_COVERAGE_FILE}")
+
+
 def save_library_csv(documents: list[dict]):
     """Save LIBRARY.csv metadata table."""
     LIBRARY_FILE.parent.mkdir(parents=True, exist_ok=True)
@@ -1003,10 +1584,14 @@ def save_library_csv(documents: list[dict]):
         doc["category"] = "council" if is_council else "pope"
         doc["author"] = doc.get("author") or (doc.get("title", "") if is_council else pope_name)
         doc["author_dates"] = doc.get("author_dates") or ("" if is_council else doc.get("pope_dates", ""))
+        doc["source"] = doc.get("source") or "papalencyclicals.net"
+        doc["collection"] = doc.get("collection") or "legacy_encyclicals"
+        doc["detail_level"] = doc.get("detail_level") or "standard"
 
     fieldnames = [
         "doc_id", "category", "author", "author_dates", "title", "year", "url",
         "original_url",
+        "source", "collection", "detail_level",
         "document_type", "language", "format", "text_length",
         "pope", "pope_dates"
     ]
@@ -1025,44 +1610,112 @@ def save_library_csv(documents: list[dict]):
 # ---------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="Scrape Papal Encyclicals")
+    parser = argparse.ArgumentParser(description="Scrape papal documents")
+    parser.add_argument("--source", choices=["papalencyclicals", "vatican"], default="papalencyclicals",
+                        help="Source corpus to scrape")
+    parser.add_argument("--pope", default="",
+                        help="Vatican pope slug (example: benedict-xvi, francis, john-paul-ii)")
+    parser.add_argument("--lang", default="en",
+                        help="Language code for Vatican crawl scope (default: en)")
+    parser.add_argument("--max-index-pages", type=int, default=500,
+                        help="Maximum Vatican index/navigation pages to crawl")
     parser.add_argument("--index-only", action="store_true",
                         help="Only scrape the directory index, not document texts")
     parser.add_argument("--max-docs", type=int, default=0,
                         help="Maximum number of documents to scrape (0=all)")
     parser.add_argument("--english-only", action="store_true",
                         help="Only keep English-language documents")
+    parser.add_argument("--recheck-papal-languages", action="store_true",
+                        help="Recheck papalencyclicals language labels from local raw files only")
+    parser.add_argument("--recheck-only-current-en", action="store_true",
+                        help="When rechecking, only evaluate rows currently tagged as English")
     args = parser.parse_args()
 
-    # Step 1: Get document index
-    if INDEX_FILE.exists():
-        logger.info("Loading existing index...")
-        with open(INDEX_FILE) as f:
-            documents = json.load(f)
-        logger.info(f"Loaded {len(documents)} documents from index")
-    else:
-        documents = scrape_index()
-        save_index(documents)
+    existing_docs = load_index()
+    if existing_docs:
+        logger.info(f"Loaded {len(existing_docs)} existing documents from index")
 
-    if args.index_only:
-        logger.info("Index-only mode. Done.")
+    if args.recheck_papal_languages:
+        if not existing_docs:
+            logger.info("No existing index found; nothing to recheck.")
+            return
+
+        report = recheck_languages_from_raw(
+            existing_docs,
+            source="papalencyclicals.net",
+            only_if_current="en" if args.recheck_only_current_en else None,
+        )
+        save_index(existing_docs)
+        save_library_csv(existing_docs)
+        save_pope_coverage_csv(existing_docs)
+        logger.info(
+            "Language recheck complete: "
+            f"examined={report['examined']} updated={report['updated']} "
+            f"missing_raw={report['skipped_missing_raw']} short={report['skipped_short']}"
+        )
         return
 
-    # Step 2: Scrape document texts
-    documents = scrape_documents(
-        documents,
-        max_docs=args.max_docs,
-        english_only=args.english_only,
+    if args.source == "papalencyclicals":
+        if existing_docs:
+            documents = existing_docs
+        else:
+            documents = scrape_index()
+            save_index(documents)
+
+        if args.index_only:
+            logger.info("Index-only mode. Done.")
+            return
+
+        documents = scrape_documents(
+            documents,
+            max_docs=args.max_docs,
+            english_only=args.english_only,
+        )
+
+        save_index(documents)
+        save_library_csv(documents)
+        save_pope_coverage_csv(documents)
+
+        total = len(documents)
+        with_text = sum(1 for d in documents if d.get("text_length", 0) > 100)
+        logger.info(f"\nScraping complete: {with_text}/{total} documents have text")
+        return
+
+    # Vatican flow
+    if not args.pope:
+        raise ValueError("--pope is required when --source vatican")
+
+    vatican_docs = scrape_vatican_pope_index(
+        pope_slug=args.pope,
+        lang=args.lang,
+        max_index_pages=args.max_index_pages,
     )
 
-    # Step 3: Save updated index and LIBRARY.csv
-    save_index(documents)
-    save_library_csv(documents)
+    if args.index_only:
+        combined = merge_documents(existing_docs, vatican_docs)
+        save_index(combined)
+        save_library_csv(combined)
+        save_pope_coverage_csv(combined)
+        logger.info("Index-only mode. Vatican index merged into corpus.")
+        return
 
-    # Summary
-    total = len(documents)
-    with_text = sum(1 for d in documents if d.get("text_length", 0) > 100)
-    logger.info(f"\nScraping complete: {with_text}/{total} documents have text")
+    scraped_vatican_docs = scrape_documents(
+        vatican_docs,
+        max_docs=args.max_docs,
+        english_only=args.english_only,
+        show_progress=True,
+        progress_label=f"Vatican {args.pope}/{args.lang}",
+    )
+
+    combined = merge_documents(existing_docs, scraped_vatican_docs)
+    save_index(combined)
+    save_library_csv(combined)
+    save_pope_coverage_csv(combined)
+
+    total_new = len(scraped_vatican_docs)
+    with_text_new = sum(1 for d in scraped_vatican_docs if d.get("text_length", 0) > 100)
+    logger.info(f"\nVatican scrape complete: {with_text_new}/{total_new} new documents have text")
+    logger.info(f"Combined corpus size: {len(combined)} documents")
 
 
 if __name__ == "__main__":
