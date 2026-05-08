@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1778270773.87582 "c:/Users/harrisrc/OneDrive - Chesterfield County VA/Documents/MSDS/encyclicals/final_report/DS5001_RCHarris_finalreport.tex" "DS5001_RCHarris_finalreport.pdf" "DS5001_RCHarris_finalreport" 1778270779.48953 0
+["pdflatex"] 1778271291.93304 "c:/Users/harrisrc/OneDrive - Chesterfield County VA/Documents/MSDS/encyclicals/final_report/DS5001_RCHarris_finalreport.tex" "DS5001_RCHarris_finalreport.pdf" "DS5001_RCHarris_finalreport" 1778271295.85494 0
   "../output/figures/modern_explore_sentiment_types.png" 1778270654 57333 bbc6bd1b07b29a529a9b29b4f9283b06 ""
   "../output/figures/modern_explore_tfidf_salience.png" 1778270653 43784 15354fb79b14bbee2770f0c22edd5427 ""
   "../output/figures/modern_explore_zipf.png" 1778270653 39844 cbfca2b74423742b5180a638509a165d ""
@@ -12,8 +12,8 @@
   "../output/figures/modern_rq3_raw_vs_control.png" 1778270674 61635 59e4180b4f87c2cf1921aff02a040bd0 ""
   "../output/figures/modern_rq3_topic_drift.png" 1778270674 151959 f998fb49252dc09a97b7aabc1156cbee ""
   "../output/figures/modern_w2v_seed_similarity.png" 1778270676 115406 f07601e04ddea929b4fe317743d97697 ""
-  "DS5001_RCHarris_finalreport.aux" 1778270778 7187 b26609183d90641706552eb652b1ae5d "pdflatex"
-  "DS5001_RCHarris_finalreport.tex" 1778269782 23546 09549c109c57a30b8ea96b1f7721558b ""
+  "DS5001_RCHarris_finalreport.aux" 1778271295 7149 b7ff53973586fd6c6ff9b67184fa3a12 "pdflatex"
+  "DS5001_RCHarris_finalreport.tex" 1778271282 23304 b251a8fc7e275dcd74dff89edfb935bb ""
   "IEEEtran.cls" 1778257229 281957 5b2e4fa15b0f7eabb840ebf67df4c0f7 ""
   "c:/Users/harrisrc/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc" 1777610000 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/Users/harrisrc/AppData/Roaming/TinyTeX/texmf-dist/fonts/tfm/adobe/courier/pcrb7t.tfm" 1777610175 960 4ab65358b8406f30ef5496c8c096d22b ""
@@ -97,7 +97,7 @@
   "c:/Users/harrisrc/AppData/Roaming/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1777610262 2298238 59c25f62012fa63b4bc355ef6e05e0be ""
   "c:/Users/harrisrc/AppData/Roaming/TinyTeX/texmf.cnf" 1777609962 903 164c5b127cd0d6dc91abad2f62421ea2 ""
   "c:/Users/harrisrc/OneDrive" 1736431692 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "c:/Users/harrisrc/OneDrive - Chesterfield County VA/Documents/MSDS/encyclicals/final_report/DS5001_RCHarris_finalreport.tex" 1778269782 23546 09549c109c57a30b8ea96b1f7721558b ""
+  "c:/Users/harrisrc/OneDrive - Chesterfield County VA/Documents/MSDS/encyclicals/final_report/DS5001_RCHarris_finalreport.tex" 1778271282 23304 b251a8fc7e275dcd74dff89edfb935bb ""
   (generated)
   "DS5001_RCHarris_finalreport.aux"
   "DS5001_RCHarris_finalreport.log"
