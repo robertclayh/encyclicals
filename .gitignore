@@ -216,4 +216,4 @@ __marimo__/
 *.sqlite3
 
 # vscode
-.vscode
+.vscodedata/processed/cache/

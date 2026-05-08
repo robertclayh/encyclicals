@@ -1,6 +1,6 @@
 ﻿"""
 Papal Documents Web Scraper
-DS 5001 - Exploratory Text Analytics Final Project
+Clay Harris (jbm2rt@virginia.edu) / Text as Data / 2026-05-07
 
 Supports two sources:
     1) papalencyclicals.net directory corpus

@@ -1,6 +1,6 @@
 """
 Papal Encyclicals — Text Analytics Pipeline
-DS 5001 - Exploratory Text Analytics Final Project
+Clay Harris (jbm2rt@virginia.edu) / Text as Data / 2026-05-07
 
 Converts raw scraped text (F0) through the Standard Text Analytic Data Model:
   F0 -> F1 (Machine Learning Corpus Format)
@@ -36,7 +36,36 @@ logger = logging.getLogger(__name__)
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
+CACHE_DIR = PROCESSED_DIR / "cache"
 INDEX_FILE = DATA_DIR / "encyclicals_index.json"
+
+
+# ===========================================================================
+# Cache helpers
+# ===========================================================================
+
+def cache_exists(step: str) -> bool:
+    """Return True if a pickle cache for *step* exists."""
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    return (CACHE_DIR / f"{step}.pkl").exists()
+
+
+def save_cache(step: str, data) -> None:
+    """Pickle *data* to the cache directory under the given step name."""
+    import pickle
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    with open(CACHE_DIR / f"{step}.pkl", "wb") as f:
+        pickle.dump(data, f)
+    logger.info(f"Cache saved: {step}.pkl")
+
+
+def load_cache(step: str):
+    """Load and return pickled data for *step*."""
+    import pickle
+    path = CACHE_DIR / f"{step}.pkl"
+    logger.info(f"Loading cache: {step}.pkl")
+    with open(path, "rb") as f:
+        return pickle.load(f)
 
 
 # ===========================================================================
@@ -179,7 +208,7 @@ def build_f2_tables(corpus: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, p
 # ===========================================================================
 
 def build_f3_annotations(TOKEN: pd.DataFrame, VOCAB: pd.DataFrame,
-                         LIBRARY: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+                         LIBRARY: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """
     Add NLP annotations to TOKEN and VOCAB:
       - POS tags
@@ -187,6 +216,7 @@ def build_f3_annotations(TOKEN: pd.DataFrame, VOCAB: pd.DataFrame,
       - Stopword flags
       - Named entity labels (on TOKEN)
       - Sentiment scores (on VOCAB)
+      - DOC_SENTIMENT: document-level VADER scores (returned as 4th value)
     """
     logger.info("Building F3 NLP annotations...")
 
@@ -239,7 +269,7 @@ def build_f3_annotations(TOKEN: pd.DataFrame, VOCAB: pd.DataFrame,
 
     TOKEN["lemma"] = [
         lemmatizer.lemmatize(row["term_str"], get_wordnet_pos(row["pos"]))
-        for _, row in TOKEN.iterrows()
+        for _, row in tqdm(TOKEN.iterrows(), total=len(TOKEN), desc="Lemmatizing")
     ]
 
     # --- Stopword flag ---
@@ -266,7 +296,7 @@ def build_f3_annotations(TOKEN: pd.DataFrame, VOCAB: pd.DataFrame,
     # --- Sentiment (VADER on terms) ---
     logger.info("  Computing VADER sentiment for vocab...")
     sentiments = []
-    for term in VOCAB.index:
+    for term in tqdm(VOCAB.index, desc="VADER vocab"):
         scores = sid.polarity_scores(term)
         sentiments.append(scores)
     sent_df = pd.DataFrame(sentiments, index=VOCAB.index)
@@ -278,20 +308,26 @@ def build_f3_annotations(TOKEN: pd.DataFrame, VOCAB: pd.DataFrame,
     # --- Document-level sentiment ---
     logger.info("  Computing document-level sentiment...")
     doc_sentiments = []
-    for doc_id in LIBRARY.index:
+    for doc_id in tqdm(LIBRARY.index, desc="Doc sentiment"):
         doc_tokens = TOKEN[TOKEN["doc_id"] == doc_id]
         doc_text = " ".join(doc_tokens["token_str"].values[:5000])  # limit for VADER
         scores = sid.polarity_scores(doc_text)
         doc_sentiments.append(scores)
     sent_doc_df = pd.DataFrame(doc_sentiments, index=LIBRARY.index)
+    sent_doc_df.index.name = "doc_id"
+
     LIBRARY = LIBRARY.copy()
     LIBRARY["sentiment_neg"] = sent_doc_df["neg"]
     LIBRARY["sentiment_neu"] = sent_doc_df["neu"]
     LIBRARY["sentiment_pos"] = sent_doc_df["pos"]
     LIBRARY["sentiment_compound"] = sent_doc_df["compound"]
 
+    # Separate DOC_SENTIMENT table (all four VADER scores per document)
+    DOC_SENTIMENT = sent_doc_df[["neg", "neu", "pos", "compound"]].copy()
+    DOC_SENTIMENT.columns = ["vader_neg", "vader_neu", "vader_pos", "vader_compound"]
+
     logger.info("  F3 annotations complete")
-    return LIBRARY, TOKEN, VOCAB
+    return LIBRARY, TOKEN, VOCAB, DOC_SENTIMENT
 
 
 # ===========================================================================
@@ -500,7 +536,7 @@ def build_f5_models(LIBRARY: pd.DataFrame, TOKEN: pd.DataFrame,
 # Save / Load helpers
 # ===========================================================================
 
-def save_tables(LIBRARY, TOKEN, VOCAB, TFIDF_DTM=None, f5_results=None):
+def save_tables(LIBRARY, TOKEN, VOCAB, TFIDF_DTM=None, DOC_SENTIMENT=None, f5_results=None):
     """Save all tables to CSV."""
     PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -509,11 +545,16 @@ def save_tables(LIBRARY, TOKEN, VOCAB, TFIDF_DTM=None, f5_results=None):
     TOKEN.to_csv(PROCESSED_DIR / "TOKEN.csv")
     VOCAB.to_csv(PROCESSED_DIR / "VOCAB.csv")
 
+    if DOC_SENTIMENT is not None:
+        DOC_SENTIMENT.to_csv(PROCESSED_DIR / "DOC_SENTIMENT.csv")
+
     if TFIDF_DTM is not None:
         TFIDF_DTM.to_csv(PROCESSED_DIR / "TFIDF_DTM.csv")
 
     if f5_results:
         for name, df in f5_results.items():
+            if name == "w2v_model":
+                continue
             if isinstance(df, pd.DataFrame):
                 df.to_csv(PROCESSED_DIR / f"{name}.csv")
             elif isinstance(df, pd.Series):
@@ -556,9 +597,9 @@ def main():
         return
 
     # F3
-    LIBRARY, TOKEN, VOCAB = build_f3_annotations(TOKEN, VOCAB, LIBRARY)
+    LIBRARY, TOKEN, VOCAB, DOC_SENTIMENT = build_f3_annotations(TOKEN, VOCAB, LIBRARY)
     if max_step_idx < 3:
-        save_tables(LIBRARY, TOKEN, VOCAB)
+        save_tables(LIBRARY, TOKEN, VOCAB, DOC_SENTIMENT=DOC_SENTIMENT)
         return
 
     # F4
@@ -574,7 +615,7 @@ def main():
         n_topics=args.n_topics,
         w2v_dim=args.w2v_dim,
     )
-    save_tables(LIBRARY, TOKEN, VOCAB, TFIDF_DTM, f5_results)
+    save_tables(LIBRARY, TOKEN, VOCAB, TFIDF_DTM, DOC_SENTIMENT=DOC_SENTIMENT, f5_results=f5_results)
 
     logger.info("Pipeline complete!")
 
