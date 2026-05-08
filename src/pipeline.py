@@ -401,16 +401,16 @@ def build_f5_models(LIBRARY: pd.DataFrame, TOKEN: pd.DataFrame,
     """
     Fit unsupervised models and add results to tables:
       - PCA: components table + loadings
-      - LDA: topic distributions + topic-term weights
+      - LDA: topic distributions + topic-term weights (gensim LdaMulticore)
       - word2vec: term embeddings
     """
     logger.info("Building F5 unsupervised models...")
 
     from sklearn.decomposition import PCA
     from sklearn.preprocessing import StandardScaler
-    from sklearn.decomposition import LatentDirichletAllocation
-    from sklearn.feature_extraction.text import CountVectorizer
-    from gensim.models import Word2Vec
+    from gensim import corpora
+    from gensim.models import LdaModel, Word2Vec
+    from tqdm import tqdm
 
     results = {}
 
@@ -448,65 +448,72 @@ def build_f5_models(LIBRARY: pd.DataFrame, TOKEN: pd.DataFrame,
     logger.info(f"    Explained variance: {explained_var.sum():.2%}")
 
     # -----------------------------------------------------------------------
-    # LDA Topic Model
+    # LDA Topic Model — gensim LdaMulticore
+    # Vectorized doc-text building (single groupby, not per-doc scan)
     # -----------------------------------------------------------------------
-    logger.info(f"  LDA with {n_topics} topics...")
+    logger.info(f"  LDA with {n_topics} topics (gensim LdaMulticore)...")
 
-    # Build count matrix from raw text for LDA
-    doc_texts = {}
-    for doc_id in LIBRARY.index:
-        doc_tokens = TOKEN[(TOKEN["doc_id"] == doc_id) &
-                          (TOKEN["is_alpha"]) &
-                          (~TOKEN["is_stop"])]
-        doc_texts[doc_id] = " ".join(doc_tokens["lemma"].values)
+    logger.info("    Building per-document token lists (vectorized)...")
+    filtered = TOKEN[TOKEN["is_alpha"] & ~TOKEN["is_stop"]]
+    doc_token_lists = filtered.groupby("doc_id")["lemma"].apply(list)
+    doc_ids = LIBRARY.index.tolist()
+    tokenized = [doc_token_lists.get(d, []) for d in tqdm(doc_ids, desc="Assembling docs")]
 
-    doc_ids = list(doc_texts.keys())
-    texts = [doc_texts[d] for d in doc_ids]
+    logger.info("    Building gensim dictionary...")
+    dictionary = corpora.Dictionary(tqdm(tokenized, desc="Dictionary pass"))
+    # Vocabulary controls: min_df=5, max_df=95%, keep_n=15000
+    dictionary.filter_extremes(no_below=5, no_above=0.95, keep_n=15000)
+    logger.info(f"    Dictionary size after filtering: {len(dictionary):,} terms")
 
-    vectorizer = CountVectorizer(max_features=5000, min_df=2)
-    count_matrix = vectorizer.fit_transform(texts)
-    feature_names = vectorizer.get_feature_names_out()
+    logger.info("    Building BoW corpus...")
+    bow_corpus = [dictionary.doc2bow(doc) for doc in tqdm(tokenized, desc="BoW corpus")]
 
     n_top = min(n_topics, len(doc_ids) - 1)
-    lda = LatentDirichletAllocation(
-        n_components=n_top, random_state=42, max_iter=20
+    logger.info(f"    Training LdaModel (topics={n_top}, passes=10)...")
+    lda = LdaModel(
+        corpus=bow_corpus,
+        id2word=dictionary,
+        num_topics=n_top,
+        passes=10,
+        random_state=42,
     )
-    doc_topics = lda.fit_transform(count_matrix)
 
-    # Document-topic table
+    logger.info("    Extracting document-topic distributions...")
     topic_cols = [f"topic_{i}" for i in range(n_top)]
-    DOC_TOPICS = pd.DataFrame(doc_topics, index=doc_ids, columns=topic_cols)
+    rows = []
+    for bow in tqdm(bow_corpus, desc="Doc-topic inference"):
+        dist = dict(lda.get_document_topics(bow, minimum_probability=0))
+        rows.append([dist.get(i, 0.0) for i in range(n_top)])
+    DOC_TOPICS = pd.DataFrame(rows, index=doc_ids, columns=topic_cols)
     DOC_TOPICS.index.name = "doc_id"
 
-    # Topic-term table
-    TOPIC_TERMS = pd.DataFrame(
-        lda.components_,
-        index=topic_cols,
-        columns=feature_names,
-    ).T
+    # Topic-term weight table (all dictionary terms × topics)
+    term_cols = {f"topic_{i}": dict(lda.show_topic(i, topn=len(dictionary))) for i in range(n_top)}
+    TOPIC_TERMS = pd.DataFrame(term_cols).fillna(0.0)
     TOPIC_TERMS.index.name = "term_str"
 
     results["DOC_TOPICS"] = DOC_TOPICS
     results["TOPIC_TERMS"] = TOPIC_TERMS
 
-    # Log top words per topic
     for i in range(n_top):
-        top_words = TOPIC_TERMS[f"topic_{i}"].nlargest(10).index.tolist()
+        top_words = sorted(term_cols[f"topic_{i}"], key=term_cols[f"topic_{i}"].get, reverse=True)[:10]
         logger.info(f"    Topic {i}: {', '.join(top_words)}")
 
     # -----------------------------------------------------------------------
     # Word2Vec embeddings
+    # Vectorized sentence building via groupby (no Python-level per-doc loop)
     # -----------------------------------------------------------------------
     logger.info(f"  word2vec with {w2v_dim} dimensions...")
 
-    # Build sentences from TOKEN table
-    sentences = []
-    for (doc_id, para_num, sent_num), group in TOKEN.groupby(
-        ["doc_id", "para_num", "sent_num"]
-    ):
-        tokens = group[group["is_alpha"]]["lemma"].tolist()
-        if tokens:
-            sentences.append(tokens)
+    logger.info("    Building sentences from TOKEN (vectorized)...")
+    sentences = (
+        TOKEN[TOKEN["is_alpha"]]
+        .sort_values(["doc_id", "para_num", "sent_num"])
+        .groupby(["doc_id", "para_num", "sent_num"])["lemma"]
+        .apply(list)
+        .tolist()
+    )
+    sentences = [s for s in sentences if s]
 
     w2v_model = Word2Vec(
         sentences=sentences,
