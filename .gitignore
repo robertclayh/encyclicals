@@ -216,5 +216,6 @@ __marimo__/
 *.sqlite3
 
 # vscode
-.vscodedata/processed/cache/
+.vscode
+data/processed/cache/
 data/processed/TOKEN.csv
