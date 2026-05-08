@@ -219,3 +219,5 @@ __marimo__/
 .vscode
 data/processed/cache/
 data/processed/TOKEN.csv
+
+FINAL_PROJECT_GUIDE.md
